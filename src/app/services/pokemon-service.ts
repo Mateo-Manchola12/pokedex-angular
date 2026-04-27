@@ -1,8 +1,7 @@
-
-import { inject, Injectable, signal } from '@angular/core';
-import { Pokemon } from '../types/pokemon';
-import { HttpClient } from '@angular/common/http';
-import { toSignal } from '@angular/core/rxjs-interop';
+import { HttpClient } from '@angular/common/http'
+import { inject, Injectable } from '@angular/core'
+import { toSignal } from '@angular/core/rxjs-interop'
+import type { Pokemon } from '../types/pokemon'
 
 /**
  * Service for managing and retrieving Pokémon data from the API.
@@ -24,15 +23,13 @@ import { toSignal } from '@angular/core/rxjs-interop';
   providedIn: 'root',
 })
 export class PokemonService {
-
   /**
    * Angular HttpClient instance for making HTTP requests.
    *
    * @remarks
    * Used internally to fetch Pokémon data from the API endpoint.
    */
-  private readonly http: HttpClient = inject(HttpClient);
-
+  private readonly http: HttpClient = inject(HttpClient)
 
   /**
    * The URL to the Pokémon API JSON file.
@@ -41,8 +38,7 @@ export class PokemonService {
    * This is a static file located in the public directory of the app.
    * You can override this property in a subclass for testing or custom endpoints.
    */
-  protected readonly apiUrl: string = '/pokemon-api.json';
-
+  protected readonly apiUrl: string = '/pokemon-api.json'
 
   /**
    * Reactive signal containing the list of Pokémon loaded from the API.
@@ -60,7 +56,7 @@ export class PokemonService {
    */
   readonly pokemonList = toSignal(this.http.get<Pokemon[]>(this.apiUrl), {
     initialValue: [],
-  });
+  })
 
   // /**
   //  * Loads Pokémon data from the API and updates the signal.

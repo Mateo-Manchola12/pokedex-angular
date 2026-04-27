@@ -1,5 +1,5 @@
-import { Component, input, OnInit } from '@angular/core';
-import { type PokemonType } from '../../types/pokemon-type';
+import { Component, input } from '@angular/core'
+import { type PokemonType } from '../../types/pokemon-type'
 
 /**
  * Component to display a single Pokémon type card.
@@ -16,5 +16,5 @@ export class TypeCard {
   /**
    * The Pokémon type object to display in the card.
    */
-  type = input<PokemonType>();
+  type = input<PokemonType>()
 }

@@ -1,4 +1,4 @@
-import { Routes } from '@angular/router';
+import type { Routes } from '@angular/router'
 
 /**
  * Main application routes configuration.
@@ -6,4 +6,4 @@ import { Routes } from '@angular/router';
  * @remarks
  * This array defines the routes for the Angular application.
  */
-export const routes: Routes = [];
+export const routes: Routes = []

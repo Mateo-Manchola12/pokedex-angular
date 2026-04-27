@@ -1,61 +1,59 @@
 <div class="flex flex-col gap-4">
-    <h1 class="text-2xl text-gray-700 font-bold">Pokemon:</h1>
-    @if(pokemon()) {
-
+  <h1 class="text-2xl font-bold text-gray-700">Pokemon:</h1>
+  @if (pokemon()) {
     <div
-        class="group w-84 rounded-2xl p-3 self-center shadow-xl transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 bg-amber-300">
-
-        <!-- Marco interior -->
-        <div class="bg-white/80 rounded-xl p-3 border-4 border-opacity-30 border-gray-200 backdrop-blur">
-
-            <!-- Header (Nombre + HP) -->
-            <div class="flex justify-between items-center mb-2">
-                <h2 class="text-lg font-bold text-gray-900 tracking-wide uppercase">
-                    {{ pokemon()!.name }}
-                </h2>
-                <span class="text-red-600 font-bold text-sm">
-                    HP {{ pokemon()!.hp | pokemonLevel }}
-                </span>
-            </div>
-
-            <!-- Imagen -->
-            <div class="flex justify-center items-center bg-white/70 rounded-lg mb-3 border-2 border-gray-300">
-                <img class="h-52 object-cover drop-shadow-lg" [src]="pokemon()!.imageUrl"
-                    [alt]="pokemon()!.name + ' artwork'" />
-            </div>
-
-            <!-- Tipo -->
-            <div class="flex justify-center mb-2 gap-2">
-                @for (type of pokemon()!.types; track $index) {
-                <span
-                    class="px-3 py-1 text-xs font-semibold uppercase rounded-full border border-gray-300 bg-white/50 backdrop-blur"
-                    [style.background]="(type | pokemonTypePipe)()!.color">
-
-                    {{ (type | pokemonTypePipe )()!.name}}
-                </span>
-                }
-            </div>
-
-            <!-- Stats -->
-            <div class="grid grid-rows-2 gap-2 mb-2">
-                <div class="bg-white rounded-lg p-2 border border-gray-300">
-                    <span class="font-semibold text-gray-800">Ataque</span>
-                    <p class="font-bold text-gray-900">{{ pokemon()!.attack }}</p>
-                </div>
-                <div class="bg-white rounded-lg p-2 border border-gray-300">
-                    <span class="font-semibold text-gray-800">Defensa</span>
-                    <p class="font-bold text-gray-900">{{ pokemon()!.defense }}</p>
-                </div>
-            </div>
-
-            <!-- Descripción -->
-            <p class="text-xs text-gray-600 mt-1 text-center">
-                {{ pokemon()!.description }}
-            </p>
-
+      class="group w-84 self-center rounded-2xl bg-amber-300 p-3 shadow-xl transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl"
+    >
+      <!-- Marco interior -->
+      <div class="border-opacity-30 rounded-xl border-4 border-gray-200 bg-white/80 p-3 backdrop-blur">
+        <!-- Header (Nombre + HP) -->
+        <div class="mb-2 flex items-center justify-between">
+          <h2 class="text-lg font-bold tracking-wide text-gray-900 uppercase">
+            {{ pokemon()!.name }}
+          </h2>
+          <span class="text-sm font-bold text-red-600"> HP {{ pokemon()!.hp | pokemonLevel }} </span>
         </div>
+
+        <!-- Imagen -->
+        <div class="mb-3 flex items-center justify-center rounded-lg border-2 border-gray-300 bg-white/70">
+          <img
+            class="h-52 object-cover drop-shadow-lg"
+            [src]="pokemon()!.imageUrl"
+            [alt]="pokemon()!.name + ' artwork'"
+          />
+        </div>
+
+        <!-- Tipo -->
+        <div class="mb-2 flex justify-center gap-2">
+          @for (type of pokemon()!.types; track $index) {
+            <span
+              class="rounded-full border border-gray-300 bg-white/50 px-3 py-1 text-xs font-semibold uppercase backdrop-blur"
+              [style.background]="(type | pokemonTypePipe)()!.color"
+            >
+              {{ (type | pokemonTypePipe)()!.name }}
+            </span>
+          }
+        </div>
+
+        <!-- Stats -->
+        <div class="mb-2 grid grid-rows-2 gap-2">
+          <div class="rounded-lg border border-gray-300 bg-white p-2">
+            <span class="font-semibold text-gray-800">Ataque</span>
+            <p class="font-bold text-gray-900">{{ pokemon()!.attack }}</p>
+          </div>
+          <div class="rounded-lg border border-gray-300 bg-white p-2">
+            <span class="font-semibold text-gray-800">Defensa</span>
+            <p class="font-bold text-gray-900">{{ pokemon()!.defense }}</p>
+          </div>
+        </div>
+
+        <!-- Descripción -->
+        <p class="mt-1 text-center text-xs text-gray-600">
+          {{ pokemon()!.description }}
+        </p>
+      </div>
     </div>
-    } @else {
-    <h2 class="text-2xl text-shadow-gray-500 text-center">QUE SELECCIONES UN POKÉMON</h2>
-    }
+  } @else {
+    <h2 class="text-center text-2xl text-shadow-gray-500">QUE SELECCIONES UN POKÉMON</h2>
+  }
 </div>

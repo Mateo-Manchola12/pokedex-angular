@@ -1,6 +1,7 @@
-import { Pipe, PipeTransform, Signal, inject } from '@angular/core';
-import { TypesService } from '../services/types-service';
-import { PokemonType } from '../types/pokemon-type';
+import type { PipeTransform, Signal } from '@angular/core'
+import { Pipe, inject } from '@angular/core'
+import { TypesService } from '../services/types-service'
+import type { PokemonType } from '../types/pokemon-type'
 
 /**
  * Angular pipe to retrieve a Pokémon type by its ID using the TypesService.
@@ -16,7 +17,7 @@ export class PokemonTypePipe implements PipeTransform {
    * Instance of TypesService for accessing Pokémon types.
    * @internal
    */
-  typeService = inject(TypesService);
+  typeService = inject(TypesService)
 
   /**
    * Transforms a Pokémon type ID into a signal of the corresponding PokémonType object.
@@ -25,6 +26,6 @@ export class PokemonTypePipe implements PipeTransform {
    * @returns A signal containing the PokémonType or undefined.
    */
   transform(value: number): Signal<PokemonType | undefined> {
-    return this.typeService.getById(value);
+    return this.typeService.getById(value)
   }
 }

@@ -1,23 +1,18 @@
-<div class="group grid grid-cols-[auto_1fr] items-center gap-4
-         bg-white rounded-2xl p-5
-         shadow-md hover:shadow-xl
-         cursor-pointer
-         transition-all duration-300 ease-out
-         hover:-translate-y-1">
+<div
+  class="group grid cursor-pointer grid-cols-[auto_1fr] items-center gap-4 rounded-2xl bg-white p-5 shadow-md transition-all duration-300 ease-out hover:-translate-y-1 hover:shadow-xl"
+>
+  <div
+    class="flex h-16 w-16 items-center justify-center rounded-xl transition-transform duration-300 group-hover:scale-110"
+    [style.backgroundColor]="type()?.color"
+  >
+    <img class="h-12 w-12 object-contain" [src]="type()?.iconUrl" [alt]="type()?.name + ' icon'" />
+  </div>
 
-    <div class="flex items-center justify-center
-           w-16 h-16 rounded-xl
-           group-hover:scale-110
-           transition-transform duration-300" [style.backgroundColor]="type()?.color">
-        <img class="w-12 h-12 object-contain" [src]="type()?.iconUrl" [alt]="type()?.name + ' icon'" />
-    </div>
+  <div class="flex flex-col gap-2">
+    <h2 class="text-xl font-semibold tracking-wide text-gray-800">
+      {{ type()?.name }}
+    </h2>
 
-    <div class="flex flex-col gap-2">
-        <h2 class="text-xl font-semibold text-gray-800 tracking-wide">
-            {{ type()?.name }}
-        </h2>
-
-        <div class="h-2 rounded-full transition-all duration-300" [style.backgroundColor]="type()?.color"></div>
-    </div>
-
+    <div class="h-2 rounded-full transition-all duration-300" [style.backgroundColor]="type()?.color"></div>
+  </div>
 </div>

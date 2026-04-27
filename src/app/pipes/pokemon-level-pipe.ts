@@ -1,4 +1,5 @@
-import { inject, Pipe, PipeTransform } from '@angular/core';
+import type { PipeTransform } from '@angular/core'
+import { Pipe } from '@angular/core'
 
 /**
  * Angular pipe to convert a Pokémon level number into a descriptive string.
@@ -22,11 +23,11 @@ export class PokemonLevelPipe implements PipeTransform {
    */
   transform(value: number): string {
     if (value <= 20) {
-      return 'pringao';
+      return 'pringao'
     } else if (20 < value && value <= 40) {
-      return 'tranqui';
+      return 'tranqui'
     } else {
-      return 'cheto';
+      return 'cheto'
     }
   }
 }

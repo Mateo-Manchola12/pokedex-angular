@@ -1,3089 +1,2720 @@
 [
-    {
-      "id": 1,
-      "name": "Bulbasaur",
-      "types": [
-        5,
-        8
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png",
-      "description": "Bulbasaur es un Pokémon de la 1ª generación. Tipo(s): Planta, Veneno.",
-      "attack": "Ataque base 49 (Esp. 65). Velocidad 45.",
-      "defense": "Defensa base 49 (Esp. 65). Resistencia 45 PS.",
-      "hp": 45,
-      "stats": {
-        "attack": 49,
-        "defense": 49,
-        "spAttack": 65,
-        "spDefense": 65,
-        "speed": 45
-      },
-      "generation": 1
-    },
-    {
-      "id": 2,
-      "name": "Ivysaur",
-      "types": [
-        5,
-        8
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
-      "description": "Ivysaur es un Pokémon de la 1ª generación. Tipo(s): Planta, Veneno.",
-      "attack": "Ataque base 62 (Esp. 80). Velocidad 60.",
-      "defense": "Defensa base 63 (Esp. 80). Resistencia 60 PS.",
-      "hp": 60,
-      "stats": {
-        "attack": 62,
-        "defense": 63,
-        "spAttack": 80,
-        "spDefense": 80,
-        "speed": 60
-      },
-      "generation": 1
-    },
-    {
-      "id": 3,
-      "name": "Venusaur",
-      "types": [
-        5,
-        8
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png",
-      "description": "Venusaur es un Pokémon de la 1ª generación. Tipo(s): Planta, Veneno.",
-      "attack": "Ataque base 82 (Esp. 100). Velocidad 80.",
-      "defense": "Defensa base 83 (Esp. 100). Resistencia 80 PS.",
-      "hp": 80,
-      "stats": {
-        "attack": 82,
-        "defense": 83,
-        "spAttack": 100,
-        "spDefense": 100,
-        "speed": 80
-      },
-      "generation": 1
-    },
-    {
-      "id": 4,
-      "name": "Charmander",
-      "types": [
-        2
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png",
-      "description": "Charmander es un Pokémon de la 1ª generación. Tipo(s): Fuego.",
-      "attack": "Ataque base 52 (Esp. 60). Velocidad 65.",
-      "defense": "Defensa base 43 (Esp. 50). Resistencia 39 PS.",
-      "hp": 39,
-      "stats": {
-        "attack": 52,
-        "defense": 43,
-        "spAttack": 60,
-        "spDefense": 50,
-        "speed": 65
-      },
-      "generation": 1
-    },
-    {
-      "id": 5,
-      "name": "Charmeleon",
-      "types": [
-        2
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png",
-      "description": "Charmeleon es un Pokémon de la 1ª generación. Tipo(s): Fuego.",
-      "attack": "Ataque base 64 (Esp. 80). Velocidad 80.",
-      "defense": "Defensa base 58 (Esp. 65). Resistencia 58 PS.",
-      "hp": 58,
-      "stats": {
-        "attack": 64,
-        "defense": 58,
-        "spAttack": 80,
-        "spDefense": 65,
-        "speed": 80
-      },
-      "generation": 1
-    },
-    {
-      "id": 6,
-      "name": "Charizard",
-      "types": [
-        2,
-        10
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
-      "description": "Charizard es un Pokémon de la 1ª generación. Tipo(s): Fuego, Volador.",
-      "attack": "Ataque base 84 (Esp. 109). Velocidad 100.",
-      "defense": "Defensa base 78 (Esp. 85). Resistencia 78 PS.",
-      "hp": 78,
-      "stats": {
-        "attack": 84,
-        "defense": 78,
-        "spAttack": 109,
-        "spDefense": 85,
-        "speed": 100
-      },
-      "generation": 1
-    },
-    {
-      "id": 7,
-      "name": "Squirtle",
-      "types": [
-        3
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png",
-      "description": "Squirtle es un Pokémon de la 1ª generación. Tipo(s): Agua.",
-      "attack": "Ataque base 48 (Esp. 50). Velocidad 43.",
-      "defense": "Defensa base 65 (Esp. 64). Resistencia 44 PS.",
-      "hp": 44,
-      "stats": {
-        "attack": 48,
-        "defense": 65,
-        "spAttack": 50,
-        "spDefense": 64,
-        "speed": 43
-      },
-      "generation": 1
-    },
-    {
-      "id": 8,
-      "name": "Wartortle",
-      "types": [
-        3
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/8.png",
-      "description": "Wartortle es un Pokémon de la 1ª generación. Tipo(s): Agua.",
-      "attack": "Ataque base 63 (Esp. 65). Velocidad 58.",
-      "defense": "Defensa base 80 (Esp. 80). Resistencia 59 PS.",
-      "hp": 59,
-      "stats": {
-        "attack": 63,
-        "defense": 80,
-        "spAttack": 65,
-        "spDefense": 80,
-        "speed": 58
-      },
-      "generation": 1
-    },
-    {
-      "id": 9,
-      "name": "Blastoise",
-      "types": [
-        3
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png",
-      "description": "Blastoise es un Pokémon de la 1ª generación. Tipo(s): Agua.",
-      "attack": "Ataque base 83 (Esp. 85). Velocidad 78.",
-      "defense": "Defensa base 100 (Esp. 105). Resistencia 79 PS.",
-      "hp": 79,
-      "stats": {
-        "attack": 83,
-        "defense": 100,
-        "spAttack": 85,
-        "spDefense": 105,
-        "speed": 78
-      },
-      "generation": 1
-    },
-    {
-      "id": 10,
-      "name": "Caterpie",
-      "types": [
-        12
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10.png",
-      "description": "Caterpie es un Pokémon de la 1ª generación. Tipo(s): Bicho.",
-      "attack": "Ataque base 30 (Esp. 20). Velocidad 45.",
-      "defense": "Defensa base 35 (Esp. 20). Resistencia 45 PS.",
-      "hp": 45,
-      "stats": {
-        "attack": 30,
-        "defense": 35,
-        "spAttack": 20,
-        "spDefense": 20,
-        "speed": 45
-      },
-      "generation": 1
-    },
-    {
-      "id": 11,
-      "name": "Metapod",
-      "types": [
-        12
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/11.png",
-      "description": "Metapod es un Pokémon de la 1ª generación. Tipo(s): Bicho.",
-      "attack": "Ataque base 20 (Esp. 25). Velocidad 30.",
-      "defense": "Defensa base 55 (Esp. 25). Resistencia 50 PS.",
-      "hp": 50,
-      "stats": {
-        "attack": 20,
-        "defense": 55,
-        "spAttack": 25,
-        "spDefense": 25,
-        "speed": 30
-      },
-      "generation": 1
-    },
-    {
-      "id": 12,
-      "name": "Butterfree",
-      "types": [
-        12,
-        10
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/12.png",
-      "description": "Butterfree es un Pokémon de la 1ª generación. Tipo(s): Bicho, Volador.",
-      "attack": "Ataque base 45 (Esp. 90). Velocidad 70.",
-      "defense": "Defensa base 50 (Esp. 80). Resistencia 60 PS.",
-      "hp": 60,
-      "stats": {
-        "attack": 45,
-        "defense": 50,
-        "spAttack": 90,
-        "spDefense": 80,
-        "speed": 70
-      },
-      "generation": 1
-    },
-    {
-      "id": 13,
-      "name": "Weedle",
-      "types": [
-        12,
-        8
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/13.png",
-      "description": "Weedle es un Pokémon de la 1ª generación. Tipo(s): Bicho, Veneno.",
-      "attack": "Ataque base 35 (Esp. 20). Velocidad 50.",
-      "defense": "Defensa base 30 (Esp. 20). Resistencia 40 PS.",
-      "hp": 40,
-      "stats": {
-        "attack": 35,
-        "defense": 30,
-        "spAttack": 20,
-        "spDefense": 20,
-        "speed": 50
-      },
-      "generation": 1
-    },
-    {
-      "id": 14,
-      "name": "Kakuna",
-      "types": [
-        12,
-        8
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/14.png",
-      "description": "Kakuna es un Pokémon de la 1ª generación. Tipo(s): Bicho, Veneno.",
-      "attack": "Ataque base 25 (Esp. 25). Velocidad 35.",
-      "defense": "Defensa base 50 (Esp. 25). Resistencia 45 PS.",
-      "hp": 45,
-      "stats": {
-        "attack": 25,
-        "defense": 50,
-        "spAttack": 25,
-        "spDefense": 25,
-        "speed": 35
-      },
-      "generation": 1
-    },
-    {
-      "id": 15,
-      "name": "Beedrill",
-      "types": [
-        12,
-        8
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/15.png",
-      "description": "Beedrill es un Pokémon de la 1ª generación. Tipo(s): Bicho, Veneno.",
-      "attack": "Ataque base 90 (Esp. 45). Velocidad 75.",
-      "defense": "Defensa base 40 (Esp. 80). Resistencia 65 PS.",
-      "hp": 65,
-      "stats": {
-        "attack": 90,
-        "defense": 40,
-        "spAttack": 45,
-        "spDefense": 80,
-        "speed": 75
-      },
-      "generation": 1
-    },
-    {
-      "id": 16,
-      "name": "Pidgey",
-      "types": [
-        1,
-        10
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png",
-      "description": "Pidgey es un Pokémon de la 1ª generación. Tipo(s): Normal, Volador.",
-      "attack": "Ataque base 45 (Esp. 35). Velocidad 56.",
-      "defense": "Defensa base 40 (Esp. 35). Resistencia 40 PS.",
-      "hp": 40,
-      "stats": {
-        "attack": 45,
-        "defense": 40,
-        "spAttack": 35,
-        "spDefense": 35,
-        "speed": 56
-      },
-      "generation": 1
-    },
-    {
-      "id": 17,
-      "name": "Pidgeotto",
-      "types": [
-        1,
-        10
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png",
-      "description": "Pidgeotto es un Pokémon de la 1ª generación. Tipo(s): Normal, Volador.",
-      "attack": "Ataque base 60 (Esp. 50). Velocidad 71.",
-      "defense": "Defensa base 55 (Esp. 50). Resistencia 63 PS.",
-      "hp": 63,
-      "stats": {
-        "attack": 60,
-        "defense": 55,
-        "spAttack": 50,
-        "spDefense": 50,
-        "speed": 71
-      },
-      "generation": 1
-    },
-    {
-      "id": 18,
-      "name": "Pidgeot",
-      "types": [
-        1,
-        10
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png",
-      "description": "Pidgeot es un Pokémon de la 1ª generación. Tipo(s): Normal, Volador.",
-      "attack": "Ataque base 80 (Esp. 70). Velocidad 101.",
-      "defense": "Defensa base 75 (Esp. 70). Resistencia 83 PS.",
-      "hp": 83,
-      "stats": {
-        "attack": 80,
-        "defense": 75,
-        "spAttack": 70,
-        "spDefense": 70,
-        "speed": 101
-      },
-      "generation": 1
-    },
-    {
-      "id": 19,
-      "name": "Rattata",
-      "types": [
-        1
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/19.png",
-      "description": "Rattata es un Pokémon de la 1ª generación. Tipo(s): Normal.",
-      "attack": "Ataque base 56 (Esp. 25). Velocidad 72.",
-      "defense": "Defensa base 35 (Esp. 35). Resistencia 30 PS.",
-      "hp": 30,
-      "stats": {
-        "attack": 56,
-        "defense": 35,
-        "spAttack": 25,
-        "spDefense": 35,
-        "speed": 72
-      },
-      "generation": 1
-    },
-    {
-      "id": 20,
-      "name": "Raticate",
-      "types": [
-        1
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/20.png",
-      "description": "Raticate es un Pokémon de la 1ª generación. Tipo(s): Normal.",
-      "attack": "Ataque base 81 (Esp. 50). Velocidad 97.",
-      "defense": "Defensa base 60 (Esp. 70). Resistencia 55 PS.",
-      "hp": 55,
-      "stats": {
-        "attack": 81,
-        "defense": 60,
-        "spAttack": 50,
-        "spDefense": 70,
-        "speed": 97
-      },
-      "generation": 1
-    },
-    {
-      "id": 21,
-      "name": "Spearow",
-      "types": [
-        1,
-        10
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/21.png",
-      "description": "Spearow es un Pokémon de la 1ª generación. Tipo(s): Normal, Volador.",
-      "attack": "Ataque base 60 (Esp. 31). Velocidad 70.",
-      "defense": "Defensa base 30 (Esp. 31). Resistencia 40 PS.",
-      "hp": 40,
-      "stats": {
-        "attack": 60,
-        "defense": 30,
-        "spAttack": 31,
-        "spDefense": 31,
-        "speed": 70
-      },
-      "generation": 1
-    },
-    {
-      "id": 22,
-      "name": "Fearow",
-      "types": [
-        1,
-        10
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/22.png",
-      "description": "Fearow es un Pokémon de la 1ª generación. Tipo(s): Normal, Volador.",
-      "attack": "Ataque base 90 (Esp. 61). Velocidad 100.",
-      "defense": "Defensa base 65 (Esp. 61). Resistencia 65 PS.",
-      "hp": 65,
-      "stats": {
-        "attack": 90,
-        "defense": 65,
-        "spAttack": 61,
-        "spDefense": 61,
-        "speed": 100
-      },
-      "generation": 1
-    },
-    {
-      "id": 23,
-      "name": "Ekans",
-      "types": [
-        8
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/23.png",
-      "description": "Ekans es un Pokémon de la 1ª generación. Tipo(s): Veneno.",
-      "attack": "Ataque base 60 (Esp. 40). Velocidad 55.",
-      "defense": "Defensa base 44 (Esp. 54). Resistencia 35 PS.",
-      "hp": 35,
-      "stats": {
-        "attack": 60,
-        "defense": 44,
-        "spAttack": 40,
-        "spDefense": 54,
-        "speed": 55
-      },
-      "generation": 1
-    },
-    {
-      "id": 24,
-      "name": "Arbok",
-      "types": [
-        8
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/24.png",
-      "description": "Arbok es un Pokémon de la 1ª generación. Tipo(s): Veneno.",
-      "attack": "Ataque base 95 (Esp. 65). Velocidad 80.",
-      "defense": "Defensa base 69 (Esp. 79). Resistencia 60 PS.",
-      "hp": 60,
-      "stats": {
-        "attack": 95,
-        "defense": 69,
-        "spAttack": 65,
-        "spDefense": 79,
-        "speed": 80
-      },
-      "generation": 1
-    },
-    {
-      "id": 25,
-      "name": "Pikachu",
-      "types": [
-        4
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
-      "description": "Pikachu es un Pokémon de la 1ª generación. Tipo(s): Eléctrico.",
-      "attack": "Ataque base 55 (Esp. 50). Velocidad 90.",
-      "defense": "Defensa base 40 (Esp. 50). Resistencia 35 PS.",
-      "hp": 35,
-      "stats": {
-        "attack": 55,
-        "defense": 40,
-        "spAttack": 50,
-        "spDefense": 50,
-        "speed": 90
-      },
-      "generation": 1
-    },
-    {
-      "id": 26,
-      "name": "Raichu",
-      "types": [
-        4
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png",
-      "description": "Raichu es un Pokémon de la 1ª generación. Tipo(s): Eléctrico.",
-      "attack": "Ataque base 90 (Esp. 90). Velocidad 110.",
-      "defense": "Defensa base 55 (Esp. 80). Resistencia 60 PS.",
-      "hp": 60,
-      "stats": {
-        "attack": 90,
-        "defense": 55,
-        "spAttack": 90,
-        "spDefense": 80,
-        "speed": 110
-      },
-      "generation": 1
-    },
-    {
-      "id": 27,
-      "name": "Sandshrew",
-      "types": [
-        9
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/27.png",
-      "description": "Sandshrew es un Pokémon de la 1ª generación. Tipo(s): Tierra.",
-      "attack": "Ataque base 75 (Esp. 20). Velocidad 40.",
-      "defense": "Defensa base 85 (Esp. 30). Resistencia 50 PS.",
-      "hp": 50,
-      "stats": {
-        "attack": 75,
-        "defense": 85,
-        "spAttack": 20,
-        "spDefense": 30,
-        "speed": 40
-      },
-      "generation": 1
-    },
-    {
-      "id": 28,
-      "name": "Sandslash",
-      "types": [
-        9
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/28.png",
-      "description": "Sandslash es un Pokémon de la 1ª generación. Tipo(s): Tierra.",
-      "attack": "Ataque base 100 (Esp. 45). Velocidad 65.",
-      "defense": "Defensa base 110 (Esp. 55). Resistencia 75 PS.",
-      "hp": 75,
-      "stats": {
-        "attack": 100,
-        "defense": 110,
-        "spAttack": 45,
-        "spDefense": 55,
-        "speed": 65
-      },
-      "generation": 1
-    },
-    {
-      "id": 29,
-      "name": "Nidoran♀",
-      "types": [
-        8
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/29.png",
-      "description": "Nidoran♀ es un Pokémon de la 1ª generación. Tipo(s): Veneno.",
-      "attack": "Ataque base 47 (Esp. 40). Velocidad 41.",
-      "defense": "Defensa base 52 (Esp. 40). Resistencia 55 PS.",
-      "hp": 55,
-      "stats": {
-        "attack": 47,
-        "defense": 52,
-        "spAttack": 40,
-        "spDefense": 40,
-        "speed": 41
-      },
-      "generation": 1
-    },
-    {
-      "id": 30,
-      "name": "Nidorina",
-      "types": [
-        8
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/30.png",
-      "description": "Nidorina es un Pokémon de la 1ª generación. Tipo(s): Veneno.",
-      "attack": "Ataque base 62 (Esp. 55). Velocidad 56.",
-      "defense": "Defensa base 67 (Esp. 55). Resistencia 70 PS.",
-      "hp": 70,
-      "stats": {
-        "attack": 62,
-        "defense": 67,
-        "spAttack": 55,
-        "spDefense": 55,
-        "speed": 56
-      },
-      "generation": 1
-    },
-    {
-      "id": 31,
-      "name": "Nidoqueen",
-      "types": [
-        8,
-        9
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/31.png",
-      "description": "Nidoqueen es un Pokémon de la 1ª generación. Tipo(s): Veneno, Tierra.",
-      "attack": "Ataque base 92 (Esp. 75). Velocidad 76.",
-      "defense": "Defensa base 87 (Esp. 85). Resistencia 90 PS.",
-      "hp": 90,
-      "stats": {
-        "attack": 92,
-        "defense": 87,
-        "spAttack": 75,
-        "spDefense": 85,
-        "speed": 76
-      },
-      "generation": 1
-    },
-    {
-      "id": 32,
-      "name": "Nidoran♂",
-      "types": [
-        8
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/32.png",
-      "description": "Nidoran♂ es un Pokémon de la 1ª generación. Tipo(s): Veneno.",
-      "attack": "Ataque base 57 (Esp. 40). Velocidad 50.",
-      "defense": "Defensa base 40 (Esp. 40). Resistencia 46 PS.",
-      "hp": 46,
-      "stats": {
-        "attack": 57,
-        "defense": 40,
-        "spAttack": 40,
-        "spDefense": 40,
-        "speed": 50
-      },
-      "generation": 1
-    },
-    {
-      "id": 33,
-      "name": "Nidorino",
-      "types": [
-        8
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/33.png",
-      "description": "Nidorino es un Pokémon de la 1ª generación. Tipo(s): Veneno.",
-      "attack": "Ataque base 72 (Esp. 55). Velocidad 65.",
-      "defense": "Defensa base 57 (Esp. 55). Resistencia 61 PS.",
-      "hp": 61,
-      "stats": {
-        "attack": 72,
-        "defense": 57,
-        "spAttack": 55,
-        "spDefense": 55,
-        "speed": 65
-      },
-      "generation": 1
-    },
-    {
-      "id": 34,
-      "name": "Nidoking",
-      "types": [
-        8,
-        9
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/34.png",
-      "description": "Nidoking es un Pokémon de la 1ª generación. Tipo(s): Veneno, Tierra.",
-      "attack": "Ataque base 102 (Esp. 85). Velocidad 85.",
-      "defense": "Defensa base 77 (Esp. 75). Resistencia 81 PS.",
-      "hp": 81,
-      "stats": {
-        "attack": 102,
-        "defense": 77,
-        "spAttack": 85,
-        "spDefense": 75,
-        "speed": 85
-      },
-      "generation": 1
-    },
-    {
-      "id": 35,
-      "name": "Clefairy",
-      "types": [
-        18
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/35.png",
-      "description": "Clefairy es un Pokémon de la 1ª generación. Tipo(s): Hada.",
-      "attack": "Ataque base 45 (Esp. 60). Velocidad 35.",
-      "defense": "Defensa base 48 (Esp. 65). Resistencia 70 PS.",
-      "hp": 70,
-      "stats": {
-        "attack": 45,
-        "defense": 48,
-        "spAttack": 60,
-        "spDefense": 65,
-        "speed": 35
-      },
-      "generation": 1
-    },
-    {
-      "id": 36,
-      "name": "Clefable",
-      "types": [
-        18
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/36.png",
-      "description": "Clefable es un Pokémon de la 1ª generación. Tipo(s): Hada.",
-      "attack": "Ataque base 70 (Esp. 95). Velocidad 60.",
-      "defense": "Defensa base 73 (Esp. 90). Resistencia 95 PS.",
-      "hp": 95,
-      "stats": {
-        "attack": 70,
-        "defense": 73,
-        "spAttack": 95,
-        "spDefense": 90,
-        "speed": 60
-      },
-      "generation": 1
-    },
-    {
-      "id": 37,
-      "name": "Vulpix",
-      "types": [
-        2
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/37.png",
-      "description": "Vulpix es un Pokémon de la 1ª generación. Tipo(s): Fuego.",
-      "attack": "Ataque base 41 (Esp. 50). Velocidad 65.",
-      "defense": "Defensa base 40 (Esp. 65). Resistencia 38 PS.",
-      "hp": 38,
-      "stats": {
-        "attack": 41,
-        "defense": 40,
-        "spAttack": 50,
-        "spDefense": 65,
-        "speed": 65
-      },
-      "generation": 1
-    },
-    {
-      "id": 38,
-      "name": "Ninetales",
-      "types": [
-        2
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/38.png",
-      "description": "Ninetales es un Pokémon de la 1ª generación. Tipo(s): Fuego.",
-      "attack": "Ataque base 76 (Esp. 81). Velocidad 100.",
-      "defense": "Defensa base 75 (Esp. 100). Resistencia 73 PS.",
-      "hp": 73,
-      "stats": {
-        "attack": 76,
-        "defense": 75,
-        "spAttack": 81,
-        "spDefense": 100,
-        "speed": 100
-      },
-      "generation": 1
-    },
-    {
-      "id": 39,
-      "name": "Jigglypuff",
-      "types": [
-        1,
-        18
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/39.png",
-      "description": "Jigglypuff es un Pokémon de la 1ª generación. Tipo(s): Normal, Hada.",
-      "attack": "Ataque base 45 (Esp. 45). Velocidad 20.",
-      "defense": "Defensa base 20 (Esp. 25). Resistencia 115 PS.",
-      "hp": 115,
-      "stats": {
-        "attack": 45,
-        "defense": 20,
-        "spAttack": 45,
-        "spDefense": 25,
-        "speed": 20
-      },
-      "generation": 1
-    },
-    {
-      "id": 40,
-      "name": "Wigglytuff",
-      "types": [
-        1,
-        18
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/40.png",
-      "description": "Wigglytuff es un Pokémon de la 1ª generación. Tipo(s): Normal, Hada.",
-      "attack": "Ataque base 70 (Esp. 85). Velocidad 45.",
-      "defense": "Defensa base 45 (Esp. 50). Resistencia 140 PS.",
-      "hp": 140,
-      "stats": {
-        "attack": 70,
-        "defense": 45,
-        "spAttack": 85,
-        "spDefense": 50,
-        "speed": 45
-      },
-      "generation": 1
-    },
-    {
-      "id": 41,
-      "name": "Zubat",
-      "types": [
-        8,
-        10
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/41.png",
-      "description": "Zubat es un Pokémon de la 1ª generación. Tipo(s): Veneno, Volador.",
-      "attack": "Ataque base 45 (Esp. 30). Velocidad 55.",
-      "defense": "Defensa base 35 (Esp. 40). Resistencia 40 PS.",
-      "hp": 40,
-      "stats": {
-        "attack": 45,
-        "defense": 35,
-        "spAttack": 30,
-        "spDefense": 40,
-        "speed": 55
-      },
-      "generation": 1
-    },
-    {
-      "id": 42,
-      "name": "Golbat",
-      "types": [
-        8,
-        10
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/42.png",
-      "description": "Golbat es un Pokémon de la 1ª generación. Tipo(s): Veneno, Volador.",
-      "attack": "Ataque base 80 (Esp. 65). Velocidad 90.",
-      "defense": "Defensa base 70 (Esp. 75). Resistencia 75 PS.",
-      "hp": 75,
-      "stats": {
-        "attack": 80,
-        "defense": 70,
-        "spAttack": 65,
-        "spDefense": 75,
-        "speed": 90
-      },
-      "generation": 1
-    },
-    {
-      "id": 43,
-      "name": "Oddish",
-      "types": [
-        5,
-        8
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/43.png",
-      "description": "Oddish es un Pokémon de la 1ª generación. Tipo(s): Planta, Veneno.",
-      "attack": "Ataque base 50 (Esp. 75). Velocidad 30.",
-      "defense": "Defensa base 55 (Esp. 65). Resistencia 45 PS.",
-      "hp": 45,
-      "stats": {
-        "attack": 50,
-        "defense": 55,
-        "spAttack": 75,
-        "spDefense": 65,
-        "speed": 30
-      },
-      "generation": 1
-    },
-    {
-      "id": 44,
-      "name": "Gloom",
-      "types": [
-        5,
-        8
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/44.png",
-      "description": "Gloom es un Pokémon de la 1ª generación. Tipo(s): Planta, Veneno.",
-      "attack": "Ataque base 65 (Esp. 85). Velocidad 40.",
-      "defense": "Defensa base 70 (Esp. 75). Resistencia 60 PS.",
-      "hp": 60,
-      "stats": {
-        "attack": 65,
-        "defense": 70,
-        "spAttack": 85,
-        "spDefense": 75,
-        "speed": 40
-      },
-      "generation": 1
-    },
-    {
-      "id": 45,
-      "name": "Vileplume",
-      "types": [
-        5,
-        8
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/45.png",
-      "description": "Vileplume es un Pokémon de la 1ª generación. Tipo(s): Planta, Veneno.",
-      "attack": "Ataque base 80 (Esp. 110). Velocidad 50.",
-      "defense": "Defensa base 85 (Esp. 90). Resistencia 75 PS.",
-      "hp": 75,
-      "stats": {
-        "attack": 80,
-        "defense": 85,
-        "spAttack": 110,
-        "spDefense": 90,
-        "speed": 50
-      },
-      "generation": 1
-    },
-    {
-      "id": 46,
-      "name": "Paras",
-      "types": [
-        12,
-        5
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/46.png",
-      "description": "Paras es un Pokémon de la 1ª generación. Tipo(s): Bicho, Planta.",
-      "attack": "Ataque base 70 (Esp. 45). Velocidad 25.",
-      "defense": "Defensa base 55 (Esp. 55). Resistencia 35 PS.",
-      "hp": 35,
-      "stats": {
-        "attack": 70,
-        "defense": 55,
-        "spAttack": 45,
-        "spDefense": 55,
-        "speed": 25
-      },
-      "generation": 1
-    },
-    {
-      "id": 47,
-      "name": "Parasect",
-      "types": [
-        12,
-        5
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/47.png",
-      "description": "Parasect es un Pokémon de la 1ª generación. Tipo(s): Bicho, Planta.",
-      "attack": "Ataque base 95 (Esp. 60). Velocidad 30.",
-      "defense": "Defensa base 80 (Esp. 80). Resistencia 60 PS.",
-      "hp": 60,
-      "stats": {
-        "attack": 95,
-        "defense": 80,
-        "spAttack": 60,
-        "spDefense": 80,
-        "speed": 30
-      },
-      "generation": 1
-    },
-    {
-      "id": 48,
-      "name": "Venonat",
-      "types": [
-        12,
-        8
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/48.png",
-      "description": "Venonat es un Pokémon de la 1ª generación. Tipo(s): Bicho, Veneno.",
-      "attack": "Ataque base 55 (Esp. 40). Velocidad 45.",
-      "defense": "Defensa base 50 (Esp. 55). Resistencia 60 PS.",
-      "hp": 60,
-      "stats": {
-        "attack": 55,
-        "defense": 50,
-        "spAttack": 40,
-        "spDefense": 55,
-        "speed": 45
-      },
-      "generation": 1
-    },
-    {
-      "id": 49,
-      "name": "Venomoth",
-      "types": [
-        12,
-        8
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/49.png",
-      "description": "Venomoth es un Pokémon de la 1ª generación. Tipo(s): Bicho, Veneno.",
-      "attack": "Ataque base 65 (Esp. 90). Velocidad 90.",
-      "defense": "Defensa base 60 (Esp. 75). Resistencia 70 PS.",
-      "hp": 70,
-      "stats": {
-        "attack": 65,
-        "defense": 60,
-        "spAttack": 90,
-        "spDefense": 75,
-        "speed": 90
-      },
-      "generation": 1
-    },
-    {
-      "id": 50,
-      "name": "Diglett",
-      "types": [
-        9
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/50.png",
-      "description": "Diglett es un Pokémon de la 1ª generación. Tipo(s): Tierra.",
-      "attack": "Ataque base 55 (Esp. 35). Velocidad 95.",
-      "defense": "Defensa base 25 (Esp. 45). Resistencia 10 PS.",
-      "hp": 10,
-      "stats": {
-        "attack": 55,
-        "defense": 25,
-        "spAttack": 35,
-        "spDefense": 45,
-        "speed": 95
-      },
-      "generation": 1
-    },
-    {
-      "id": 51,
-      "name": "Dugtrio",
-      "types": [
-        9
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/51.png",
-      "description": "Dugtrio es un Pokémon de la 1ª generación. Tipo(s): Tierra.",
-      "attack": "Ataque base 100 (Esp. 50). Velocidad 120.",
-      "defense": "Defensa base 50 (Esp. 70). Resistencia 35 PS.",
-      "hp": 35,
-      "stats": {
-        "attack": 100,
-        "defense": 50,
-        "spAttack": 50,
-        "spDefense": 70,
-        "speed": 120
-      },
-      "generation": 1
-    },
-    {
-      "id": 52,
-      "name": "Meowth",
-      "types": [
-        1
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/52.png",
-      "description": "Meowth es un Pokémon de la 1ª generación. Tipo(s): Normal.",
-      "attack": "Ataque base 45 (Esp. 40). Velocidad 90.",
-      "defense": "Defensa base 35 (Esp. 40). Resistencia 40 PS.",
-      "hp": 40,
-      "stats": {
-        "attack": 45,
-        "defense": 35,
-        "spAttack": 40,
-        "spDefense": 40,
-        "speed": 90
-      },
-      "generation": 1
-    },
-    {
-      "id": 53,
-      "name": "Persian",
-      "types": [
-        1
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/53.png",
-      "description": "Persian es un Pokémon de la 1ª generación. Tipo(s): Normal.",
-      "attack": "Ataque base 70 (Esp. 65). Velocidad 115.",
-      "defense": "Defensa base 60 (Esp. 65). Resistencia 65 PS.",
-      "hp": 65,
-      "stats": {
-        "attack": 70,
-        "defense": 60,
-        "spAttack": 65,
-        "spDefense": 65,
-        "speed": 115
-      },
-      "generation": 1
-    },
-    {
-      "id": 54,
-      "name": "Psyduck",
-      "types": [
-        3
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/54.png",
-      "description": "Psyduck es un Pokémon de la 1ª generación. Tipo(s): Agua.",
-      "attack": "Ataque base 52 (Esp. 65). Velocidad 55.",
-      "defense": "Defensa base 48 (Esp. 50). Resistencia 50 PS.",
-      "hp": 50,
-      "stats": {
-        "attack": 52,
-        "defense": 48,
-        "spAttack": 65,
-        "spDefense": 50,
-        "speed": 55
-      },
-      "generation": 1
-    },
-    {
-      "id": 55,
-      "name": "Golduck",
-      "types": [
-        3
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/55.png",
-      "description": "Golduck es un Pokémon de la 1ª generación. Tipo(s): Agua.",
-      "attack": "Ataque base 82 (Esp. 95). Velocidad 85.",
-      "defense": "Defensa base 78 (Esp. 80). Resistencia 80 PS.",
-      "hp": 80,
-      "stats": {
-        "attack": 82,
-        "defense": 78,
-        "spAttack": 95,
-        "spDefense": 80,
-        "speed": 85
-      },
-      "generation": 1
-    },
-    {
-      "id": 56,
-      "name": "Mankey",
-      "types": [
-        7
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/56.png",
-      "description": "Mankey es un Pokémon de la 1ª generación. Tipo(s): Lucha.",
-      "attack": "Ataque base 80 (Esp. 35). Velocidad 70.",
-      "defense": "Defensa base 35 (Esp. 45). Resistencia 40 PS.",
-      "hp": 40,
-      "stats": {
-        "attack": 80,
-        "defense": 35,
-        "spAttack": 35,
-        "spDefense": 45,
-        "speed": 70
-      },
-      "generation": 1
-    },
-    {
-      "id": 57,
-      "name": "Primeape",
-      "types": [
-        7
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/57.png",
-      "description": "Primeape es un Pokémon de la 1ª generación. Tipo(s): Lucha.",
-      "attack": "Ataque base 105 (Esp. 60). Velocidad 95.",
-      "defense": "Defensa base 60 (Esp. 70). Resistencia 65 PS.",
-      "hp": 65,
-      "stats": {
-        "attack": 105,
-        "defense": 60,
-        "spAttack": 60,
-        "spDefense": 70,
-        "speed": 95
-      },
-      "generation": 1
-    },
-    {
-      "id": 58,
-      "name": "Growlithe",
-      "types": [
-        2
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/58.png",
-      "description": "Growlithe es un Pokémon de la 1ª generación. Tipo(s): Fuego.",
-      "attack": "Ataque base 70 (Esp. 70). Velocidad 60.",
-      "defense": "Defensa base 45 (Esp. 50). Resistencia 55 PS.",
-      "hp": 55,
-      "stats": {
-        "attack": 70,
-        "defense": 45,
-        "spAttack": 70,
-        "spDefense": 50,
-        "speed": 60
-      },
-      "generation": 1
-    },
-    {
-      "id": 59,
-      "name": "Arcanine",
-      "types": [
-        2
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/59.png",
-      "description": "Arcanine es un Pokémon de la 1ª generación. Tipo(s): Fuego.",
-      "attack": "Ataque base 110 (Esp. 100). Velocidad 95.",
-      "defense": "Defensa base 80 (Esp. 80). Resistencia 90 PS.",
-      "hp": 90,
-      "stats": {
-        "attack": 110,
-        "defense": 80,
-        "spAttack": 100,
-        "spDefense": 80,
-        "speed": 95
-      },
-      "generation": 1
-    },
-    {
-      "id": 60,
-      "name": "Poliwag",
-      "types": [
-        3
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/60.png",
-      "description": "Poliwag es un Pokémon de la 1ª generación. Tipo(s): Agua.",
-      "attack": "Ataque base 50 (Esp. 40). Velocidad 90.",
-      "defense": "Defensa base 40 (Esp. 40). Resistencia 40 PS.",
-      "hp": 40,
-      "stats": {
-        "attack": 50,
-        "defense": 40,
-        "spAttack": 40,
-        "spDefense": 40,
-        "speed": 90
-      },
-      "generation": 1
-    },
-    {
-      "id": 61,
-      "name": "Poliwhirl",
-      "types": [
-        3
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/61.png",
-      "description": "Poliwhirl es un Pokémon de la 1ª generación. Tipo(s): Agua.",
-      "attack": "Ataque base 65 (Esp. 50). Velocidad 90.",
-      "defense": "Defensa base 65 (Esp. 50). Resistencia 65 PS.",
-      "hp": 65,
-      "stats": {
-        "attack": 65,
-        "defense": 65,
-        "spAttack": 50,
-        "spDefense": 50,
-        "speed": 90
-      },
-      "generation": 1
-    },
-    {
-      "id": 62,
-      "name": "Poliwrath",
-      "types": [
-        3,
-        7
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/62.png",
-      "description": "Poliwrath es un Pokémon de la 1ª generación. Tipo(s): Agua, Lucha.",
-      "attack": "Ataque base 95 (Esp. 70). Velocidad 70.",
-      "defense": "Defensa base 95 (Esp. 90). Resistencia 90 PS.",
-      "hp": 90,
-      "stats": {
-        "attack": 95,
-        "defense": 95,
-        "spAttack": 70,
-        "spDefense": 90,
-        "speed": 70
-      },
-      "generation": 1
-    },
-    {
-      "id": 63,
-      "name": "Abra",
-      "types": [
-        11
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/63.png",
-      "description": "Abra es un Pokémon de la 1ª generación. Tipo(s): Psíquico.",
-      "attack": "Ataque base 20 (Esp. 105). Velocidad 90.",
-      "defense": "Defensa base 15 (Esp. 55). Resistencia 25 PS.",
-      "hp": 25,
-      "stats": {
-        "attack": 20,
-        "defense": 15,
-        "spAttack": 105,
-        "spDefense": 55,
-        "speed": 90
-      },
-      "generation": 1
-    },
-    {
-      "id": 64,
-      "name": "Kadabra",
-      "types": [
-        11
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/64.png",
-      "description": "Kadabra es un Pokémon de la 1ª generación. Tipo(s): Psíquico.",
-      "attack": "Ataque base 35 (Esp. 120). Velocidad 105.",
-      "defense": "Defensa base 30 (Esp. 70). Resistencia 40 PS.",
-      "hp": 40,
-      "stats": {
-        "attack": 35,
-        "defense": 30,
-        "spAttack": 120,
-        "spDefense": 70,
-        "speed": 105
-      },
-      "generation": 1
-    },
-    {
-      "id": 65,
-      "name": "Alakazam",
-      "types": [
-        11
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/65.png",
-      "description": "Alakazam es un Pokémon de la 1ª generación. Tipo(s): Psíquico.",
-      "attack": "Ataque base 50 (Esp. 135). Velocidad 120.",
-      "defense": "Defensa base 45 (Esp. 95). Resistencia 55 PS.",
-      "hp": 55,
-      "stats": {
-        "attack": 50,
-        "defense": 45,
-        "spAttack": 135,
-        "spDefense": 95,
-        "speed": 120
-      },
-      "generation": 1
-    },
-    {
-      "id": 66,
-      "name": "Machop",
-      "types": [
-        7
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/66.png",
-      "description": "Machop es un Pokémon de la 1ª generación. Tipo(s): Lucha.",
-      "attack": "Ataque base 80 (Esp. 35). Velocidad 35.",
-      "defense": "Defensa base 50 (Esp. 35). Resistencia 70 PS.",
-      "hp": 70,
-      "stats": {
-        "attack": 80,
-        "defense": 50,
-        "spAttack": 35,
-        "spDefense": 35,
-        "speed": 35
-      },
-      "generation": 1
-    },
-    {
-      "id": 67,
-      "name": "Machoke",
-      "types": [
-        7
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/67.png",
-      "description": "Machoke es un Pokémon de la 1ª generación. Tipo(s): Lucha.",
-      "attack": "Ataque base 100 (Esp. 50). Velocidad 45.",
-      "defense": "Defensa base 70 (Esp. 60). Resistencia 80 PS.",
-      "hp": 80,
-      "stats": {
-        "attack": 100,
-        "defense": 70,
-        "spAttack": 50,
-        "spDefense": 60,
-        "speed": 45
-      },
-      "generation": 1
-    },
-    {
-      "id": 68,
-      "name": "Machamp",
-      "types": [
-        7
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/68.png",
-      "description": "Machamp es un Pokémon de la 1ª generación. Tipo(s): Lucha.",
-      "attack": "Ataque base 130 (Esp. 65). Velocidad 55.",
-      "defense": "Defensa base 80 (Esp. 85). Resistencia 90 PS.",
-      "hp": 90,
-      "stats": {
-        "attack": 130,
-        "defense": 80,
-        "spAttack": 65,
-        "spDefense": 85,
-        "speed": 55
-      },
-      "generation": 1
-    },
-    {
-      "id": 69,
-      "name": "Bellsprout",
-      "types": [
-        5,
-        8
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/69.png",
-      "description": "Bellsprout es un Pokémon de la 1ª generación. Tipo(s): Planta, Veneno.",
-      "attack": "Ataque base 75 (Esp. 70). Velocidad 40.",
-      "defense": "Defensa base 35 (Esp. 30). Resistencia 50 PS.",
-      "hp": 50,
-      "stats": {
-        "attack": 75,
-        "defense": 35,
-        "spAttack": 70,
-        "spDefense": 30,
-        "speed": 40
-      },
-      "generation": 1
-    },
-    {
-      "id": 70,
-      "name": "Weepinbell",
-      "types": [
-        5,
-        8
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/70.png",
-      "description": "Weepinbell es un Pokémon de la 1ª generación. Tipo(s): Planta, Veneno.",
-      "attack": "Ataque base 90 (Esp. 85). Velocidad 55.",
-      "defense": "Defensa base 50 (Esp. 45). Resistencia 65 PS.",
-      "hp": 65,
-      "stats": {
-        "attack": 90,
-        "defense": 50,
-        "spAttack": 85,
-        "spDefense": 45,
-        "speed": 55
-      },
-      "generation": 1
-    },
-    {
-      "id": 71,
-      "name": "Victreebel",
-      "types": [
-        5,
-        8
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/71.png",
-      "description": "Victreebel es un Pokémon de la 1ª generación. Tipo(s): Planta, Veneno.",
-      "attack": "Ataque base 105 (Esp. 100). Velocidad 70.",
-      "defense": "Defensa base 65 (Esp. 70). Resistencia 80 PS.",
-      "hp": 80,
-      "stats": {
-        "attack": 105,
-        "defense": 65,
-        "spAttack": 100,
-        "spDefense": 70,
-        "speed": 70
-      },
-      "generation": 1
-    },
-    {
-      "id": 72,
-      "name": "Tentacool",
-      "types": [
-        3,
-        8
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/72.png",
-      "description": "Tentacool es un Pokémon de la 1ª generación. Tipo(s): Agua, Veneno.",
-      "attack": "Ataque base 40 (Esp. 50). Velocidad 70.",
-      "defense": "Defensa base 35 (Esp. 100). Resistencia 40 PS.",
-      "hp": 40,
-      "stats": {
-        "attack": 40,
-        "defense": 35,
-        "spAttack": 50,
-        "spDefense": 100,
-        "speed": 70
-      },
-      "generation": 1
-    },
-    {
-      "id": 73,
-      "name": "Tentacruel",
-      "types": [
-        3,
-        8
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/73.png",
-      "description": "Tentacruel es un Pokémon de la 1ª generación. Tipo(s): Agua, Veneno.",
-      "attack": "Ataque base 70 (Esp. 80). Velocidad 100.",
-      "defense": "Defensa base 65 (Esp. 120). Resistencia 80 PS.",
-      "hp": 80,
-      "stats": {
-        "attack": 70,
-        "defense": 65,
-        "spAttack": 80,
-        "spDefense": 120,
-        "speed": 100
-      },
-      "generation": 1
-    },
-    {
-      "id": 74,
-      "name": "Geodude",
-      "types": [
-        13,
-        9
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/74.png",
-      "description": "Geodude es un Pokémon de la 1ª generación. Tipo(s): Roca, Tierra.",
-      "attack": "Ataque base 80 (Esp. 30). Velocidad 20.",
-      "defense": "Defensa base 100 (Esp. 30). Resistencia 40 PS.",
-      "hp": 40,
-      "stats": {
-        "attack": 80,
-        "defense": 100,
-        "spAttack": 30,
-        "spDefense": 30,
-        "speed": 20
-      },
-      "generation": 1
-    },
-    {
-      "id": 75,
-      "name": "Graveler",
-      "types": [
-        13,
-        9
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/75.png",
-      "description": "Graveler es un Pokémon de la 1ª generación. Tipo(s): Roca, Tierra.",
-      "attack": "Ataque base 95 (Esp. 45). Velocidad 35.",
-      "defense": "Defensa base 115 (Esp. 45). Resistencia 55 PS.",
-      "hp": 55,
-      "stats": {
-        "attack": 95,
-        "defense": 115,
-        "spAttack": 45,
-        "spDefense": 45,
-        "speed": 35
-      },
-      "generation": 1
-    },
-    {
-      "id": 76,
-      "name": "Golem",
-      "types": [
-        13,
-        9
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/76.png",
-      "description": "Golem es un Pokémon de la 1ª generación. Tipo(s): Roca, Tierra.",
-      "attack": "Ataque base 120 (Esp. 55). Velocidad 45.",
-      "defense": "Defensa base 130 (Esp. 65). Resistencia 80 PS.",
-      "hp": 80,
-      "stats": {
-        "attack": 120,
-        "defense": 130,
-        "spAttack": 55,
-        "spDefense": 65,
-        "speed": 45
-      },
-      "generation": 1
-    },
-    {
-      "id": 77,
-      "name": "Ponyta",
-      "types": [
-        2
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/77.png",
-      "description": "Ponyta es un Pokémon de la 1ª generación. Tipo(s): Fuego.",
-      "attack": "Ataque base 85 (Esp. 65). Velocidad 90.",
-      "defense": "Defensa base 55 (Esp. 65). Resistencia 50 PS.",
-      "hp": 50,
-      "stats": {
-        "attack": 85,
-        "defense": 55,
-        "spAttack": 65,
-        "spDefense": 65,
-        "speed": 90
-      },
-      "generation": 1
-    },
-    {
-      "id": 78,
-      "name": "Rapidash",
-      "types": [
-        2
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/78.png",
-      "description": "Rapidash es un Pokémon de la 1ª generación. Tipo(s): Fuego.",
-      "attack": "Ataque base 100 (Esp. 80). Velocidad 105.",
-      "defense": "Defensa base 70 (Esp. 80). Resistencia 65 PS.",
-      "hp": 65,
-      "stats": {
-        "attack": 100,
-        "defense": 70,
-        "spAttack": 80,
-        "spDefense": 80,
-        "speed": 105
-      },
-      "generation": 1
-    },
-    {
-      "id": 79,
-      "name": "Slowpoke",
-      "types": [
-        3,
-        11
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/79.png",
-      "description": "Slowpoke es un Pokémon de la 1ª generación. Tipo(s): Agua, Psíquico.",
-      "attack": "Ataque base 65 (Esp. 40). Velocidad 15.",
-      "defense": "Defensa base 65 (Esp. 40). Resistencia 90 PS.",
-      "hp": 90,
-      "stats": {
-        "attack": 65,
-        "defense": 65,
-        "spAttack": 40,
-        "spDefense": 40,
-        "speed": 15
-      },
-      "generation": 1
-    },
-    {
-      "id": 80,
-      "name": "Slowbro",
-      "types": [
-        3,
-        11
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/80.png",
-      "description": "Slowbro es un Pokémon de la 1ª generación. Tipo(s): Agua, Psíquico.",
-      "attack": "Ataque base 75 (Esp. 100). Velocidad 30.",
-      "defense": "Defensa base 110 (Esp. 80). Resistencia 95 PS.",
-      "hp": 95,
-      "stats": {
-        "attack": 75,
-        "defense": 110,
-        "spAttack": 100,
-        "spDefense": 80,
-        "speed": 30
-      },
-      "generation": 1
-    },
-    {
-      "id": 81,
-      "name": "Magnemite",
-      "types": [
-        4,
-        17
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/81.png",
-      "description": "Magnemite es un Pokémon de la 1ª generación. Tipo(s): Eléctrico, Acero.",
-      "attack": "Ataque base 35 (Esp. 95). Velocidad 45.",
-      "defense": "Defensa base 70 (Esp. 55). Resistencia 25 PS.",
-      "hp": 25,
-      "stats": {
-        "attack": 35,
-        "defense": 70,
-        "spAttack": 95,
-        "spDefense": 55,
-        "speed": 45
-      },
-      "generation": 1
-    },
-    {
-      "id": 82,
-      "name": "Magneton",
-      "types": [
-        4,
-        17
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/82.png",
-      "description": "Magneton es un Pokémon de la 1ª generación. Tipo(s): Eléctrico, Acero.",
-      "attack": "Ataque base 60 (Esp. 120). Velocidad 70.",
-      "defense": "Defensa base 95 (Esp. 70). Resistencia 50 PS.",
-      "hp": 50,
-      "stats": {
-        "attack": 60,
-        "defense": 95,
-        "spAttack": 120,
-        "spDefense": 70,
-        "speed": 70
-      },
-      "generation": 1
-    },
-    {
-      "id": 83,
-      "name": "Farfetch'd",
-      "types": [
-        1,
-        10
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/83.png",
-      "description": "Farfetch'd es un Pokémon de la 1ª generación. Tipo(s): Normal, Volador.",
-      "attack": "Ataque base 90 (Esp. 58). Velocidad 60.",
-      "defense": "Defensa base 55 (Esp. 62). Resistencia 52 PS.",
-      "hp": 52,
-      "stats": {
-        "attack": 90,
-        "defense": 55,
-        "spAttack": 58,
-        "spDefense": 62,
-        "speed": 60
-      },
-      "generation": 1
-    },
-    {
-      "id": 84,
-      "name": "Doduo",
-      "types": [
-        1,
-        10
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/84.png",
-      "description": "Doduo es un Pokémon de la 1ª generación. Tipo(s): Normal, Volador.",
-      "attack": "Ataque base 85 (Esp. 35). Velocidad 75.",
-      "defense": "Defensa base 45 (Esp. 35). Resistencia 35 PS.",
-      "hp": 35,
-      "stats": {
-        "attack": 85,
-        "defense": 45,
-        "spAttack": 35,
-        "spDefense": 35,
-        "speed": 75
-      },
-      "generation": 1
-    },
-    {
-      "id": 85,
-      "name": "Dodrio",
-      "types": [
-        1,
-        10
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/85.png",
-      "description": "Dodrio es un Pokémon de la 1ª generación. Tipo(s): Normal, Volador.",
-      "attack": "Ataque base 110 (Esp. 60). Velocidad 110.",
-      "defense": "Defensa base 70 (Esp. 60). Resistencia 60 PS.",
-      "hp": 60,
-      "stats": {
-        "attack": 110,
-        "defense": 70,
-        "spAttack": 60,
-        "spDefense": 60,
-        "speed": 110
-      },
-      "generation": 1
-    },
-    {
-      "id": 86,
-      "name": "Seel",
-      "types": [
-        3
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/86.png",
-      "description": "Seel es un Pokémon de la 1ª generación. Tipo(s): Agua.",
-      "attack": "Ataque base 45 (Esp. 45). Velocidad 45.",
-      "defense": "Defensa base 55 (Esp. 70). Resistencia 65 PS.",
-      "hp": 65,
-      "stats": {
-        "attack": 45,
-        "defense": 55,
-        "spAttack": 45,
-        "spDefense": 70,
-        "speed": 45
-      },
-      "generation": 1
-    },
-    {
-      "id": 87,
-      "name": "Dewgong",
-      "types": [
-        3,
-        6
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/87.png",
-      "description": "Dewgong es un Pokémon de la 1ª generación. Tipo(s): Agua, Hielo.",
-      "attack": "Ataque base 70 (Esp. 70). Velocidad 70.",
-      "defense": "Defensa base 80 (Esp. 95). Resistencia 90 PS.",
-      "hp": 90,
-      "stats": {
-        "attack": 70,
-        "defense": 80,
-        "spAttack": 70,
-        "spDefense": 95,
-        "speed": 70
-      },
-      "generation": 1
-    },
-    {
-      "id": 88,
-      "name": "Grimer",
-      "types": [
-        8
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/88.png",
-      "description": "Grimer es un Pokémon de la 1ª generación. Tipo(s): Veneno.",
-      "attack": "Ataque base 80 (Esp. 40). Velocidad 25.",
-      "defense": "Defensa base 50 (Esp. 50). Resistencia 80 PS.",
-      "hp": 80,
-      "stats": {
-        "attack": 80,
-        "defense": 50,
-        "spAttack": 40,
-        "spDefense": 50,
-        "speed": 25
-      },
-      "generation": 1
-    },
-    {
-      "id": 89,
-      "name": "Muk",
-      "types": [
-        8
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/89.png",
-      "description": "Muk es un Pokémon de la 1ª generación. Tipo(s): Veneno.",
-      "attack": "Ataque base 105 (Esp. 65). Velocidad 50.",
-      "defense": "Defensa base 75 (Esp. 100). Resistencia 105 PS.",
-      "hp": 105,
-      "stats": {
-        "attack": 105,
-        "defense": 75,
-        "spAttack": 65,
-        "spDefense": 100,
-        "speed": 50
-      },
-      "generation": 1
-    },
-    {
-      "id": 90,
-      "name": "Shellder",
-      "types": [
-        3
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/90.png",
-      "description": "Shellder es un Pokémon de la 1ª generación. Tipo(s): Agua.",
-      "attack": "Ataque base 65 (Esp. 45). Velocidad 40.",
-      "defense": "Defensa base 100 (Esp. 25). Resistencia 30 PS.",
-      "hp": 30,
-      "stats": {
-        "attack": 65,
-        "defense": 100,
-        "spAttack": 45,
-        "spDefense": 25,
-        "speed": 40
-      },
-      "generation": 1
-    },
-    {
-      "id": 91,
-      "name": "Cloyster",
-      "types": [
-        3,
-        6
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/91.png",
-      "description": "Cloyster es un Pokémon de la 1ª generación. Tipo(s): Agua, Hielo.",
-      "attack": "Ataque base 95 (Esp. 85). Velocidad 70.",
-      "defense": "Defensa base 180 (Esp. 45). Resistencia 50 PS.",
-      "hp": 50,
-      "stats": {
-        "attack": 95,
-        "defense": 180,
-        "spAttack": 85,
-        "spDefense": 45,
-        "speed": 70
-      },
-      "generation": 1
-    },
-    {
-      "id": 92,
-      "name": "Gastly",
-      "types": [
-        14,
-        8
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/92.png",
-      "description": "Gastly es un Pokémon de la 1ª generación. Tipo(s): Fantasma, Veneno.",
-      "attack": "Ataque base 35 (Esp. 100). Velocidad 80.",
-      "defense": "Defensa base 30 (Esp. 35). Resistencia 30 PS.",
-      "hp": 30,
-      "stats": {
-        "attack": 35,
-        "defense": 30,
-        "spAttack": 100,
-        "spDefense": 35,
-        "speed": 80
-      },
-      "generation": 1
-    },
-    {
-      "id": 93,
-      "name": "Haunter",
-      "types": [
-        14,
-        8
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/93.png",
-      "description": "Haunter es un Pokémon de la 1ª generación. Tipo(s): Fantasma, Veneno.",
-      "attack": "Ataque base 50 (Esp. 115). Velocidad 95.",
-      "defense": "Defensa base 45 (Esp. 55). Resistencia 45 PS.",
-      "hp": 45,
-      "stats": {
-        "attack": 50,
-        "defense": 45,
-        "spAttack": 115,
-        "spDefense": 55,
-        "speed": 95
-      },
-      "generation": 1
-    },
-    {
-      "id": 94,
-      "name": "Gengar",
-      "types": [
-        14,
-        8
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png",
-      "description": "Gengar es un Pokémon de la 1ª generación. Tipo(s): Fantasma, Veneno.",
-      "attack": "Ataque base 65 (Esp. 130). Velocidad 110.",
-      "defense": "Defensa base 60 (Esp. 75). Resistencia 60 PS.",
-      "hp": 60,
-      "stats": {
-        "attack": 65,
-        "defense": 60,
-        "spAttack": 130,
-        "spDefense": 75,
-        "speed": 110
-      },
-      "generation": 1
-    },
-    {
-      "id": 95,
-      "name": "Onix",
-      "types": [
-        13,
-        9
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/95.png",
-      "description": "Onix es un Pokémon de la 1ª generación. Tipo(s): Roca, Tierra.",
-      "attack": "Ataque base 45 (Esp. 30). Velocidad 70.",
-      "defense": "Defensa base 160 (Esp. 45). Resistencia 35 PS.",
-      "hp": 35,
-      "stats": {
-        "attack": 45,
-        "defense": 160,
-        "spAttack": 30,
-        "spDefense": 45,
-        "speed": 70
-      },
-      "generation": 1
-    },
-    {
-      "id": 96,
-      "name": "Drowzee",
-      "types": [
-        11
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/96.png",
-      "description": "Drowzee es un Pokémon de la 1ª generación. Tipo(s): Psíquico.",
-      "attack": "Ataque base 48 (Esp. 43). Velocidad 42.",
-      "defense": "Defensa base 45 (Esp. 90). Resistencia 60 PS.",
-      "hp": 60,
-      "stats": {
-        "attack": 48,
-        "defense": 45,
-        "spAttack": 43,
-        "spDefense": 90,
-        "speed": 42
-      },
-      "generation": 1
-    },
-    {
-      "id": 97,
-      "name": "Hypno",
-      "types": [
-        11
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/97.png",
-      "description": "Hypno es un Pokémon de la 1ª generación. Tipo(s): Psíquico.",
-      "attack": "Ataque base 73 (Esp. 73). Velocidad 67.",
-      "defense": "Defensa base 70 (Esp. 115). Resistencia 85 PS.",
-      "hp": 85,
-      "stats": {
-        "attack": 73,
-        "defense": 70,
-        "spAttack": 73,
-        "spDefense": 115,
-        "speed": 67
-      },
-      "generation": 1
-    },
-    {
-      "id": 98,
-      "name": "Krabby",
-      "types": [
-        3
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/98.png",
-      "description": "Krabby es un Pokémon de la 1ª generación. Tipo(s): Agua.",
-      "attack": "Ataque base 105 (Esp. 25). Velocidad 50.",
-      "defense": "Defensa base 90 (Esp. 25). Resistencia 30 PS.",
-      "hp": 30,
-      "stats": {
-        "attack": 105,
-        "defense": 90,
-        "spAttack": 25,
-        "spDefense": 25,
-        "speed": 50
-      },
-      "generation": 1
-    },
-    {
-      "id": 99,
-      "name": "Kingler",
-      "types": [
-        3
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/99.png",
-      "description": "Kingler es un Pokémon de la 1ª generación. Tipo(s): Agua.",
-      "attack": "Ataque base 130 (Esp. 50). Velocidad 75.",
-      "defense": "Defensa base 115 (Esp. 50). Resistencia 55 PS.",
-      "hp": 55,
-      "stats": {
-        "attack": 130,
-        "defense": 115,
-        "spAttack": 50,
-        "spDefense": 50,
-        "speed": 75
-      },
-      "generation": 1
-    },
-    {
-      "id": 100,
-      "name": "Voltorb",
-      "types": [
-        4
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/100.png",
-      "description": "Voltorb es un Pokémon de la 1ª generación. Tipo(s): Eléctrico.",
-      "attack": "Ataque base 30 (Esp. 55). Velocidad 100.",
-      "defense": "Defensa base 50 (Esp. 55). Resistencia 40 PS.",
-      "hp": 40,
-      "stats": {
-        "attack": 30,
-        "defense": 50,
-        "spAttack": 55,
-        "spDefense": 55,
-        "speed": 100
-      },
-      "generation": 1
-    },
-    {
-      "id": 101,
-      "name": "Electrode",
-      "types": [
-        4
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/101.png",
-      "description": "Electrode es un Pokémon de la 1ª generación. Tipo(s): Eléctrico.",
-      "attack": "Ataque base 50 (Esp. 80). Velocidad 150.",
-      "defense": "Defensa base 70 (Esp. 80). Resistencia 60 PS.",
-      "hp": 60,
-      "stats": {
-        "attack": 50,
-        "defense": 70,
-        "spAttack": 80,
-        "spDefense": 80,
-        "speed": 150
-      },
-      "generation": 1
-    },
-    {
-      "id": 102,
-      "name": "Exeggcute",
-      "types": [
-        5,
-        11
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/102.png",
-      "description": "Exeggcute es un Pokémon de la 1ª generación. Tipo(s): Planta, Psíquico.",
-      "attack": "Ataque base 40 (Esp. 60). Velocidad 40.",
-      "defense": "Defensa base 80 (Esp. 45). Resistencia 60 PS.",
-      "hp": 60,
-      "stats": {
-        "attack": 40,
-        "defense": 80,
-        "spAttack": 60,
-        "spDefense": 45,
-        "speed": 40
-      },
-      "generation": 1
-    },
-    {
-      "id": 103,
-      "name": "Exeggutor",
-      "types": [
-        5,
-        11
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/103.png",
-      "description": "Exeggutor es un Pokémon de la 1ª generación. Tipo(s): Planta, Psíquico.",
-      "attack": "Ataque base 95 (Esp. 125). Velocidad 55.",
-      "defense": "Defensa base 85 (Esp. 75). Resistencia 95 PS.",
-      "hp": 95,
-      "stats": {
-        "attack": 95,
-        "defense": 85,
-        "spAttack": 125,
-        "spDefense": 75,
-        "speed": 55
-      },
-      "generation": 1
-    },
-    {
-      "id": 104,
-      "name": "Cubone",
-      "types": [
-        9
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/104.png",
-      "description": "Cubone es un Pokémon de la 1ª generación. Tipo(s): Tierra.",
-      "attack": "Ataque base 50 (Esp. 40). Velocidad 35.",
-      "defense": "Defensa base 95 (Esp. 50). Resistencia 50 PS.",
-      "hp": 50,
-      "stats": {
-        "attack": 50,
-        "defense": 95,
-        "spAttack": 40,
-        "spDefense": 50,
-        "speed": 35
-      },
-      "generation": 1
-    },
-    {
-      "id": 105,
-      "name": "Marowak",
-      "types": [
-        9
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/105.png",
-      "description": "Marowak es un Pokémon de la 1ª generación. Tipo(s): Tierra.",
-      "attack": "Ataque base 80 (Esp. 50). Velocidad 45.",
-      "defense": "Defensa base 110 (Esp. 80). Resistencia 60 PS.",
-      "hp": 60,
-      "stats": {
-        "attack": 80,
-        "defense": 110,
-        "spAttack": 50,
-        "spDefense": 80,
-        "speed": 45
-      },
-      "generation": 1
-    },
-    {
-      "id": 106,
-      "name": "Hitmonlee",
-      "types": [
-        7
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/106.png",
-      "description": "Hitmonlee es un Pokémon de la 1ª generación. Tipo(s): Lucha.",
-      "attack": "Ataque base 120 (Esp. 35). Velocidad 87.",
-      "defense": "Defensa base 53 (Esp. 110). Resistencia 50 PS.",
-      "hp": 50,
-      "stats": {
-        "attack": 120,
-        "defense": 53,
-        "spAttack": 35,
-        "spDefense": 110,
-        "speed": 87
-      },
-      "generation": 1
-    },
-    {
-      "id": 107,
-      "name": "Hitmonchan",
-      "types": [
-        7
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/107.png",
-      "description": "Hitmonchan es un Pokémon de la 1ª generación. Tipo(s): Lucha.",
-      "attack": "Ataque base 105 (Esp. 35). Velocidad 76.",
-      "defense": "Defensa base 79 (Esp. 110). Resistencia 50 PS.",
-      "hp": 50,
-      "stats": {
-        "attack": 105,
-        "defense": 79,
-        "spAttack": 35,
-        "spDefense": 110,
-        "speed": 76
-      },
-      "generation": 1
-    },
-    {
-      "id": 108,
-      "name": "Lickitung",
-      "types": [
-        1
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/108.png",
-      "description": "Lickitung es un Pokémon de la 1ª generación. Tipo(s): Normal.",
-      "attack": "Ataque base 55 (Esp. 60). Velocidad 30.",
-      "defense": "Defensa base 75 (Esp. 75). Resistencia 90 PS.",
-      "hp": 90,
-      "stats": {
-        "attack": 55,
-        "defense": 75,
-        "spAttack": 60,
-        "spDefense": 75,
-        "speed": 30
-      },
-      "generation": 1
-    },
-    {
-      "id": 109,
-      "name": "Koffing",
-      "types": [
-        8
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/109.png",
-      "description": "Koffing es un Pokémon de la 1ª generación. Tipo(s): Veneno.",
-      "attack": "Ataque base 65 (Esp. 60). Velocidad 35.",
-      "defense": "Defensa base 95 (Esp. 45). Resistencia 40 PS.",
-      "hp": 40,
-      "stats": {
-        "attack": 65,
-        "defense": 95,
-        "spAttack": 60,
-        "spDefense": 45,
-        "speed": 35
-      },
-      "generation": 1
-    },
-    {
-      "id": 110,
-      "name": "Weezing",
-      "types": [
-        8
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/110.png",
-      "description": "Weezing es un Pokémon de la 1ª generación. Tipo(s): Veneno.",
-      "attack": "Ataque base 90 (Esp. 85). Velocidad 60.",
-      "defense": "Defensa base 120 (Esp. 70). Resistencia 65 PS.",
-      "hp": 65,
-      "stats": {
-        "attack": 90,
-        "defense": 120,
-        "spAttack": 85,
-        "spDefense": 70,
-        "speed": 60
-      },
-      "generation": 1
-    },
-    {
-      "id": 111,
-      "name": "Rhyhorn",
-      "types": [
-        9,
-        13
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/111.png",
-      "description": "Rhyhorn es un Pokémon de la 1ª generación. Tipo(s): Tierra, Roca.",
-      "attack": "Ataque base 85 (Esp. 30). Velocidad 25.",
-      "defense": "Defensa base 95 (Esp. 30). Resistencia 80 PS.",
-      "hp": 80,
-      "stats": {
-        "attack": 85,
-        "defense": 95,
-        "spAttack": 30,
-        "spDefense": 30,
-        "speed": 25
-      },
-      "generation": 1
-    },
-    {
-      "id": 112,
-      "name": "Rhydon",
-      "types": [
-        9,
-        13
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/112.png",
-      "description": "Rhydon es un Pokémon de la 1ª generación. Tipo(s): Tierra, Roca.",
-      "attack": "Ataque base 130 (Esp. 45). Velocidad 40.",
-      "defense": "Defensa base 120 (Esp. 45). Resistencia 105 PS.",
-      "hp": 105,
-      "stats": {
-        "attack": 130,
-        "defense": 120,
-        "spAttack": 45,
-        "spDefense": 45,
-        "speed": 40
-      },
-      "generation": 1
-    },
-    {
-      "id": 113,
-      "name": "Chansey",
-      "types": [
-        1
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/113.png",
-      "description": "Chansey es un Pokémon de la 1ª generación. Tipo(s): Normal.",
-      "attack": "Ataque base 5 (Esp. 35). Velocidad 50.",
-      "defense": "Defensa base 5 (Esp. 105). Resistencia 250 PS.",
-      "hp": 250,
-      "stats": {
-        "attack": 5,
-        "defense": 5,
-        "spAttack": 35,
-        "spDefense": 105,
-        "speed": 50
-      },
-      "generation": 1
-    },
-    {
-      "id": 114,
-      "name": "Tangela",
-      "types": [
-        5
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/114.png",
-      "description": "Tangela es un Pokémon de la 1ª generación. Tipo(s): Planta.",
-      "attack": "Ataque base 55 (Esp. 100). Velocidad 60.",
-      "defense": "Defensa base 115 (Esp. 40). Resistencia 65 PS.",
-      "hp": 65,
-      "stats": {
-        "attack": 55,
-        "defense": 115,
-        "spAttack": 100,
-        "spDefense": 40,
-        "speed": 60
-      },
-      "generation": 1
-    },
-    {
-      "id": 115,
-      "name": "Kangaskhan",
-      "types": [
-        1
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/115.png",
-      "description": "Kangaskhan es un Pokémon de la 1ª generación. Tipo(s): Normal.",
-      "attack": "Ataque base 95 (Esp. 40). Velocidad 90.",
-      "defense": "Defensa base 80 (Esp. 80). Resistencia 105 PS.",
-      "hp": 105,
-      "stats": {
-        "attack": 95,
-        "defense": 80,
-        "spAttack": 40,
-        "spDefense": 80,
-        "speed": 90
-      },
-      "generation": 1
-    },
-    {
-      "id": 116,
-      "name": "Horsea",
-      "types": [
-        3
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/116.png",
-      "description": "Horsea es un Pokémon de la 1ª generación. Tipo(s): Agua.",
-      "attack": "Ataque base 40 (Esp. 70). Velocidad 60.",
-      "defense": "Defensa base 70 (Esp. 25). Resistencia 30 PS.",
-      "hp": 30,
-      "stats": {
-        "attack": 40,
-        "defense": 70,
-        "spAttack": 70,
-        "spDefense": 25,
-        "speed": 60
-      },
-      "generation": 1
-    },
-    {
-      "id": 117,
-      "name": "Seadra",
-      "types": [
-        3
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/117.png",
-      "description": "Seadra es un Pokémon de la 1ª generación. Tipo(s): Agua.",
-      "attack": "Ataque base 65 (Esp. 95). Velocidad 85.",
-      "defense": "Defensa base 95 (Esp. 45). Resistencia 55 PS.",
-      "hp": 55,
-      "stats": {
-        "attack": 65,
-        "defense": 95,
-        "spAttack": 95,
-        "spDefense": 45,
-        "speed": 85
-      },
-      "generation": 1
-    },
-    {
-      "id": 118,
-      "name": "Goldeen",
-      "types": [
-        3
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/118.png",
-      "description": "Goldeen es un Pokémon de la 1ª generación. Tipo(s): Agua.",
-      "attack": "Ataque base 67 (Esp. 35). Velocidad 63.",
-      "defense": "Defensa base 60 (Esp. 50). Resistencia 45 PS.",
-      "hp": 45,
-      "stats": {
-        "attack": 67,
-        "defense": 60,
-        "spAttack": 35,
-        "spDefense": 50,
-        "speed": 63
-      },
-      "generation": 1
-    },
-    {
-      "id": 119,
-      "name": "Seaking",
-      "types": [
-        3
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/119.png",
-      "description": "Seaking es un Pokémon de la 1ª generación. Tipo(s): Agua.",
-      "attack": "Ataque base 92 (Esp. 65). Velocidad 68.",
-      "defense": "Defensa base 65 (Esp. 80). Resistencia 80 PS.",
-      "hp": 80,
-      "stats": {
-        "attack": 92,
-        "defense": 65,
-        "spAttack": 65,
-        "spDefense": 80,
-        "speed": 68
-      },
-      "generation": 1
-    },
-    {
-      "id": 120,
-      "name": "Staryu",
-      "types": [
-        3
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/120.png",
-      "description": "Staryu es un Pokémon de la 1ª generación. Tipo(s): Agua.",
-      "attack": "Ataque base 45 (Esp. 70). Velocidad 85.",
-      "defense": "Defensa base 55 (Esp. 55). Resistencia 30 PS.",
-      "hp": 30,
-      "stats": {
-        "attack": 45,
-        "defense": 55,
-        "spAttack": 70,
-        "spDefense": 55,
-        "speed": 85
-      },
-      "generation": 1
-    },
-    {
-      "id": 121,
-      "name": "Starmie",
-      "types": [
-        3,
-        11
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/121.png",
-      "description": "Starmie es un Pokémon de la 1ª generación. Tipo(s): Agua, Psíquico.",
-      "attack": "Ataque base 75 (Esp. 100). Velocidad 115.",
-      "defense": "Defensa base 85 (Esp. 85). Resistencia 60 PS.",
-      "hp": 60,
-      "stats": {
-        "attack": 75,
-        "defense": 85,
-        "spAttack": 100,
-        "spDefense": 85,
-        "speed": 115
-      },
-      "generation": 1
-    },
-    {
-      "id": 122,
-      "name": "Mr. Mime",
-      "types": [
-        11,
-        18
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/122.png",
-      "description": "Mr. Mime es un Pokémon de la 1ª generación. Tipo(s): Psíquico, Hada.",
-      "attack": "Ataque base 45 (Esp. 100). Velocidad 90.",
-      "defense": "Defensa base 65 (Esp. 120). Resistencia 40 PS.",
-      "hp": 40,
-      "stats": {
-        "attack": 45,
-        "defense": 65,
-        "spAttack": 100,
-        "spDefense": 120,
-        "speed": 90
-      },
-      "generation": 1
-    },
-    {
-      "id": 123,
-      "name": "Scyther",
-      "types": [
-        12,
-        10
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/123.png",
-      "description": "Scyther es un Pokémon de la 1ª generación. Tipo(s): Bicho, Volador.",
-      "attack": "Ataque base 110 (Esp. 55). Velocidad 105.",
-      "defense": "Defensa base 80 (Esp. 80). Resistencia 70 PS.",
-      "hp": 70,
-      "stats": {
-        "attack": 110,
-        "defense": 80,
-        "spAttack": 55,
-        "spDefense": 80,
-        "speed": 105
-      },
-      "generation": 1
-    },
-    {
-      "id": 124,
-      "name": "Jynx",
-      "types": [
-        6,
-        11
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/124.png",
-      "description": "Jynx es un Pokémon de la 1ª generación. Tipo(s): Hielo, Psíquico.",
-      "attack": "Ataque base 50 (Esp. 115). Velocidad 95.",
-      "defense": "Defensa base 35 (Esp. 95). Resistencia 65 PS.",
-      "hp": 65,
-      "stats": {
-        "attack": 50,
-        "defense": 35,
-        "spAttack": 115,
-        "spDefense": 95,
-        "speed": 95
-      },
-      "generation": 1
-    },
-    {
-      "id": 125,
-      "name": "Electabuzz",
-      "types": [
-        4
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/125.png",
-      "description": "Electabuzz es un Pokémon de la 1ª generación. Tipo(s): Eléctrico.",
-      "attack": "Ataque base 83 (Esp. 95). Velocidad 105.",
-      "defense": "Defensa base 57 (Esp. 85). Resistencia 65 PS.",
-      "hp": 65,
-      "stats": {
-        "attack": 83,
-        "defense": 57,
-        "spAttack": 95,
-        "spDefense": 85,
-        "speed": 105
-      },
-      "generation": 1
-    },
-    {
-      "id": 126,
-      "name": "Magmar",
-      "types": [
-        2
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/126.png",
-      "description": "Magmar es un Pokémon de la 1ª generación. Tipo(s): Fuego.",
-      "attack": "Ataque base 95 (Esp. 100). Velocidad 93.",
-      "defense": "Defensa base 57 (Esp. 85). Resistencia 65 PS.",
-      "hp": 65,
-      "stats": {
-        "attack": 95,
-        "defense": 57,
-        "spAttack": 100,
-        "spDefense": 85,
-        "speed": 93
-      },
-      "generation": 1
-    },
-    {
-      "id": 127,
-      "name": "Pinsir",
-      "types": [
-        12
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/127.png",
-      "description": "Pinsir es un Pokémon de la 1ª generación. Tipo(s): Bicho.",
-      "attack": "Ataque base 125 (Esp. 55). Velocidad 85.",
-      "defense": "Defensa base 100 (Esp. 70). Resistencia 65 PS.",
-      "hp": 65,
-      "stats": {
-        "attack": 125,
-        "defense": 100,
-        "spAttack": 55,
-        "spDefense": 70,
-        "speed": 85
-      },
-      "generation": 1
-    },
-    {
-      "id": 128,
-      "name": "Tauros",
-      "types": [
-        1
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/128.png",
-      "description": "Tauros es un Pokémon de la 1ª generación. Tipo(s): Normal.",
-      "attack": "Ataque base 100 (Esp. 40). Velocidad 110.",
-      "defense": "Defensa base 95 (Esp. 70). Resistencia 75 PS.",
-      "hp": 75,
-      "stats": {
-        "attack": 100,
-        "defense": 95,
-        "spAttack": 40,
-        "spDefense": 70,
-        "speed": 110
-      },
-      "generation": 1
-    },
-    {
-      "id": 129,
-      "name": "Magikarp",
-      "types": [
-        3
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png",
-      "description": "Magikarp es un Pokémon de la 1ª generación. Tipo(s): Agua.",
-      "attack": "Ataque base 10 (Esp. 15). Velocidad 80.",
-      "defense": "Defensa base 55 (Esp. 20). Resistencia 20 PS.",
-      "hp": 20,
-      "stats": {
-        "attack": 10,
-        "defense": 55,
-        "spAttack": 15,
-        "spDefense": 20,
-        "speed": 80
-      },
-      "generation": 1
-    },
-    {
-      "id": 130,
-      "name": "Gyarados",
-      "types": [
-        3,
-        10
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/130.png",
-      "description": "Gyarados es un Pokémon de la 1ª generación. Tipo(s): Agua, Volador.",
-      "attack": "Ataque base 125 (Esp. 60). Velocidad 81.",
-      "defense": "Defensa base 79 (Esp. 100). Resistencia 95 PS.",
-      "hp": 95,
-      "stats": {
-        "attack": 125,
-        "defense": 79,
-        "spAttack": 60,
-        "spDefense": 100,
-        "speed": 81
-      },
-      "generation": 1
-    },
-    {
-      "id": 131,
-      "name": "Lapras",
-      "types": [
-        3,
-        6
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/131.png",
-      "description": "Lapras es un Pokémon de la 1ª generación. Tipo(s): Agua, Hielo.",
-      "attack": "Ataque base 85 (Esp. 85). Velocidad 60.",
-      "defense": "Defensa base 80 (Esp. 95). Resistencia 130 PS.",
-      "hp": 130,
-      "stats": {
-        "attack": 85,
-        "defense": 80,
-        "spAttack": 85,
-        "spDefense": 95,
-        "speed": 60
-      },
-      "generation": 1
-    },
-    {
-      "id": 132,
-      "name": "Ditto",
-      "types": [
-        1
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/132.png",
-      "description": "Ditto es un Pokémon de la 1ª generación. Tipo(s): Normal.",
-      "attack": "Ataque base 48 (Esp. 48). Velocidad 48.",
-      "defense": "Defensa base 48 (Esp. 48). Resistencia 48 PS.",
-      "hp": 48,
-      "stats": {
-        "attack": 48,
-        "defense": 48,
-        "spAttack": 48,
-        "spDefense": 48,
-        "speed": 48
-      },
-      "generation": 1
-    },
-    {
-      "id": 133,
-      "name": "Eevee",
-      "types": [
-        1
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png",
-      "description": "Eevee es un Pokémon de la 1ª generación. Tipo(s): Normal.",
-      "attack": "Ataque base 55 (Esp. 45). Velocidad 55.",
-      "defense": "Defensa base 50 (Esp. 65). Resistencia 55 PS.",
-      "hp": 55,
-      "stats": {
-        "attack": 55,
-        "defense": 50,
-        "spAttack": 45,
-        "spDefense": 65,
-        "speed": 55
-      },
-      "generation": 1
-    },
-    {
-      "id": 134,
-      "name": "Vaporeon",
-      "types": [
-        3
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/134.png",
-      "description": "Vaporeon es un Pokémon de la 1ª generación. Tipo(s): Agua.",
-      "attack": "Ataque base 65 (Esp. 110). Velocidad 65.",
-      "defense": "Defensa base 60 (Esp. 95). Resistencia 130 PS.",
-      "hp": 130,
-      "stats": {
-        "attack": 65,
-        "defense": 60,
-        "spAttack": 110,
-        "spDefense": 95,
-        "speed": 65
-      },
-      "generation": 1
-    },
-    {
-      "id": 135,
-      "name": "Jolteon",
-      "types": [
-        4
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/135.png",
-      "description": "Jolteon es un Pokémon de la 1ª generación. Tipo(s): Eléctrico.",
-      "attack": "Ataque base 65 (Esp. 110). Velocidad 130.",
-      "defense": "Defensa base 60 (Esp. 95). Resistencia 65 PS.",
-      "hp": 65,
-      "stats": {
-        "attack": 65,
-        "defense": 60,
-        "spAttack": 110,
-        "spDefense": 95,
-        "speed": 130
-      },
-      "generation": 1
-    },
-    {
-      "id": 136,
-      "name": "Flareon",
-      "types": [
-        2
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/136.png",
-      "description": "Flareon es un Pokémon de la 1ª generación. Tipo(s): Fuego.",
-      "attack": "Ataque base 130 (Esp. 95). Velocidad 65.",
-      "defense": "Defensa base 60 (Esp. 110). Resistencia 65 PS.",
-      "hp": 65,
-      "stats": {
-        "attack": 130,
-        "defense": 60,
-        "spAttack": 95,
-        "spDefense": 110,
-        "speed": 65
-      },
-      "generation": 1
-    },
-    {
-      "id": 137,
-      "name": "Porygon",
-      "types": [
-        1
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/137.png",
-      "description": "Porygon es un Pokémon de la 1ª generación. Tipo(s): Normal.",
-      "attack": "Ataque base 60 (Esp. 85). Velocidad 40.",
-      "defense": "Defensa base 70 (Esp. 75). Resistencia 65 PS.",
-      "hp": 65,
-      "stats": {
-        "attack": 60,
-        "defense": 70,
-        "spAttack": 85,
-        "spDefense": 75,
-        "speed": 40
-      },
-      "generation": 1
-    },
-    {
-      "id": 138,
-      "name": "Omanyte",
-      "types": [
-        13,
-        3
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/138.png",
-      "description": "Omanyte es un Pokémon de la 1ª generación. Tipo(s): Roca, Agua.",
-      "attack": "Ataque base 40 (Esp. 90). Velocidad 35.",
-      "defense": "Defensa base 100 (Esp. 55). Resistencia 35 PS.",
-      "hp": 35,
-      "stats": {
-        "attack": 40,
-        "defense": 100,
-        "spAttack": 90,
-        "spDefense": 55,
-        "speed": 35
-      },
-      "generation": 1
-    },
-    {
-      "id": 139,
-      "name": "Omastar",
-      "types": [
-        13,
-        3
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/139.png",
-      "description": "Omastar es un Pokémon de la 1ª generación. Tipo(s): Roca, Agua.",
-      "attack": "Ataque base 60 (Esp. 115). Velocidad 55.",
-      "defense": "Defensa base 125 (Esp. 70). Resistencia 70 PS.",
-      "hp": 70,
-      "stats": {
-        "attack": 60,
-        "defense": 125,
-        "spAttack": 115,
-        "spDefense": 70,
-        "speed": 55
-      },
-      "generation": 1
-    },
-    {
-      "id": 140,
-      "name": "Kabuto",
-      "types": [
-        13,
-        3
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/140.png",
-      "description": "Kabuto es un Pokémon de la 1ª generación. Tipo(s): Roca, Agua.",
-      "attack": "Ataque base 80 (Esp. 55). Velocidad 55.",
-      "defense": "Defensa base 90 (Esp. 45). Resistencia 30 PS.",
-      "hp": 30,
-      "stats": {
-        "attack": 80,
-        "defense": 90,
-        "spAttack": 55,
-        "spDefense": 45,
-        "speed": 55
-      },
-      "generation": 1
-    },
-    {
-      "id": 141,
-      "name": "Kabutops",
-      "types": [
-        13,
-        3
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/141.png",
-      "description": "Kabutops es un Pokémon de la 1ª generación. Tipo(s): Roca, Agua.",
-      "attack": "Ataque base 115 (Esp. 65). Velocidad 80.",
-      "defense": "Defensa base 105 (Esp. 70). Resistencia 60 PS.",
-      "hp": 60,
-      "stats": {
-        "attack": 115,
-        "defense": 105,
-        "spAttack": 65,
-        "spDefense": 70,
-        "speed": 80
-      },
-      "generation": 1
-    },
-    {
-      "id": 142,
-      "name": "Aerodactyl",
-      "types": [
-        13,
-        10
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/142.png",
-      "description": "Aerodactyl es un Pokémon de la 1ª generación. Tipo(s): Roca, Volador.",
-      "attack": "Ataque base 105 (Esp. 60). Velocidad 130.",
-      "defense": "Defensa base 65 (Esp. 75). Resistencia 80 PS.",
-      "hp": 80,
-      "stats": {
-        "attack": 105,
-        "defense": 65,
-        "spAttack": 60,
-        "spDefense": 75,
-        "speed": 130
-      },
-      "generation": 1
-    },
-    {
-      "id": 143,
-      "name": "Snorlax",
-      "types": [
-        1
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/143.png",
-      "description": "Snorlax es un Pokémon de la 1ª generación. Tipo(s): Normal.",
-      "attack": "Ataque base 110 (Esp. 65). Velocidad 30.",
-      "defense": "Defensa base 65 (Esp. 110). Resistencia 160 PS.",
-      "hp": 160,
-      "stats": {
-        "attack": 110,
-        "defense": 65,
-        "spAttack": 65,
-        "spDefense": 110,
-        "speed": 30
-      },
-      "generation": 1
-    },
-    {
-      "id": 144,
-      "name": "Articuno",
-      "types": [
-        6,
-        10
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png",
-      "description": "Articuno es un Pokémon de la 1ª generación. Tipo(s): Hielo, Volador.",
-      "attack": "Ataque base 85 (Esp. 95). Velocidad 85.",
-      "defense": "Defensa base 100 (Esp. 125). Resistencia 90 PS.",
-      "hp": 90,
-      "stats": {
-        "attack": 85,
-        "defense": 100,
-        "spAttack": 95,
-        "spDefense": 125,
-        "speed": 85
-      },
-      "generation": 1
-    },
-    {
-      "id": 145,
-      "name": "Zapdos",
-      "types": [
-        4,
-        10
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png",
-      "description": "Zapdos es un Pokémon de la 1ª generación. Tipo(s): Eléctrico, Volador.",
-      "attack": "Ataque base 90 (Esp. 125). Velocidad 100.",
-      "defense": "Defensa base 85 (Esp. 90). Resistencia 90 PS.",
-      "hp": 90,
-      "stats": {
-        "attack": 90,
-        "defense": 85,
-        "spAttack": 125,
-        "spDefense": 90,
-        "speed": 100
-      },
-      "generation": 1
-    },
-    {
-      "id": 146,
-      "name": "Moltres",
-      "types": [
-        2,
-        10
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png",
-      "description": "Moltres es un Pokémon de la 1ª generación. Tipo(s): Fuego, Volador.",
-      "attack": "Ataque base 100 (Esp. 125). Velocidad 90.",
-      "defense": "Defensa base 90 (Esp. 85). Resistencia 90 PS.",
-      "hp": 90,
-      "stats": {
-        "attack": 100,
-        "defense": 90,
-        "spAttack": 125,
-        "spDefense": 85,
-        "speed": 90
-      },
-      "generation": 1
-    },
-    {
-      "id": 147,
-      "name": "Dratini",
-      "types": [
-        15
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/147.png",
-      "description": "Dratini es un Pokémon de la 1ª generación. Tipo(s): Dragón.",
-      "attack": "Ataque base 64 (Esp. 50). Velocidad 50.",
-      "defense": "Defensa base 45 (Esp. 50). Resistencia 41 PS.",
-      "hp": 41,
-      "stats": {
-        "attack": 64,
-        "defense": 45,
-        "spAttack": 50,
-        "spDefense": 50,
-        "speed": 50
-      },
-      "generation": 1
-    },
-    {
-      "id": 148,
-      "name": "Dragonair",
-      "types": [
-        15
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/148.png",
-      "description": "Dragonair es un Pokémon de la 1ª generación. Tipo(s): Dragón.",
-      "attack": "Ataque base 84 (Esp. 70). Velocidad 70.",
-      "defense": "Defensa base 65 (Esp. 70). Resistencia 61 PS.",
-      "hp": 61,
-      "stats": {
-        "attack": 84,
-        "defense": 65,
-        "spAttack": 70,
-        "spDefense": 70,
-        "speed": 70
-      },
-      "generation": 1
-    },
-    {
-      "id": 149,
-      "name": "Dragonite",
-      "types": [
-        15,
-        10
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
-      "description": "Dragonite es un Pokémon de la 1ª generación. Tipo(s): Dragón, Volador.",
-      "attack": "Ataque base 134 (Esp. 100). Velocidad 80.",
-      "defense": "Defensa base 95 (Esp. 100). Resistencia 91 PS.",
-      "hp": 91,
-      "stats": {
-        "attack": 134,
-        "defense": 95,
-        "spAttack": 100,
-        "spDefense": 100,
-        "speed": 80
-      },
-      "generation": 1
-    },
-    {
-      "id": 150,
-      "name": "Mewtwo",
-      "types": [
-        11
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png",
-      "description": "Mewtwo es un Pokémon de la 1ª generación. Tipo(s): Psíquico.",
-      "attack": "Ataque base 110 (Esp. 154). Velocidad 130.",
-      "defense": "Defensa base 90 (Esp. 90). Resistencia 106 PS.",
-      "hp": 106,
-      "stats": {
-        "attack": 110,
-        "defense": 90,
-        "spAttack": 154,
-        "spDefense": 90,
-        "speed": 130
-      },
-      "generation": 1
-    },
-    {
-      "id": 151,
-      "name": "Mew",
-      "types": [
-        11
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/151.png",
-      "description": "Mew es un Pokémon de la 1ª generación. Tipo(s): Psíquico.",
-      "attack": "Ataque base 100 (Esp. 100). Velocidad 100.",
-      "defense": "Defensa base 100 (Esp. 100). Resistencia 100 PS.",
-      "hp": 100,
-      "stats": {
-        "attack": 100,
-        "defense": 100,
-        "spAttack": 100,
-        "spDefense": 100,
-        "speed": 100
-      },
-      "generation": 1
-    }
-  ]
+  {
+    "id": 1,
+    "name": "Bulbasaur",
+    "types": [5, 8],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png",
+    "description": "Bulbasaur es un Pokémon de la 1ª generación. Tipo(s): Planta, Veneno.",
+    "attack": "Ataque base 49 (Esp. 65). Velocidad 45.",
+    "defense": "Defensa base 49 (Esp. 65). Resistencia 45 PS.",
+    "hp": 45,
+    "stats": {
+      "attack": 49,
+      "defense": 49,
+      "spAttack": 65,
+      "spDefense": 65,
+      "speed": 45
+    },
+    "generation": 1
+  },
+  {
+    "id": 2,
+    "name": "Ivysaur",
+    "types": [5, 8],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+    "description": "Ivysaur es un Pokémon de la 1ª generación. Tipo(s): Planta, Veneno.",
+    "attack": "Ataque base 62 (Esp. 80). Velocidad 60.",
+    "defense": "Defensa base 63 (Esp. 80). Resistencia 60 PS.",
+    "hp": 60,
+    "stats": {
+      "attack": 62,
+      "defense": 63,
+      "spAttack": 80,
+      "spDefense": 80,
+      "speed": 60
+    },
+    "generation": 1
+  },
+  {
+    "id": 3,
+    "name": "Venusaur",
+    "types": [5, 8],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png",
+    "description": "Venusaur es un Pokémon de la 1ª generación. Tipo(s): Planta, Veneno.",
+    "attack": "Ataque base 82 (Esp. 100). Velocidad 80.",
+    "defense": "Defensa base 83 (Esp. 100). Resistencia 80 PS.",
+    "hp": 80,
+    "stats": {
+      "attack": 82,
+      "defense": 83,
+      "spAttack": 100,
+      "spDefense": 100,
+      "speed": 80
+    },
+    "generation": 1
+  },
+  {
+    "id": 4,
+    "name": "Charmander",
+    "types": [2],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png",
+    "description": "Charmander es un Pokémon de la 1ª generación. Tipo(s): Fuego.",
+    "attack": "Ataque base 52 (Esp. 60). Velocidad 65.",
+    "defense": "Defensa base 43 (Esp. 50). Resistencia 39 PS.",
+    "hp": 39,
+    "stats": {
+      "attack": 52,
+      "defense": 43,
+      "spAttack": 60,
+      "spDefense": 50,
+      "speed": 65
+    },
+    "generation": 1
+  },
+  {
+    "id": 5,
+    "name": "Charmeleon",
+    "types": [2],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png",
+    "description": "Charmeleon es un Pokémon de la 1ª generación. Tipo(s): Fuego.",
+    "attack": "Ataque base 64 (Esp. 80). Velocidad 80.",
+    "defense": "Defensa base 58 (Esp. 65). Resistencia 58 PS.",
+    "hp": 58,
+    "stats": {
+      "attack": 64,
+      "defense": 58,
+      "spAttack": 80,
+      "spDefense": 65,
+      "speed": 80
+    },
+    "generation": 1
+  },
+  {
+    "id": 6,
+    "name": "Charizard",
+    "types": [2, 10],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
+    "description": "Charizard es un Pokémon de la 1ª generación. Tipo(s): Fuego, Volador.",
+    "attack": "Ataque base 84 (Esp. 109). Velocidad 100.",
+    "defense": "Defensa base 78 (Esp. 85). Resistencia 78 PS.",
+    "hp": 78,
+    "stats": {
+      "attack": 84,
+      "defense": 78,
+      "spAttack": 109,
+      "spDefense": 85,
+      "speed": 100
+    },
+    "generation": 1
+  },
+  {
+    "id": 7,
+    "name": "Squirtle",
+    "types": [3],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png",
+    "description": "Squirtle es un Pokémon de la 1ª generación. Tipo(s): Agua.",
+    "attack": "Ataque base 48 (Esp. 50). Velocidad 43.",
+    "defense": "Defensa base 65 (Esp. 64). Resistencia 44 PS.",
+    "hp": 44,
+    "stats": {
+      "attack": 48,
+      "defense": 65,
+      "spAttack": 50,
+      "spDefense": 64,
+      "speed": 43
+    },
+    "generation": 1
+  },
+  {
+    "id": 8,
+    "name": "Wartortle",
+    "types": [3],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/8.png",
+    "description": "Wartortle es un Pokémon de la 1ª generación. Tipo(s): Agua.",
+    "attack": "Ataque base 63 (Esp. 65). Velocidad 58.",
+    "defense": "Defensa base 80 (Esp. 80). Resistencia 59 PS.",
+    "hp": 59,
+    "stats": {
+      "attack": 63,
+      "defense": 80,
+      "spAttack": 65,
+      "spDefense": 80,
+      "speed": 58
+    },
+    "generation": 1
+  },
+  {
+    "id": 9,
+    "name": "Blastoise",
+    "types": [3],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png",
+    "description": "Blastoise es un Pokémon de la 1ª generación. Tipo(s): Agua.",
+    "attack": "Ataque base 83 (Esp. 85). Velocidad 78.",
+    "defense": "Defensa base 100 (Esp. 105). Resistencia 79 PS.",
+    "hp": 79,
+    "stats": {
+      "attack": 83,
+      "defense": 100,
+      "spAttack": 85,
+      "spDefense": 105,
+      "speed": 78
+    },
+    "generation": 1
+  },
+  {
+    "id": 10,
+    "name": "Caterpie",
+    "types": [12],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10.png",
+    "description": "Caterpie es un Pokémon de la 1ª generación. Tipo(s): Bicho.",
+    "attack": "Ataque base 30 (Esp. 20). Velocidad 45.",
+    "defense": "Defensa base 35 (Esp. 20). Resistencia 45 PS.",
+    "hp": 45,
+    "stats": {
+      "attack": 30,
+      "defense": 35,
+      "spAttack": 20,
+      "spDefense": 20,
+      "speed": 45
+    },
+    "generation": 1
+  },
+  {
+    "id": 11,
+    "name": "Metapod",
+    "types": [12],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/11.png",
+    "description": "Metapod es un Pokémon de la 1ª generación. Tipo(s): Bicho.",
+    "attack": "Ataque base 20 (Esp. 25). Velocidad 30.",
+    "defense": "Defensa base 55 (Esp. 25). Resistencia 50 PS.",
+    "hp": 50,
+    "stats": {
+      "attack": 20,
+      "defense": 55,
+      "spAttack": 25,
+      "spDefense": 25,
+      "speed": 30
+    },
+    "generation": 1
+  },
+  {
+    "id": 12,
+    "name": "Butterfree",
+    "types": [12, 10],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/12.png",
+    "description": "Butterfree es un Pokémon de la 1ª generación. Tipo(s): Bicho, Volador.",
+    "attack": "Ataque base 45 (Esp. 90). Velocidad 70.",
+    "defense": "Defensa base 50 (Esp. 80). Resistencia 60 PS.",
+    "hp": 60,
+    "stats": {
+      "attack": 45,
+      "defense": 50,
+      "spAttack": 90,
+      "spDefense": 80,
+      "speed": 70
+    },
+    "generation": 1
+  },
+  {
+    "id": 13,
+    "name": "Weedle",
+    "types": [12, 8],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/13.png",
+    "description": "Weedle es un Pokémon de la 1ª generación. Tipo(s): Bicho, Veneno.",
+    "attack": "Ataque base 35 (Esp. 20). Velocidad 50.",
+    "defense": "Defensa base 30 (Esp. 20). Resistencia 40 PS.",
+    "hp": 40,
+    "stats": {
+      "attack": 35,
+      "defense": 30,
+      "spAttack": 20,
+      "spDefense": 20,
+      "speed": 50
+    },
+    "generation": 1
+  },
+  {
+    "id": 14,
+    "name": "Kakuna",
+    "types": [12, 8],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/14.png",
+    "description": "Kakuna es un Pokémon de la 1ª generación. Tipo(s): Bicho, Veneno.",
+    "attack": "Ataque base 25 (Esp. 25). Velocidad 35.",
+    "defense": "Defensa base 50 (Esp. 25). Resistencia 45 PS.",
+    "hp": 45,
+    "stats": {
+      "attack": 25,
+      "defense": 50,
+      "spAttack": 25,
+      "spDefense": 25,
+      "speed": 35
+    },
+    "generation": 1
+  },
+  {
+    "id": 15,
+    "name": "Beedrill",
+    "types": [12, 8],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/15.png",
+    "description": "Beedrill es un Pokémon de la 1ª generación. Tipo(s): Bicho, Veneno.",
+    "attack": "Ataque base 90 (Esp. 45). Velocidad 75.",
+    "defense": "Defensa base 40 (Esp. 80). Resistencia 65 PS.",
+    "hp": 65,
+    "stats": {
+      "attack": 90,
+      "defense": 40,
+      "spAttack": 45,
+      "spDefense": 80,
+      "speed": 75
+    },
+    "generation": 1
+  },
+  {
+    "id": 16,
+    "name": "Pidgey",
+    "types": [1, 10],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png",
+    "description": "Pidgey es un Pokémon de la 1ª generación. Tipo(s): Normal, Volador.",
+    "attack": "Ataque base 45 (Esp. 35). Velocidad 56.",
+    "defense": "Defensa base 40 (Esp. 35). Resistencia 40 PS.",
+    "hp": 40,
+    "stats": {
+      "attack": 45,
+      "defense": 40,
+      "spAttack": 35,
+      "spDefense": 35,
+      "speed": 56
+    },
+    "generation": 1
+  },
+  {
+    "id": 17,
+    "name": "Pidgeotto",
+    "types": [1, 10],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png",
+    "description": "Pidgeotto es un Pokémon de la 1ª generación. Tipo(s): Normal, Volador.",
+    "attack": "Ataque base 60 (Esp. 50). Velocidad 71.",
+    "defense": "Defensa base 55 (Esp. 50). Resistencia 63 PS.",
+    "hp": 63,
+    "stats": {
+      "attack": 60,
+      "defense": 55,
+      "spAttack": 50,
+      "spDefense": 50,
+      "speed": 71
+    },
+    "generation": 1
+  },
+  {
+    "id": 18,
+    "name": "Pidgeot",
+    "types": [1, 10],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png",
+    "description": "Pidgeot es un Pokémon de la 1ª generación. Tipo(s): Normal, Volador.",
+    "attack": "Ataque base 80 (Esp. 70). Velocidad 101.",
+    "defense": "Defensa base 75 (Esp. 70). Resistencia 83 PS.",
+    "hp": 83,
+    "stats": {
+      "attack": 80,
+      "defense": 75,
+      "spAttack": 70,
+      "spDefense": 70,
+      "speed": 101
+    },
+    "generation": 1
+  },
+  {
+    "id": 19,
+    "name": "Rattata",
+    "types": [1],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/19.png",
+    "description": "Rattata es un Pokémon de la 1ª generación. Tipo(s): Normal.",
+    "attack": "Ataque base 56 (Esp. 25). Velocidad 72.",
+    "defense": "Defensa base 35 (Esp. 35). Resistencia 30 PS.",
+    "hp": 30,
+    "stats": {
+      "attack": 56,
+      "defense": 35,
+      "spAttack": 25,
+      "spDefense": 35,
+      "speed": 72
+    },
+    "generation": 1
+  },
+  {
+    "id": 20,
+    "name": "Raticate",
+    "types": [1],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/20.png",
+    "description": "Raticate es un Pokémon de la 1ª generación. Tipo(s): Normal.",
+    "attack": "Ataque base 81 (Esp. 50). Velocidad 97.",
+    "defense": "Defensa base 60 (Esp. 70). Resistencia 55 PS.",
+    "hp": 55,
+    "stats": {
+      "attack": 81,
+      "defense": 60,
+      "spAttack": 50,
+      "spDefense": 70,
+      "speed": 97
+    },
+    "generation": 1
+  },
+  {
+    "id": 21,
+    "name": "Spearow",
+    "types": [1, 10],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/21.png",
+    "description": "Spearow es un Pokémon de la 1ª generación. Tipo(s): Normal, Volador.",
+    "attack": "Ataque base 60 (Esp. 31). Velocidad 70.",
+    "defense": "Defensa base 30 (Esp. 31). Resistencia 40 PS.",
+    "hp": 40,
+    "stats": {
+      "attack": 60,
+      "defense": 30,
+      "spAttack": 31,
+      "spDefense": 31,
+      "speed": 70
+    },
+    "generation": 1
+  },
+  {
+    "id": 22,
+    "name": "Fearow",
+    "types": [1, 10],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/22.png",
+    "description": "Fearow es un Pokémon de la 1ª generación. Tipo(s): Normal, Volador.",
+    "attack": "Ataque base 90 (Esp. 61). Velocidad 100.",
+    "defense": "Defensa base 65 (Esp. 61). Resistencia 65 PS.",
+    "hp": 65,
+    "stats": {
+      "attack": 90,
+      "defense": 65,
+      "spAttack": 61,
+      "spDefense": 61,
+      "speed": 100
+    },
+    "generation": 1
+  },
+  {
+    "id": 23,
+    "name": "Ekans",
+    "types": [8],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/23.png",
+    "description": "Ekans es un Pokémon de la 1ª generación. Tipo(s): Veneno.",
+    "attack": "Ataque base 60 (Esp. 40). Velocidad 55.",
+    "defense": "Defensa base 44 (Esp. 54). Resistencia 35 PS.",
+    "hp": 35,
+    "stats": {
+      "attack": 60,
+      "defense": 44,
+      "spAttack": 40,
+      "spDefense": 54,
+      "speed": 55
+    },
+    "generation": 1
+  },
+  {
+    "id": 24,
+    "name": "Arbok",
+    "types": [8],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/24.png",
+    "description": "Arbok es un Pokémon de la 1ª generación. Tipo(s): Veneno.",
+    "attack": "Ataque base 95 (Esp. 65). Velocidad 80.",
+    "defense": "Defensa base 69 (Esp. 79). Resistencia 60 PS.",
+    "hp": 60,
+    "stats": {
+      "attack": 95,
+      "defense": 69,
+      "spAttack": 65,
+      "spDefense": 79,
+      "speed": 80
+    },
+    "generation": 1
+  },
+  {
+    "id": 25,
+    "name": "Pikachu",
+    "types": [4],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
+    "description": "Pikachu es un Pokémon de la 1ª generación. Tipo(s): Eléctrico.",
+    "attack": "Ataque base 55 (Esp. 50). Velocidad 90.",
+    "defense": "Defensa base 40 (Esp. 50). Resistencia 35 PS.",
+    "hp": 35,
+    "stats": {
+      "attack": 55,
+      "defense": 40,
+      "spAttack": 50,
+      "spDefense": 50,
+      "speed": 90
+    },
+    "generation": 1
+  },
+  {
+    "id": 26,
+    "name": "Raichu",
+    "types": [4],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png",
+    "description": "Raichu es un Pokémon de la 1ª generación. Tipo(s): Eléctrico.",
+    "attack": "Ataque base 90 (Esp. 90). Velocidad 110.",
+    "defense": "Defensa base 55 (Esp. 80). Resistencia 60 PS.",
+    "hp": 60,
+    "stats": {
+      "attack": 90,
+      "defense": 55,
+      "spAttack": 90,
+      "spDefense": 80,
+      "speed": 110
+    },
+    "generation": 1
+  },
+  {
+    "id": 27,
+    "name": "Sandshrew",
+    "types": [9],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/27.png",
+    "description": "Sandshrew es un Pokémon de la 1ª generación. Tipo(s): Tierra.",
+    "attack": "Ataque base 75 (Esp. 20). Velocidad 40.",
+    "defense": "Defensa base 85 (Esp. 30). Resistencia 50 PS.",
+    "hp": 50,
+    "stats": {
+      "attack": 75,
+      "defense": 85,
+      "spAttack": 20,
+      "spDefense": 30,
+      "speed": 40
+    },
+    "generation": 1
+  },
+  {
+    "id": 28,
+    "name": "Sandslash",
+    "types": [9],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/28.png",
+    "description": "Sandslash es un Pokémon de la 1ª generación. Tipo(s): Tierra.",
+    "attack": "Ataque base 100 (Esp. 45). Velocidad 65.",
+    "defense": "Defensa base 110 (Esp. 55). Resistencia 75 PS.",
+    "hp": 75,
+    "stats": {
+      "attack": 100,
+      "defense": 110,
+      "spAttack": 45,
+      "spDefense": 55,
+      "speed": 65
+    },
+    "generation": 1
+  },
+  {
+    "id": 29,
+    "name": "Nidoran♀",
+    "types": [8],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/29.png",
+    "description": "Nidoran♀ es un Pokémon de la 1ª generación. Tipo(s): Veneno.",
+    "attack": "Ataque base 47 (Esp. 40). Velocidad 41.",
+    "defense": "Defensa base 52 (Esp. 40). Resistencia 55 PS.",
+    "hp": 55,
+    "stats": {
+      "attack": 47,
+      "defense": 52,
+      "spAttack": 40,
+      "spDefense": 40,
+      "speed": 41
+    },
+    "generation": 1
+  },
+  {
+    "id": 30,
+    "name": "Nidorina",
+    "types": [8],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/30.png",
+    "description": "Nidorina es un Pokémon de la 1ª generación. Tipo(s): Veneno.",
+    "attack": "Ataque base 62 (Esp. 55). Velocidad 56.",
+    "defense": "Defensa base 67 (Esp. 55). Resistencia 70 PS.",
+    "hp": 70,
+    "stats": {
+      "attack": 62,
+      "defense": 67,
+      "spAttack": 55,
+      "spDefense": 55,
+      "speed": 56
+    },
+    "generation": 1
+  },
+  {
+    "id": 31,
+    "name": "Nidoqueen",
+    "types": [8, 9],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/31.png",
+    "description": "Nidoqueen es un Pokémon de la 1ª generación. Tipo(s): Veneno, Tierra.",
+    "attack": "Ataque base 92 (Esp. 75). Velocidad 76.",
+    "defense": "Defensa base 87 (Esp. 85). Resistencia 90 PS.",
+    "hp": 90,
+    "stats": {
+      "attack": 92,
+      "defense": 87,
+      "spAttack": 75,
+      "spDefense": 85,
+      "speed": 76
+    },
+    "generation": 1
+  },
+  {
+    "id": 32,
+    "name": "Nidoran♂",
+    "types": [8],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/32.png",
+    "description": "Nidoran♂ es un Pokémon de la 1ª generación. Tipo(s): Veneno.",
+    "attack": "Ataque base 57 (Esp. 40). Velocidad 50.",
+    "defense": "Defensa base 40 (Esp. 40). Resistencia 46 PS.",
+    "hp": 46,
+    "stats": {
+      "attack": 57,
+      "defense": 40,
+      "spAttack": 40,
+      "spDefense": 40,
+      "speed": 50
+    },
+    "generation": 1
+  },
+  {
+    "id": 33,
+    "name": "Nidorino",
+    "types": [8],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/33.png",
+    "description": "Nidorino es un Pokémon de la 1ª generación. Tipo(s): Veneno.",
+    "attack": "Ataque base 72 (Esp. 55). Velocidad 65.",
+    "defense": "Defensa base 57 (Esp. 55). Resistencia 61 PS.",
+    "hp": 61,
+    "stats": {
+      "attack": 72,
+      "defense": 57,
+      "spAttack": 55,
+      "spDefense": 55,
+      "speed": 65
+    },
+    "generation": 1
+  },
+  {
+    "id": 34,
+    "name": "Nidoking",
+    "types": [8, 9],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/34.png",
+    "description": "Nidoking es un Pokémon de la 1ª generación. Tipo(s): Veneno, Tierra.",
+    "attack": "Ataque base 102 (Esp. 85). Velocidad 85.",
+    "defense": "Defensa base 77 (Esp. 75). Resistencia 81 PS.",
+    "hp": 81,
+    "stats": {
+      "attack": 102,
+      "defense": 77,
+      "spAttack": 85,
+      "spDefense": 75,
+      "speed": 85
+    },
+    "generation": 1
+  },
+  {
+    "id": 35,
+    "name": "Clefairy",
+    "types": [18],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/35.png",
+    "description": "Clefairy es un Pokémon de la 1ª generación. Tipo(s): Hada.",
+    "attack": "Ataque base 45 (Esp. 60). Velocidad 35.",
+    "defense": "Defensa base 48 (Esp. 65). Resistencia 70 PS.",
+    "hp": 70,
+    "stats": {
+      "attack": 45,
+      "defense": 48,
+      "spAttack": 60,
+      "spDefense": 65,
+      "speed": 35
+    },
+    "generation": 1
+  },
+  {
+    "id": 36,
+    "name": "Clefable",
+    "types": [18],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/36.png",
+    "description": "Clefable es un Pokémon de la 1ª generación. Tipo(s): Hada.",
+    "attack": "Ataque base 70 (Esp. 95). Velocidad 60.",
+    "defense": "Defensa base 73 (Esp. 90). Resistencia 95 PS.",
+    "hp": 95,
+    "stats": {
+      "attack": 70,
+      "defense": 73,
+      "spAttack": 95,
+      "spDefense": 90,
+      "speed": 60
+    },
+    "generation": 1
+  },
+  {
+    "id": 37,
+    "name": "Vulpix",
+    "types": [2],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/37.png",
+    "description": "Vulpix es un Pokémon de la 1ª generación. Tipo(s): Fuego.",
+    "attack": "Ataque base 41 (Esp. 50). Velocidad 65.",
+    "defense": "Defensa base 40 (Esp. 65). Resistencia 38 PS.",
+    "hp": 38,
+    "stats": {
+      "attack": 41,
+      "defense": 40,
+      "spAttack": 50,
+      "spDefense": 65,
+      "speed": 65
+    },
+    "generation": 1
+  },
+  {
+    "id": 38,
+    "name": "Ninetales",
+    "types": [2],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/38.png",
+    "description": "Ninetales es un Pokémon de la 1ª generación. Tipo(s): Fuego.",
+    "attack": "Ataque base 76 (Esp. 81). Velocidad 100.",
+    "defense": "Defensa base 75 (Esp. 100). Resistencia 73 PS.",
+    "hp": 73,
+    "stats": {
+      "attack": 76,
+      "defense": 75,
+      "spAttack": 81,
+      "spDefense": 100,
+      "speed": 100
+    },
+    "generation": 1
+  },
+  {
+    "id": 39,
+    "name": "Jigglypuff",
+    "types": [1, 18],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/39.png",
+    "description": "Jigglypuff es un Pokémon de la 1ª generación. Tipo(s): Normal, Hada.",
+    "attack": "Ataque base 45 (Esp. 45). Velocidad 20.",
+    "defense": "Defensa base 20 (Esp. 25). Resistencia 115 PS.",
+    "hp": 115,
+    "stats": {
+      "attack": 45,
+      "defense": 20,
+      "spAttack": 45,
+      "spDefense": 25,
+      "speed": 20
+    },
+    "generation": 1
+  },
+  {
+    "id": 40,
+    "name": "Wigglytuff",
+    "types": [1, 18],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/40.png",
+    "description": "Wigglytuff es un Pokémon de la 1ª generación. Tipo(s): Normal, Hada.",
+    "attack": "Ataque base 70 (Esp. 85). Velocidad 45.",
+    "defense": "Defensa base 45 (Esp. 50). Resistencia 140 PS.",
+    "hp": 140,
+    "stats": {
+      "attack": 70,
+      "defense": 45,
+      "spAttack": 85,
+      "spDefense": 50,
+      "speed": 45
+    },
+    "generation": 1
+  },
+  {
+    "id": 41,
+    "name": "Zubat",
+    "types": [8, 10],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/41.png",
+    "description": "Zubat es un Pokémon de la 1ª generación. Tipo(s): Veneno, Volador.",
+    "attack": "Ataque base 45 (Esp. 30). Velocidad 55.",
+    "defense": "Defensa base 35 (Esp. 40). Resistencia 40 PS.",
+    "hp": 40,
+    "stats": {
+      "attack": 45,
+      "defense": 35,
+      "spAttack": 30,
+      "spDefense": 40,
+      "speed": 55
+    },
+    "generation": 1
+  },
+  {
+    "id": 42,
+    "name": "Golbat",
+    "types": [8, 10],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/42.png",
+    "description": "Golbat es un Pokémon de la 1ª generación. Tipo(s): Veneno, Volador.",
+    "attack": "Ataque base 80 (Esp. 65). Velocidad 90.",
+    "defense": "Defensa base 70 (Esp. 75). Resistencia 75 PS.",
+    "hp": 75,
+    "stats": {
+      "attack": 80,
+      "defense": 70,
+      "spAttack": 65,
+      "spDefense": 75,
+      "speed": 90
+    },
+    "generation": 1
+  },
+  {
+    "id": 43,
+    "name": "Oddish",
+    "types": [5, 8],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/43.png",
+    "description": "Oddish es un Pokémon de la 1ª generación. Tipo(s): Planta, Veneno.",
+    "attack": "Ataque base 50 (Esp. 75). Velocidad 30.",
+    "defense": "Defensa base 55 (Esp. 65). Resistencia 45 PS.",
+    "hp": 45,
+    "stats": {
+      "attack": 50,
+      "defense": 55,
+      "spAttack": 75,
+      "spDefense": 65,
+      "speed": 30
+    },
+    "generation": 1
+  },
+  {
+    "id": 44,
+    "name": "Gloom",
+    "types": [5, 8],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/44.png",
+    "description": "Gloom es un Pokémon de la 1ª generación. Tipo(s): Planta, Veneno.",
+    "attack": "Ataque base 65 (Esp. 85). Velocidad 40.",
+    "defense": "Defensa base 70 (Esp. 75). Resistencia 60 PS.",
+    "hp": 60,
+    "stats": {
+      "attack": 65,
+      "defense": 70,
+      "spAttack": 85,
+      "spDefense": 75,
+      "speed": 40
+    },
+    "generation": 1
+  },
+  {
+    "id": 45,
+    "name": "Vileplume",
+    "types": [5, 8],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/45.png",
+    "description": "Vileplume es un Pokémon de la 1ª generación. Tipo(s): Planta, Veneno.",
+    "attack": "Ataque base 80 (Esp. 110). Velocidad 50.",
+    "defense": "Defensa base 85 (Esp. 90). Resistencia 75 PS.",
+    "hp": 75,
+    "stats": {
+      "attack": 80,
+      "defense": 85,
+      "spAttack": 110,
+      "spDefense": 90,
+      "speed": 50
+    },
+    "generation": 1
+  },
+  {
+    "id": 46,
+    "name": "Paras",
+    "types": [12, 5],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/46.png",
+    "description": "Paras es un Pokémon de la 1ª generación. Tipo(s): Bicho, Planta.",
+    "attack": "Ataque base 70 (Esp. 45). Velocidad 25.",
+    "defense": "Defensa base 55 (Esp. 55). Resistencia 35 PS.",
+    "hp": 35,
+    "stats": {
+      "attack": 70,
+      "defense": 55,
+      "spAttack": 45,
+      "spDefense": 55,
+      "speed": 25
+    },
+    "generation": 1
+  },
+  {
+    "id": 47,
+    "name": "Parasect",
+    "types": [12, 5],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/47.png",
+    "description": "Parasect es un Pokémon de la 1ª generación. Tipo(s): Bicho, Planta.",
+    "attack": "Ataque base 95 (Esp. 60). Velocidad 30.",
+    "defense": "Defensa base 80 (Esp. 80). Resistencia 60 PS.",
+    "hp": 60,
+    "stats": {
+      "attack": 95,
+      "defense": 80,
+      "spAttack": 60,
+      "spDefense": 80,
+      "speed": 30
+    },
+    "generation": 1
+  },
+  {
+    "id": 48,
+    "name": "Venonat",
+    "types": [12, 8],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/48.png",
+    "description": "Venonat es un Pokémon de la 1ª generación. Tipo(s): Bicho, Veneno.",
+    "attack": "Ataque base 55 (Esp. 40). Velocidad 45.",
+    "defense": "Defensa base 50 (Esp. 55). Resistencia 60 PS.",
+    "hp": 60,
+    "stats": {
+      "attack": 55,
+      "defense": 50,
+      "spAttack": 40,
+      "spDefense": 55,
+      "speed": 45
+    },
+    "generation": 1
+  },
+  {
+    "id": 49,
+    "name": "Venomoth",
+    "types": [12, 8],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/49.png",
+    "description": "Venomoth es un Pokémon de la 1ª generación. Tipo(s): Bicho, Veneno.",
+    "attack": "Ataque base 65 (Esp. 90). Velocidad 90.",
+    "defense": "Defensa base 60 (Esp. 75). Resistencia 70 PS.",
+    "hp": 70,
+    "stats": {
+      "attack": 65,
+      "defense": 60,
+      "spAttack": 90,
+      "spDefense": 75,
+      "speed": 90
+    },
+    "generation": 1
+  },
+  {
+    "id": 50,
+    "name": "Diglett",
+    "types": [9],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/50.png",
+    "description": "Diglett es un Pokémon de la 1ª generación. Tipo(s): Tierra.",
+    "attack": "Ataque base 55 (Esp. 35). Velocidad 95.",
+    "defense": "Defensa base 25 (Esp. 45). Resistencia 10 PS.",
+    "hp": 10,
+    "stats": {
+      "attack": 55,
+      "defense": 25,
+      "spAttack": 35,
+      "spDefense": 45,
+      "speed": 95
+    },
+    "generation": 1
+  },
+  {
+    "id": 51,
+    "name": "Dugtrio",
+    "types": [9],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/51.png",
+    "description": "Dugtrio es un Pokémon de la 1ª generación. Tipo(s): Tierra.",
+    "attack": "Ataque base 100 (Esp. 50). Velocidad 120.",
+    "defense": "Defensa base 50 (Esp. 70). Resistencia 35 PS.",
+    "hp": 35,
+    "stats": {
+      "attack": 100,
+      "defense": 50,
+      "spAttack": 50,
+      "spDefense": 70,
+      "speed": 120
+    },
+    "generation": 1
+  },
+  {
+    "id": 52,
+    "name": "Meowth",
+    "types": [1],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/52.png",
+    "description": "Meowth es un Pokémon de la 1ª generación. Tipo(s): Normal.",
+    "attack": "Ataque base 45 (Esp. 40). Velocidad 90.",
+    "defense": "Defensa base 35 (Esp. 40). Resistencia 40 PS.",
+    "hp": 40,
+    "stats": {
+      "attack": 45,
+      "defense": 35,
+      "spAttack": 40,
+      "spDefense": 40,
+      "speed": 90
+    },
+    "generation": 1
+  },
+  {
+    "id": 53,
+    "name": "Persian",
+    "types": [1],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/53.png",
+    "description": "Persian es un Pokémon de la 1ª generación. Tipo(s): Normal.",
+    "attack": "Ataque base 70 (Esp. 65). Velocidad 115.",
+    "defense": "Defensa base 60 (Esp. 65). Resistencia 65 PS.",
+    "hp": 65,
+    "stats": {
+      "attack": 70,
+      "defense": 60,
+      "spAttack": 65,
+      "spDefense": 65,
+      "speed": 115
+    },
+    "generation": 1
+  },
+  {
+    "id": 54,
+    "name": "Psyduck",
+    "types": [3],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/54.png",
+    "description": "Psyduck es un Pokémon de la 1ª generación. Tipo(s): Agua.",
+    "attack": "Ataque base 52 (Esp. 65). Velocidad 55.",
+    "defense": "Defensa base 48 (Esp. 50). Resistencia 50 PS.",
+    "hp": 50,
+    "stats": {
+      "attack": 52,
+      "defense": 48,
+      "spAttack": 65,
+      "spDefense": 50,
+      "speed": 55
+    },
+    "generation": 1
+  },
+  {
+    "id": 55,
+    "name": "Golduck",
+    "types": [3],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/55.png",
+    "description": "Golduck es un Pokémon de la 1ª generación. Tipo(s): Agua.",
+    "attack": "Ataque base 82 (Esp. 95). Velocidad 85.",
+    "defense": "Defensa base 78 (Esp. 80). Resistencia 80 PS.",
+    "hp": 80,
+    "stats": {
+      "attack": 82,
+      "defense": 78,
+      "spAttack": 95,
+      "spDefense": 80,
+      "speed": 85
+    },
+    "generation": 1
+  },
+  {
+    "id": 56,
+    "name": "Mankey",
+    "types": [7],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/56.png",
+    "description": "Mankey es un Pokémon de la 1ª generación. Tipo(s): Lucha.",
+    "attack": "Ataque base 80 (Esp. 35). Velocidad 70.",
+    "defense": "Defensa base 35 (Esp. 45). Resistencia 40 PS.",
+    "hp": 40,
+    "stats": {
+      "attack": 80,
+      "defense": 35,
+      "spAttack": 35,
+      "spDefense": 45,
+      "speed": 70
+    },
+    "generation": 1
+  },
+  {
+    "id": 57,
+    "name": "Primeape",
+    "types": [7],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/57.png",
+    "description": "Primeape es un Pokémon de la 1ª generación. Tipo(s): Lucha.",
+    "attack": "Ataque base 105 (Esp. 60). Velocidad 95.",
+    "defense": "Defensa base 60 (Esp. 70). Resistencia 65 PS.",
+    "hp": 65,
+    "stats": {
+      "attack": 105,
+      "defense": 60,
+      "spAttack": 60,
+      "spDefense": 70,
+      "speed": 95
+    },
+    "generation": 1
+  },
+  {
+    "id": 58,
+    "name": "Growlithe",
+    "types": [2],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/58.png",
+    "description": "Growlithe es un Pokémon de la 1ª generación. Tipo(s): Fuego.",
+    "attack": "Ataque base 70 (Esp. 70). Velocidad 60.",
+    "defense": "Defensa base 45 (Esp. 50). Resistencia 55 PS.",
+    "hp": 55,
+    "stats": {
+      "attack": 70,
+      "defense": 45,
+      "spAttack": 70,
+      "spDefense": 50,
+      "speed": 60
+    },
+    "generation": 1
+  },
+  {
+    "id": 59,
+    "name": "Arcanine",
+    "types": [2],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/59.png",
+    "description": "Arcanine es un Pokémon de la 1ª generación. Tipo(s): Fuego.",
+    "attack": "Ataque base 110 (Esp. 100). Velocidad 95.",
+    "defense": "Defensa base 80 (Esp. 80). Resistencia 90 PS.",
+    "hp": 90,
+    "stats": {
+      "attack": 110,
+      "defense": 80,
+      "spAttack": 100,
+      "spDefense": 80,
+      "speed": 95
+    },
+    "generation": 1
+  },
+  {
+    "id": 60,
+    "name": "Poliwag",
+    "types": [3],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/60.png",
+    "description": "Poliwag es un Pokémon de la 1ª generación. Tipo(s): Agua.",
+    "attack": "Ataque base 50 (Esp. 40). Velocidad 90.",
+    "defense": "Defensa base 40 (Esp. 40). Resistencia 40 PS.",
+    "hp": 40,
+    "stats": {
+      "attack": 50,
+      "defense": 40,
+      "spAttack": 40,
+      "spDefense": 40,
+      "speed": 90
+    },
+    "generation": 1
+  },
+  {
+    "id": 61,
+    "name": "Poliwhirl",
+    "types": [3],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/61.png",
+    "description": "Poliwhirl es un Pokémon de la 1ª generación. Tipo(s): Agua.",
+    "attack": "Ataque base 65 (Esp. 50). Velocidad 90.",
+    "defense": "Defensa base 65 (Esp. 50). Resistencia 65 PS.",
+    "hp": 65,
+    "stats": {
+      "attack": 65,
+      "defense": 65,
+      "spAttack": 50,
+      "spDefense": 50,
+      "speed": 90
+    },
+    "generation": 1
+  },
+  {
+    "id": 62,
+    "name": "Poliwrath",
+    "types": [3, 7],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/62.png",
+    "description": "Poliwrath es un Pokémon de la 1ª generación. Tipo(s): Agua, Lucha.",
+    "attack": "Ataque base 95 (Esp. 70). Velocidad 70.",
+    "defense": "Defensa base 95 (Esp. 90). Resistencia 90 PS.",
+    "hp": 90,
+    "stats": {
+      "attack": 95,
+      "defense": 95,
+      "spAttack": 70,
+      "spDefense": 90,
+      "speed": 70
+    },
+    "generation": 1
+  },
+  {
+    "id": 63,
+    "name": "Abra",
+    "types": [11],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/63.png",
+    "description": "Abra es un Pokémon de la 1ª generación. Tipo(s): Psíquico.",
+    "attack": "Ataque base 20 (Esp. 105). Velocidad 90.",
+    "defense": "Defensa base 15 (Esp. 55). Resistencia 25 PS.",
+    "hp": 25,
+    "stats": {
+      "attack": 20,
+      "defense": 15,
+      "spAttack": 105,
+      "spDefense": 55,
+      "speed": 90
+    },
+    "generation": 1
+  },
+  {
+    "id": 64,
+    "name": "Kadabra",
+    "types": [11],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/64.png",
+    "description": "Kadabra es un Pokémon de la 1ª generación. Tipo(s): Psíquico.",
+    "attack": "Ataque base 35 (Esp. 120). Velocidad 105.",
+    "defense": "Defensa base 30 (Esp. 70). Resistencia 40 PS.",
+    "hp": 40,
+    "stats": {
+      "attack": 35,
+      "defense": 30,
+      "spAttack": 120,
+      "spDefense": 70,
+      "speed": 105
+    },
+    "generation": 1
+  },
+  {
+    "id": 65,
+    "name": "Alakazam",
+    "types": [11],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/65.png",
+    "description": "Alakazam es un Pokémon de la 1ª generación. Tipo(s): Psíquico.",
+    "attack": "Ataque base 50 (Esp. 135). Velocidad 120.",
+    "defense": "Defensa base 45 (Esp. 95). Resistencia 55 PS.",
+    "hp": 55,
+    "stats": {
+      "attack": 50,
+      "defense": 45,
+      "spAttack": 135,
+      "spDefense": 95,
+      "speed": 120
+    },
+    "generation": 1
+  },
+  {
+    "id": 66,
+    "name": "Machop",
+    "types": [7],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/66.png",
+    "description": "Machop es un Pokémon de la 1ª generación. Tipo(s): Lucha.",
+    "attack": "Ataque base 80 (Esp. 35). Velocidad 35.",
+    "defense": "Defensa base 50 (Esp. 35). Resistencia 70 PS.",
+    "hp": 70,
+    "stats": {
+      "attack": 80,
+      "defense": 50,
+      "spAttack": 35,
+      "spDefense": 35,
+      "speed": 35
+    },
+    "generation": 1
+  },
+  {
+    "id": 67,
+    "name": "Machoke",
+    "types": [7],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/67.png",
+    "description": "Machoke es un Pokémon de la 1ª generación. Tipo(s): Lucha.",
+    "attack": "Ataque base 100 (Esp. 50). Velocidad 45.",
+    "defense": "Defensa base 70 (Esp. 60). Resistencia 80 PS.",
+    "hp": 80,
+    "stats": {
+      "attack": 100,
+      "defense": 70,
+      "spAttack": 50,
+      "spDefense": 60,
+      "speed": 45
+    },
+    "generation": 1
+  },
+  {
+    "id": 68,
+    "name": "Machamp",
+    "types": [7],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/68.png",
+    "description": "Machamp es un Pokémon de la 1ª generación. Tipo(s): Lucha.",
+    "attack": "Ataque base 130 (Esp. 65). Velocidad 55.",
+    "defense": "Defensa base 80 (Esp. 85). Resistencia 90 PS.",
+    "hp": 90,
+    "stats": {
+      "attack": 130,
+      "defense": 80,
+      "spAttack": 65,
+      "spDefense": 85,
+      "speed": 55
+    },
+    "generation": 1
+  },
+  {
+    "id": 69,
+    "name": "Bellsprout",
+    "types": [5, 8],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/69.png",
+    "description": "Bellsprout es un Pokémon de la 1ª generación. Tipo(s): Planta, Veneno.",
+    "attack": "Ataque base 75 (Esp. 70). Velocidad 40.",
+    "defense": "Defensa base 35 (Esp. 30). Resistencia 50 PS.",
+    "hp": 50,
+    "stats": {
+      "attack": 75,
+      "defense": 35,
+      "spAttack": 70,
+      "spDefense": 30,
+      "speed": 40
+    },
+    "generation": 1
+  },
+  {
+    "id": 70,
+    "name": "Weepinbell",
+    "types": [5, 8],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/70.png",
+    "description": "Weepinbell es un Pokémon de la 1ª generación. Tipo(s): Planta, Veneno.",
+    "attack": "Ataque base 90 (Esp. 85). Velocidad 55.",
+    "defense": "Defensa base 50 (Esp. 45). Resistencia 65 PS.",
+    "hp": 65,
+    "stats": {
+      "attack": 90,
+      "defense": 50,
+      "spAttack": 85,
+      "spDefense": 45,
+      "speed": 55
+    },
+    "generation": 1
+  },
+  {
+    "id": 71,
+    "name": "Victreebel",
+    "types": [5, 8],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/71.png",
+    "description": "Victreebel es un Pokémon de la 1ª generación. Tipo(s): Planta, Veneno.",
+    "attack": "Ataque base 105 (Esp. 100). Velocidad 70.",
+    "defense": "Defensa base 65 (Esp. 70). Resistencia 80 PS.",
+    "hp": 80,
+    "stats": {
+      "attack": 105,
+      "defense": 65,
+      "spAttack": 100,
+      "spDefense": 70,
+      "speed": 70
+    },
+    "generation": 1
+  },
+  {
+    "id": 72,
+    "name": "Tentacool",
+    "types": [3, 8],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/72.png",
+    "description": "Tentacool es un Pokémon de la 1ª generación. Tipo(s): Agua, Veneno.",
+    "attack": "Ataque base 40 (Esp. 50). Velocidad 70.",
+    "defense": "Defensa base 35 (Esp. 100). Resistencia 40 PS.",
+    "hp": 40,
+    "stats": {
+      "attack": 40,
+      "defense": 35,
+      "spAttack": 50,
+      "spDefense": 100,
+      "speed": 70
+    },
+    "generation": 1
+  },
+  {
+    "id": 73,
+    "name": "Tentacruel",
+    "types": [3, 8],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/73.png",
+    "description": "Tentacruel es un Pokémon de la 1ª generación. Tipo(s): Agua, Veneno.",
+    "attack": "Ataque base 70 (Esp. 80). Velocidad 100.",
+    "defense": "Defensa base 65 (Esp. 120). Resistencia 80 PS.",
+    "hp": 80,
+    "stats": {
+      "attack": 70,
+      "defense": 65,
+      "spAttack": 80,
+      "spDefense": 120,
+      "speed": 100
+    },
+    "generation": 1
+  },
+  {
+    "id": 74,
+    "name": "Geodude",
+    "types": [13, 9],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/74.png",
+    "description": "Geodude es un Pokémon de la 1ª generación. Tipo(s): Roca, Tierra.",
+    "attack": "Ataque base 80 (Esp. 30). Velocidad 20.",
+    "defense": "Defensa base 100 (Esp. 30). Resistencia 40 PS.",
+    "hp": 40,
+    "stats": {
+      "attack": 80,
+      "defense": 100,
+      "spAttack": 30,
+      "spDefense": 30,
+      "speed": 20
+    },
+    "generation": 1
+  },
+  {
+    "id": 75,
+    "name": "Graveler",
+    "types": [13, 9],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/75.png",
+    "description": "Graveler es un Pokémon de la 1ª generación. Tipo(s): Roca, Tierra.",
+    "attack": "Ataque base 95 (Esp. 45). Velocidad 35.",
+    "defense": "Defensa base 115 (Esp. 45). Resistencia 55 PS.",
+    "hp": 55,
+    "stats": {
+      "attack": 95,
+      "defense": 115,
+      "spAttack": 45,
+      "spDefense": 45,
+      "speed": 35
+    },
+    "generation": 1
+  },
+  {
+    "id": 76,
+    "name": "Golem",
+    "types": [13, 9],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/76.png",
+    "description": "Golem es un Pokémon de la 1ª generación. Tipo(s): Roca, Tierra.",
+    "attack": "Ataque base 120 (Esp. 55). Velocidad 45.",
+    "defense": "Defensa base 130 (Esp. 65). Resistencia 80 PS.",
+    "hp": 80,
+    "stats": {
+      "attack": 120,
+      "defense": 130,
+      "spAttack": 55,
+      "spDefense": 65,
+      "speed": 45
+    },
+    "generation": 1
+  },
+  {
+    "id": 77,
+    "name": "Ponyta",
+    "types": [2],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/77.png",
+    "description": "Ponyta es un Pokémon de la 1ª generación. Tipo(s): Fuego.",
+    "attack": "Ataque base 85 (Esp. 65). Velocidad 90.",
+    "defense": "Defensa base 55 (Esp. 65). Resistencia 50 PS.",
+    "hp": 50,
+    "stats": {
+      "attack": 85,
+      "defense": 55,
+      "spAttack": 65,
+      "spDefense": 65,
+      "speed": 90
+    },
+    "generation": 1
+  },
+  {
+    "id": 78,
+    "name": "Rapidash",
+    "types": [2],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/78.png",
+    "description": "Rapidash es un Pokémon de la 1ª generación. Tipo(s): Fuego.",
+    "attack": "Ataque base 100 (Esp. 80). Velocidad 105.",
+    "defense": "Defensa base 70 (Esp. 80). Resistencia 65 PS.",
+    "hp": 65,
+    "stats": {
+      "attack": 100,
+      "defense": 70,
+      "spAttack": 80,
+      "spDefense": 80,
+      "speed": 105
+    },
+    "generation": 1
+  },
+  {
+    "id": 79,
+    "name": "Slowpoke",
+    "types": [3, 11],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/79.png",
+    "description": "Slowpoke es un Pokémon de la 1ª generación. Tipo(s): Agua, Psíquico.",
+    "attack": "Ataque base 65 (Esp. 40). Velocidad 15.",
+    "defense": "Defensa base 65 (Esp. 40). Resistencia 90 PS.",
+    "hp": 90,
+    "stats": {
+      "attack": 65,
+      "defense": 65,
+      "spAttack": 40,
+      "spDefense": 40,
+      "speed": 15
+    },
+    "generation": 1
+  },
+  {
+    "id": 80,
+    "name": "Slowbro",
+    "types": [3, 11],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/80.png",
+    "description": "Slowbro es un Pokémon de la 1ª generación. Tipo(s): Agua, Psíquico.",
+    "attack": "Ataque base 75 (Esp. 100). Velocidad 30.",
+    "defense": "Defensa base 110 (Esp. 80). Resistencia 95 PS.",
+    "hp": 95,
+    "stats": {
+      "attack": 75,
+      "defense": 110,
+      "spAttack": 100,
+      "spDefense": 80,
+      "speed": 30
+    },
+    "generation": 1
+  },
+  {
+    "id": 81,
+    "name": "Magnemite",
+    "types": [4, 17],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/81.png",
+    "description": "Magnemite es un Pokémon de la 1ª generación. Tipo(s): Eléctrico, Acero.",
+    "attack": "Ataque base 35 (Esp. 95). Velocidad 45.",
+    "defense": "Defensa base 70 (Esp. 55). Resistencia 25 PS.",
+    "hp": 25,
+    "stats": {
+      "attack": 35,
+      "defense": 70,
+      "spAttack": 95,
+      "spDefense": 55,
+      "speed": 45
+    },
+    "generation": 1
+  },
+  {
+    "id": 82,
+    "name": "Magneton",
+    "types": [4, 17],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/82.png",
+    "description": "Magneton es un Pokémon de la 1ª generación. Tipo(s): Eléctrico, Acero.",
+    "attack": "Ataque base 60 (Esp. 120). Velocidad 70.",
+    "defense": "Defensa base 95 (Esp. 70). Resistencia 50 PS.",
+    "hp": 50,
+    "stats": {
+      "attack": 60,
+      "defense": 95,
+      "spAttack": 120,
+      "spDefense": 70,
+      "speed": 70
+    },
+    "generation": 1
+  },
+  {
+    "id": 83,
+    "name": "Farfetch'd",
+    "types": [1, 10],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/83.png",
+    "description": "Farfetch'd es un Pokémon de la 1ª generación. Tipo(s): Normal, Volador.",
+    "attack": "Ataque base 90 (Esp. 58). Velocidad 60.",
+    "defense": "Defensa base 55 (Esp. 62). Resistencia 52 PS.",
+    "hp": 52,
+    "stats": {
+      "attack": 90,
+      "defense": 55,
+      "spAttack": 58,
+      "spDefense": 62,
+      "speed": 60
+    },
+    "generation": 1
+  },
+  {
+    "id": 84,
+    "name": "Doduo",
+    "types": [1, 10],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/84.png",
+    "description": "Doduo es un Pokémon de la 1ª generación. Tipo(s): Normal, Volador.",
+    "attack": "Ataque base 85 (Esp. 35). Velocidad 75.",
+    "defense": "Defensa base 45 (Esp. 35). Resistencia 35 PS.",
+    "hp": 35,
+    "stats": {
+      "attack": 85,
+      "defense": 45,
+      "spAttack": 35,
+      "spDefense": 35,
+      "speed": 75
+    },
+    "generation": 1
+  },
+  {
+    "id": 85,
+    "name": "Dodrio",
+    "types": [1, 10],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/85.png",
+    "description": "Dodrio es un Pokémon de la 1ª generación. Tipo(s): Normal, Volador.",
+    "attack": "Ataque base 110 (Esp. 60). Velocidad 110.",
+    "defense": "Defensa base 70 (Esp. 60). Resistencia 60 PS.",
+    "hp": 60,
+    "stats": {
+      "attack": 110,
+      "defense": 70,
+      "spAttack": 60,
+      "spDefense": 60,
+      "speed": 110
+    },
+    "generation": 1
+  },
+  {
+    "id": 86,
+    "name": "Seel",
+    "types": [3],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/86.png",
+    "description": "Seel es un Pokémon de la 1ª generación. Tipo(s): Agua.",
+    "attack": "Ataque base 45 (Esp. 45). Velocidad 45.",
+    "defense": "Defensa base 55 (Esp. 70). Resistencia 65 PS.",
+    "hp": 65,
+    "stats": {
+      "attack": 45,
+      "defense": 55,
+      "spAttack": 45,
+      "spDefense": 70,
+      "speed": 45
+    },
+    "generation": 1
+  },
+  {
+    "id": 87,
+    "name": "Dewgong",
+    "types": [3, 6],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/87.png",
+    "description": "Dewgong es un Pokémon de la 1ª generación. Tipo(s): Agua, Hielo.",
+    "attack": "Ataque base 70 (Esp. 70). Velocidad 70.",
+    "defense": "Defensa base 80 (Esp. 95). Resistencia 90 PS.",
+    "hp": 90,
+    "stats": {
+      "attack": 70,
+      "defense": 80,
+      "spAttack": 70,
+      "spDefense": 95,
+      "speed": 70
+    },
+    "generation": 1
+  },
+  {
+    "id": 88,
+    "name": "Grimer",
+    "types": [8],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/88.png",
+    "description": "Grimer es un Pokémon de la 1ª generación. Tipo(s): Veneno.",
+    "attack": "Ataque base 80 (Esp. 40). Velocidad 25.",
+    "defense": "Defensa base 50 (Esp. 50). Resistencia 80 PS.",
+    "hp": 80,
+    "stats": {
+      "attack": 80,
+      "defense": 50,
+      "spAttack": 40,
+      "spDefense": 50,
+      "speed": 25
+    },
+    "generation": 1
+  },
+  {
+    "id": 89,
+    "name": "Muk",
+    "types": [8],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/89.png",
+    "description": "Muk es un Pokémon de la 1ª generación. Tipo(s): Veneno.",
+    "attack": "Ataque base 105 (Esp. 65). Velocidad 50.",
+    "defense": "Defensa base 75 (Esp. 100). Resistencia 105 PS.",
+    "hp": 105,
+    "stats": {
+      "attack": 105,
+      "defense": 75,
+      "spAttack": 65,
+      "spDefense": 100,
+      "speed": 50
+    },
+    "generation": 1
+  },
+  {
+    "id": 90,
+    "name": "Shellder",
+    "types": [3],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/90.png",
+    "description": "Shellder es un Pokémon de la 1ª generación. Tipo(s): Agua.",
+    "attack": "Ataque base 65 (Esp. 45). Velocidad 40.",
+    "defense": "Defensa base 100 (Esp. 25). Resistencia 30 PS.",
+    "hp": 30,
+    "stats": {
+      "attack": 65,
+      "defense": 100,
+      "spAttack": 45,
+      "spDefense": 25,
+      "speed": 40
+    },
+    "generation": 1
+  },
+  {
+    "id": 91,
+    "name": "Cloyster",
+    "types": [3, 6],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/91.png",
+    "description": "Cloyster es un Pokémon de la 1ª generación. Tipo(s): Agua, Hielo.",
+    "attack": "Ataque base 95 (Esp. 85). Velocidad 70.",
+    "defense": "Defensa base 180 (Esp. 45). Resistencia 50 PS.",
+    "hp": 50,
+    "stats": {
+      "attack": 95,
+      "defense": 180,
+      "spAttack": 85,
+      "spDefense": 45,
+      "speed": 70
+    },
+    "generation": 1
+  },
+  {
+    "id": 92,
+    "name": "Gastly",
+    "types": [14, 8],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/92.png",
+    "description": "Gastly es un Pokémon de la 1ª generación. Tipo(s): Fantasma, Veneno.",
+    "attack": "Ataque base 35 (Esp. 100). Velocidad 80.",
+    "defense": "Defensa base 30 (Esp. 35). Resistencia 30 PS.",
+    "hp": 30,
+    "stats": {
+      "attack": 35,
+      "defense": 30,
+      "spAttack": 100,
+      "spDefense": 35,
+      "speed": 80
+    },
+    "generation": 1
+  },
+  {
+    "id": 93,
+    "name": "Haunter",
+    "types": [14, 8],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/93.png",
+    "description": "Haunter es un Pokémon de la 1ª generación. Tipo(s): Fantasma, Veneno.",
+    "attack": "Ataque base 50 (Esp. 115). Velocidad 95.",
+    "defense": "Defensa base 45 (Esp. 55). Resistencia 45 PS.",
+    "hp": 45,
+    "stats": {
+      "attack": 50,
+      "defense": 45,
+      "spAttack": 115,
+      "spDefense": 55,
+      "speed": 95
+    },
+    "generation": 1
+  },
+  {
+    "id": 94,
+    "name": "Gengar",
+    "types": [14, 8],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png",
+    "description": "Gengar es un Pokémon de la 1ª generación. Tipo(s): Fantasma, Veneno.",
+    "attack": "Ataque base 65 (Esp. 130). Velocidad 110.",
+    "defense": "Defensa base 60 (Esp. 75). Resistencia 60 PS.",
+    "hp": 60,
+    "stats": {
+      "attack": 65,
+      "defense": 60,
+      "spAttack": 130,
+      "spDefense": 75,
+      "speed": 110
+    },
+    "generation": 1
+  },
+  {
+    "id": 95,
+    "name": "Onix",
+    "types": [13, 9],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/95.png",
+    "description": "Onix es un Pokémon de la 1ª generación. Tipo(s): Roca, Tierra.",
+    "attack": "Ataque base 45 (Esp. 30). Velocidad 70.",
+    "defense": "Defensa base 160 (Esp. 45). Resistencia 35 PS.",
+    "hp": 35,
+    "stats": {
+      "attack": 45,
+      "defense": 160,
+      "spAttack": 30,
+      "spDefense": 45,
+      "speed": 70
+    },
+    "generation": 1
+  },
+  {
+    "id": 96,
+    "name": "Drowzee",
+    "types": [11],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/96.png",
+    "description": "Drowzee es un Pokémon de la 1ª generación. Tipo(s): Psíquico.",
+    "attack": "Ataque base 48 (Esp. 43). Velocidad 42.",
+    "defense": "Defensa base 45 (Esp. 90). Resistencia 60 PS.",
+    "hp": 60,
+    "stats": {
+      "attack": 48,
+      "defense": 45,
+      "spAttack": 43,
+      "spDefense": 90,
+      "speed": 42
+    },
+    "generation": 1
+  },
+  {
+    "id": 97,
+    "name": "Hypno",
+    "types": [11],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/97.png",
+    "description": "Hypno es un Pokémon de la 1ª generación. Tipo(s): Psíquico.",
+    "attack": "Ataque base 73 (Esp. 73). Velocidad 67.",
+    "defense": "Defensa base 70 (Esp. 115). Resistencia 85 PS.",
+    "hp": 85,
+    "stats": {
+      "attack": 73,
+      "defense": 70,
+      "spAttack": 73,
+      "spDefense": 115,
+      "speed": 67
+    },
+    "generation": 1
+  },
+  {
+    "id": 98,
+    "name": "Krabby",
+    "types": [3],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/98.png",
+    "description": "Krabby es un Pokémon de la 1ª generación. Tipo(s): Agua.",
+    "attack": "Ataque base 105 (Esp. 25). Velocidad 50.",
+    "defense": "Defensa base 90 (Esp. 25). Resistencia 30 PS.",
+    "hp": 30,
+    "stats": {
+      "attack": 105,
+      "defense": 90,
+      "spAttack": 25,
+      "spDefense": 25,
+      "speed": 50
+    },
+    "generation": 1
+  },
+  {
+    "id": 99,
+    "name": "Kingler",
+    "types": [3],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/99.png",
+    "description": "Kingler es un Pokémon de la 1ª generación. Tipo(s): Agua.",
+    "attack": "Ataque base 130 (Esp. 50). Velocidad 75.",
+    "defense": "Defensa base 115 (Esp. 50). Resistencia 55 PS.",
+    "hp": 55,
+    "stats": {
+      "attack": 130,
+      "defense": 115,
+      "spAttack": 50,
+      "spDefense": 50,
+      "speed": 75
+    },
+    "generation": 1
+  },
+  {
+    "id": 100,
+    "name": "Voltorb",
+    "types": [4],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/100.png",
+    "description": "Voltorb es un Pokémon de la 1ª generación. Tipo(s): Eléctrico.",
+    "attack": "Ataque base 30 (Esp. 55). Velocidad 100.",
+    "defense": "Defensa base 50 (Esp. 55). Resistencia 40 PS.",
+    "hp": 40,
+    "stats": {
+      "attack": 30,
+      "defense": 50,
+      "spAttack": 55,
+      "spDefense": 55,
+      "speed": 100
+    },
+    "generation": 1
+  },
+  {
+    "id": 101,
+    "name": "Electrode",
+    "types": [4],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/101.png",
+    "description": "Electrode es un Pokémon de la 1ª generación. Tipo(s): Eléctrico.",
+    "attack": "Ataque base 50 (Esp. 80). Velocidad 150.",
+    "defense": "Defensa base 70 (Esp. 80). Resistencia 60 PS.",
+    "hp": 60,
+    "stats": {
+      "attack": 50,
+      "defense": 70,
+      "spAttack": 80,
+      "spDefense": 80,
+      "speed": 150
+    },
+    "generation": 1
+  },
+  {
+    "id": 102,
+    "name": "Exeggcute",
+    "types": [5, 11],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/102.png",
+    "description": "Exeggcute es un Pokémon de la 1ª generación. Tipo(s): Planta, Psíquico.",
+    "attack": "Ataque base 40 (Esp. 60). Velocidad 40.",
+    "defense": "Defensa base 80 (Esp. 45). Resistencia 60 PS.",
+    "hp": 60,
+    "stats": {
+      "attack": 40,
+      "defense": 80,
+      "spAttack": 60,
+      "spDefense": 45,
+      "speed": 40
+    },
+    "generation": 1
+  },
+  {
+    "id": 103,
+    "name": "Exeggutor",
+    "types": [5, 11],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/103.png",
+    "description": "Exeggutor es un Pokémon de la 1ª generación. Tipo(s): Planta, Psíquico.",
+    "attack": "Ataque base 95 (Esp. 125). Velocidad 55.",
+    "defense": "Defensa base 85 (Esp. 75). Resistencia 95 PS.",
+    "hp": 95,
+    "stats": {
+      "attack": 95,
+      "defense": 85,
+      "spAttack": 125,
+      "spDefense": 75,
+      "speed": 55
+    },
+    "generation": 1
+  },
+  {
+    "id": 104,
+    "name": "Cubone",
+    "types": [9],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/104.png",
+    "description": "Cubone es un Pokémon de la 1ª generación. Tipo(s): Tierra.",
+    "attack": "Ataque base 50 (Esp. 40). Velocidad 35.",
+    "defense": "Defensa base 95 (Esp. 50). Resistencia 50 PS.",
+    "hp": 50,
+    "stats": {
+      "attack": 50,
+      "defense": 95,
+      "spAttack": 40,
+      "spDefense": 50,
+      "speed": 35
+    },
+    "generation": 1
+  },
+  {
+    "id": 105,
+    "name": "Marowak",
+    "types": [9],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/105.png",
+    "description": "Marowak es un Pokémon de la 1ª generación. Tipo(s): Tierra.",
+    "attack": "Ataque base 80 (Esp. 50). Velocidad 45.",
+    "defense": "Defensa base 110 (Esp. 80). Resistencia 60 PS.",
+    "hp": 60,
+    "stats": {
+      "attack": 80,
+      "defense": 110,
+      "spAttack": 50,
+      "spDefense": 80,
+      "speed": 45
+    },
+    "generation": 1
+  },
+  {
+    "id": 106,
+    "name": "Hitmonlee",
+    "types": [7],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/106.png",
+    "description": "Hitmonlee es un Pokémon de la 1ª generación. Tipo(s): Lucha.",
+    "attack": "Ataque base 120 (Esp. 35). Velocidad 87.",
+    "defense": "Defensa base 53 (Esp. 110). Resistencia 50 PS.",
+    "hp": 50,
+    "stats": {
+      "attack": 120,
+      "defense": 53,
+      "spAttack": 35,
+      "spDefense": 110,
+      "speed": 87
+    },
+    "generation": 1
+  },
+  {
+    "id": 107,
+    "name": "Hitmonchan",
+    "types": [7],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/107.png",
+    "description": "Hitmonchan es un Pokémon de la 1ª generación. Tipo(s): Lucha.",
+    "attack": "Ataque base 105 (Esp. 35). Velocidad 76.",
+    "defense": "Defensa base 79 (Esp. 110). Resistencia 50 PS.",
+    "hp": 50,
+    "stats": {
+      "attack": 105,
+      "defense": 79,
+      "spAttack": 35,
+      "spDefense": 110,
+      "speed": 76
+    },
+    "generation": 1
+  },
+  {
+    "id": 108,
+    "name": "Lickitung",
+    "types": [1],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/108.png",
+    "description": "Lickitung es un Pokémon de la 1ª generación. Tipo(s): Normal.",
+    "attack": "Ataque base 55 (Esp. 60). Velocidad 30.",
+    "defense": "Defensa base 75 (Esp. 75). Resistencia 90 PS.",
+    "hp": 90,
+    "stats": {
+      "attack": 55,
+      "defense": 75,
+      "spAttack": 60,
+      "spDefense": 75,
+      "speed": 30
+    },
+    "generation": 1
+  },
+  {
+    "id": 109,
+    "name": "Koffing",
+    "types": [8],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/109.png",
+    "description": "Koffing es un Pokémon de la 1ª generación. Tipo(s): Veneno.",
+    "attack": "Ataque base 65 (Esp. 60). Velocidad 35.",
+    "defense": "Defensa base 95 (Esp. 45). Resistencia 40 PS.",
+    "hp": 40,
+    "stats": {
+      "attack": 65,
+      "defense": 95,
+      "spAttack": 60,
+      "spDefense": 45,
+      "speed": 35
+    },
+    "generation": 1
+  },
+  {
+    "id": 110,
+    "name": "Weezing",
+    "types": [8],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/110.png",
+    "description": "Weezing es un Pokémon de la 1ª generación. Tipo(s): Veneno.",
+    "attack": "Ataque base 90 (Esp. 85). Velocidad 60.",
+    "defense": "Defensa base 120 (Esp. 70). Resistencia 65 PS.",
+    "hp": 65,
+    "stats": {
+      "attack": 90,
+      "defense": 120,
+      "spAttack": 85,
+      "spDefense": 70,
+      "speed": 60
+    },
+    "generation": 1
+  },
+  {
+    "id": 111,
+    "name": "Rhyhorn",
+    "types": [9, 13],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/111.png",
+    "description": "Rhyhorn es un Pokémon de la 1ª generación. Tipo(s): Tierra, Roca.",
+    "attack": "Ataque base 85 (Esp. 30). Velocidad 25.",
+    "defense": "Defensa base 95 (Esp. 30). Resistencia 80 PS.",
+    "hp": 80,
+    "stats": {
+      "attack": 85,
+      "defense": 95,
+      "spAttack": 30,
+      "spDefense": 30,
+      "speed": 25
+    },
+    "generation": 1
+  },
+  {
+    "id": 112,
+    "name": "Rhydon",
+    "types": [9, 13],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/112.png",
+    "description": "Rhydon es un Pokémon de la 1ª generación. Tipo(s): Tierra, Roca.",
+    "attack": "Ataque base 130 (Esp. 45). Velocidad 40.",
+    "defense": "Defensa base 120 (Esp. 45). Resistencia 105 PS.",
+    "hp": 105,
+    "stats": {
+      "attack": 130,
+      "defense": 120,
+      "spAttack": 45,
+      "spDefense": 45,
+      "speed": 40
+    },
+    "generation": 1
+  },
+  {
+    "id": 113,
+    "name": "Chansey",
+    "types": [1],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/113.png",
+    "description": "Chansey es un Pokémon de la 1ª generación. Tipo(s): Normal.",
+    "attack": "Ataque base 5 (Esp. 35). Velocidad 50.",
+    "defense": "Defensa base 5 (Esp. 105). Resistencia 250 PS.",
+    "hp": 250,
+    "stats": {
+      "attack": 5,
+      "defense": 5,
+      "spAttack": 35,
+      "spDefense": 105,
+      "speed": 50
+    },
+    "generation": 1
+  },
+  {
+    "id": 114,
+    "name": "Tangela",
+    "types": [5],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/114.png",
+    "description": "Tangela es un Pokémon de la 1ª generación. Tipo(s): Planta.",
+    "attack": "Ataque base 55 (Esp. 100). Velocidad 60.",
+    "defense": "Defensa base 115 (Esp. 40). Resistencia 65 PS.",
+    "hp": 65,
+    "stats": {
+      "attack": 55,
+      "defense": 115,
+      "spAttack": 100,
+      "spDefense": 40,
+      "speed": 60
+    },
+    "generation": 1
+  },
+  {
+    "id": 115,
+    "name": "Kangaskhan",
+    "types": [1],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/115.png",
+    "description": "Kangaskhan es un Pokémon de la 1ª generación. Tipo(s): Normal.",
+    "attack": "Ataque base 95 (Esp. 40). Velocidad 90.",
+    "defense": "Defensa base 80 (Esp. 80). Resistencia 105 PS.",
+    "hp": 105,
+    "stats": {
+      "attack": 95,
+      "defense": 80,
+      "spAttack": 40,
+      "spDefense": 80,
+      "speed": 90
+    },
+    "generation": 1
+  },
+  {
+    "id": 116,
+    "name": "Horsea",
+    "types": [3],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/116.png",
+    "description": "Horsea es un Pokémon de la 1ª generación. Tipo(s): Agua.",
+    "attack": "Ataque base 40 (Esp. 70). Velocidad 60.",
+    "defense": "Defensa base 70 (Esp. 25). Resistencia 30 PS.",
+    "hp": 30,
+    "stats": {
+      "attack": 40,
+      "defense": 70,
+      "spAttack": 70,
+      "spDefense": 25,
+      "speed": 60
+    },
+    "generation": 1
+  },
+  {
+    "id": 117,
+    "name": "Seadra",
+    "types": [3],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/117.png",
+    "description": "Seadra es un Pokémon de la 1ª generación. Tipo(s): Agua.",
+    "attack": "Ataque base 65 (Esp. 95). Velocidad 85.",
+    "defense": "Defensa base 95 (Esp. 45). Resistencia 55 PS.",
+    "hp": 55,
+    "stats": {
+      "attack": 65,
+      "defense": 95,
+      "spAttack": 95,
+      "spDefense": 45,
+      "speed": 85
+    },
+    "generation": 1
+  },
+  {
+    "id": 118,
+    "name": "Goldeen",
+    "types": [3],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/118.png",
+    "description": "Goldeen es un Pokémon de la 1ª generación. Tipo(s): Agua.",
+    "attack": "Ataque base 67 (Esp. 35). Velocidad 63.",
+    "defense": "Defensa base 60 (Esp. 50). Resistencia 45 PS.",
+    "hp": 45,
+    "stats": {
+      "attack": 67,
+      "defense": 60,
+      "spAttack": 35,
+      "spDefense": 50,
+      "speed": 63
+    },
+    "generation": 1
+  },
+  {
+    "id": 119,
+    "name": "Seaking",
+    "types": [3],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/119.png",
+    "description": "Seaking es un Pokémon de la 1ª generación. Tipo(s): Agua.",
+    "attack": "Ataque base 92 (Esp. 65). Velocidad 68.",
+    "defense": "Defensa base 65 (Esp. 80). Resistencia 80 PS.",
+    "hp": 80,
+    "stats": {
+      "attack": 92,
+      "defense": 65,
+      "spAttack": 65,
+      "spDefense": 80,
+      "speed": 68
+    },
+    "generation": 1
+  },
+  {
+    "id": 120,
+    "name": "Staryu",
+    "types": [3],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/120.png",
+    "description": "Staryu es un Pokémon de la 1ª generación. Tipo(s): Agua.",
+    "attack": "Ataque base 45 (Esp. 70). Velocidad 85.",
+    "defense": "Defensa base 55 (Esp. 55). Resistencia 30 PS.",
+    "hp": 30,
+    "stats": {
+      "attack": 45,
+      "defense": 55,
+      "spAttack": 70,
+      "spDefense": 55,
+      "speed": 85
+    },
+    "generation": 1
+  },
+  {
+    "id": 121,
+    "name": "Starmie",
+    "types": [3, 11],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/121.png",
+    "description": "Starmie es un Pokémon de la 1ª generación. Tipo(s): Agua, Psíquico.",
+    "attack": "Ataque base 75 (Esp. 100). Velocidad 115.",
+    "defense": "Defensa base 85 (Esp. 85). Resistencia 60 PS.",
+    "hp": 60,
+    "stats": {
+      "attack": 75,
+      "defense": 85,
+      "spAttack": 100,
+      "spDefense": 85,
+      "speed": 115
+    },
+    "generation": 1
+  },
+  {
+    "id": 122,
+    "name": "Mr. Mime",
+    "types": [11, 18],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/122.png",
+    "description": "Mr. Mime es un Pokémon de la 1ª generación. Tipo(s): Psíquico, Hada.",
+    "attack": "Ataque base 45 (Esp. 100). Velocidad 90.",
+    "defense": "Defensa base 65 (Esp. 120). Resistencia 40 PS.",
+    "hp": 40,
+    "stats": {
+      "attack": 45,
+      "defense": 65,
+      "spAttack": 100,
+      "spDefense": 120,
+      "speed": 90
+    },
+    "generation": 1
+  },
+  {
+    "id": 123,
+    "name": "Scyther",
+    "types": [12, 10],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/123.png",
+    "description": "Scyther es un Pokémon de la 1ª generación. Tipo(s): Bicho, Volador.",
+    "attack": "Ataque base 110 (Esp. 55). Velocidad 105.",
+    "defense": "Defensa base 80 (Esp. 80). Resistencia 70 PS.",
+    "hp": 70,
+    "stats": {
+      "attack": 110,
+      "defense": 80,
+      "spAttack": 55,
+      "spDefense": 80,
+      "speed": 105
+    },
+    "generation": 1
+  },
+  {
+    "id": 124,
+    "name": "Jynx",
+    "types": [6, 11],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/124.png",
+    "description": "Jynx es un Pokémon de la 1ª generación. Tipo(s): Hielo, Psíquico.",
+    "attack": "Ataque base 50 (Esp. 115). Velocidad 95.",
+    "defense": "Defensa base 35 (Esp. 95). Resistencia 65 PS.",
+    "hp": 65,
+    "stats": {
+      "attack": 50,
+      "defense": 35,
+      "spAttack": 115,
+      "spDefense": 95,
+      "speed": 95
+    },
+    "generation": 1
+  },
+  {
+    "id": 125,
+    "name": "Electabuzz",
+    "types": [4],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/125.png",
+    "description": "Electabuzz es un Pokémon de la 1ª generación. Tipo(s): Eléctrico.",
+    "attack": "Ataque base 83 (Esp. 95). Velocidad 105.",
+    "defense": "Defensa base 57 (Esp. 85). Resistencia 65 PS.",
+    "hp": 65,
+    "stats": {
+      "attack": 83,
+      "defense": 57,
+      "spAttack": 95,
+      "spDefense": 85,
+      "speed": 105
+    },
+    "generation": 1
+  },
+  {
+    "id": 126,
+    "name": "Magmar",
+    "types": [2],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/126.png",
+    "description": "Magmar es un Pokémon de la 1ª generación. Tipo(s): Fuego.",
+    "attack": "Ataque base 95 (Esp. 100). Velocidad 93.",
+    "defense": "Defensa base 57 (Esp. 85). Resistencia 65 PS.",
+    "hp": 65,
+    "stats": {
+      "attack": 95,
+      "defense": 57,
+      "spAttack": 100,
+      "spDefense": 85,
+      "speed": 93
+    },
+    "generation": 1
+  },
+  {
+    "id": 127,
+    "name": "Pinsir",
+    "types": [12],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/127.png",
+    "description": "Pinsir es un Pokémon de la 1ª generación. Tipo(s): Bicho.",
+    "attack": "Ataque base 125 (Esp. 55). Velocidad 85.",
+    "defense": "Defensa base 100 (Esp. 70). Resistencia 65 PS.",
+    "hp": 65,
+    "stats": {
+      "attack": 125,
+      "defense": 100,
+      "spAttack": 55,
+      "spDefense": 70,
+      "speed": 85
+    },
+    "generation": 1
+  },
+  {
+    "id": 128,
+    "name": "Tauros",
+    "types": [1],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/128.png",
+    "description": "Tauros es un Pokémon de la 1ª generación. Tipo(s): Normal.",
+    "attack": "Ataque base 100 (Esp. 40). Velocidad 110.",
+    "defense": "Defensa base 95 (Esp. 70). Resistencia 75 PS.",
+    "hp": 75,
+    "stats": {
+      "attack": 100,
+      "defense": 95,
+      "spAttack": 40,
+      "spDefense": 70,
+      "speed": 110
+    },
+    "generation": 1
+  },
+  {
+    "id": 129,
+    "name": "Magikarp",
+    "types": [3],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png",
+    "description": "Magikarp es un Pokémon de la 1ª generación. Tipo(s): Agua.",
+    "attack": "Ataque base 10 (Esp. 15). Velocidad 80.",
+    "defense": "Defensa base 55 (Esp. 20). Resistencia 20 PS.",
+    "hp": 20,
+    "stats": {
+      "attack": 10,
+      "defense": 55,
+      "spAttack": 15,
+      "spDefense": 20,
+      "speed": 80
+    },
+    "generation": 1
+  },
+  {
+    "id": 130,
+    "name": "Gyarados",
+    "types": [3, 10],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/130.png",
+    "description": "Gyarados es un Pokémon de la 1ª generación. Tipo(s): Agua, Volador.",
+    "attack": "Ataque base 125 (Esp. 60). Velocidad 81.",
+    "defense": "Defensa base 79 (Esp. 100). Resistencia 95 PS.",
+    "hp": 95,
+    "stats": {
+      "attack": 125,
+      "defense": 79,
+      "spAttack": 60,
+      "spDefense": 100,
+      "speed": 81
+    },
+    "generation": 1
+  },
+  {
+    "id": 131,
+    "name": "Lapras",
+    "types": [3, 6],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/131.png",
+    "description": "Lapras es un Pokémon de la 1ª generación. Tipo(s): Agua, Hielo.",
+    "attack": "Ataque base 85 (Esp. 85). Velocidad 60.",
+    "defense": "Defensa base 80 (Esp. 95). Resistencia 130 PS.",
+    "hp": 130,
+    "stats": {
+      "attack": 85,
+      "defense": 80,
+      "spAttack": 85,
+      "spDefense": 95,
+      "speed": 60
+    },
+    "generation": 1
+  },
+  {
+    "id": 132,
+    "name": "Ditto",
+    "types": [1],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/132.png",
+    "description": "Ditto es un Pokémon de la 1ª generación. Tipo(s): Normal.",
+    "attack": "Ataque base 48 (Esp. 48). Velocidad 48.",
+    "defense": "Defensa base 48 (Esp. 48). Resistencia 48 PS.",
+    "hp": 48,
+    "stats": {
+      "attack": 48,
+      "defense": 48,
+      "spAttack": 48,
+      "spDefense": 48,
+      "speed": 48
+    },
+    "generation": 1
+  },
+  {
+    "id": 133,
+    "name": "Eevee",
+    "types": [1],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png",
+    "description": "Eevee es un Pokémon de la 1ª generación. Tipo(s): Normal.",
+    "attack": "Ataque base 55 (Esp. 45). Velocidad 55.",
+    "defense": "Defensa base 50 (Esp. 65). Resistencia 55 PS.",
+    "hp": 55,
+    "stats": {
+      "attack": 55,
+      "defense": 50,
+      "spAttack": 45,
+      "spDefense": 65,
+      "speed": 55
+    },
+    "generation": 1
+  },
+  {
+    "id": 134,
+    "name": "Vaporeon",
+    "types": [3],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/134.png",
+    "description": "Vaporeon es un Pokémon de la 1ª generación. Tipo(s): Agua.",
+    "attack": "Ataque base 65 (Esp. 110). Velocidad 65.",
+    "defense": "Defensa base 60 (Esp. 95). Resistencia 130 PS.",
+    "hp": 130,
+    "stats": {
+      "attack": 65,
+      "defense": 60,
+      "spAttack": 110,
+      "spDefense": 95,
+      "speed": 65
+    },
+    "generation": 1
+  },
+  {
+    "id": 135,
+    "name": "Jolteon",
+    "types": [4],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/135.png",
+    "description": "Jolteon es un Pokémon de la 1ª generación. Tipo(s): Eléctrico.",
+    "attack": "Ataque base 65 (Esp. 110). Velocidad 130.",
+    "defense": "Defensa base 60 (Esp. 95). Resistencia 65 PS.",
+    "hp": 65,
+    "stats": {
+      "attack": 65,
+      "defense": 60,
+      "spAttack": 110,
+      "spDefense": 95,
+      "speed": 130
+    },
+    "generation": 1
+  },
+  {
+    "id": 136,
+    "name": "Flareon",
+    "types": [2],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/136.png",
+    "description": "Flareon es un Pokémon de la 1ª generación. Tipo(s): Fuego.",
+    "attack": "Ataque base 130 (Esp. 95). Velocidad 65.",
+    "defense": "Defensa base 60 (Esp. 110). Resistencia 65 PS.",
+    "hp": 65,
+    "stats": {
+      "attack": 130,
+      "defense": 60,
+      "spAttack": 95,
+      "spDefense": 110,
+      "speed": 65
+    },
+    "generation": 1
+  },
+  {
+    "id": 137,
+    "name": "Porygon",
+    "types": [1],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/137.png",
+    "description": "Porygon es un Pokémon de la 1ª generación. Tipo(s): Normal.",
+    "attack": "Ataque base 60 (Esp. 85). Velocidad 40.",
+    "defense": "Defensa base 70 (Esp. 75). Resistencia 65 PS.",
+    "hp": 65,
+    "stats": {
+      "attack": 60,
+      "defense": 70,
+      "spAttack": 85,
+      "spDefense": 75,
+      "speed": 40
+    },
+    "generation": 1
+  },
+  {
+    "id": 138,
+    "name": "Omanyte",
+    "types": [13, 3],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/138.png",
+    "description": "Omanyte es un Pokémon de la 1ª generación. Tipo(s): Roca, Agua.",
+    "attack": "Ataque base 40 (Esp. 90). Velocidad 35.",
+    "defense": "Defensa base 100 (Esp. 55). Resistencia 35 PS.",
+    "hp": 35,
+    "stats": {
+      "attack": 40,
+      "defense": 100,
+      "spAttack": 90,
+      "spDefense": 55,
+      "speed": 35
+    },
+    "generation": 1
+  },
+  {
+    "id": 139,
+    "name": "Omastar",
+    "types": [13, 3],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/139.png",
+    "description": "Omastar es un Pokémon de la 1ª generación. Tipo(s): Roca, Agua.",
+    "attack": "Ataque base 60 (Esp. 115). Velocidad 55.",
+    "defense": "Defensa base 125 (Esp. 70). Resistencia 70 PS.",
+    "hp": 70,
+    "stats": {
+      "attack": 60,
+      "defense": 125,
+      "spAttack": 115,
+      "spDefense": 70,
+      "speed": 55
+    },
+    "generation": 1
+  },
+  {
+    "id": 140,
+    "name": "Kabuto",
+    "types": [13, 3],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/140.png",
+    "description": "Kabuto es un Pokémon de la 1ª generación. Tipo(s): Roca, Agua.",
+    "attack": "Ataque base 80 (Esp. 55). Velocidad 55.",
+    "defense": "Defensa base 90 (Esp. 45). Resistencia 30 PS.",
+    "hp": 30,
+    "stats": {
+      "attack": 80,
+      "defense": 90,
+      "spAttack": 55,
+      "spDefense": 45,
+      "speed": 55
+    },
+    "generation": 1
+  },
+  {
+    "id": 141,
+    "name": "Kabutops",
+    "types": [13, 3],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/141.png",
+    "description": "Kabutops es un Pokémon de la 1ª generación. Tipo(s): Roca, Agua.",
+    "attack": "Ataque base 115 (Esp. 65). Velocidad 80.",
+    "defense": "Defensa base 105 (Esp. 70). Resistencia 60 PS.",
+    "hp": 60,
+    "stats": {
+      "attack": 115,
+      "defense": 105,
+      "spAttack": 65,
+      "spDefense": 70,
+      "speed": 80
+    },
+    "generation": 1
+  },
+  {
+    "id": 142,
+    "name": "Aerodactyl",
+    "types": [13, 10],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/142.png",
+    "description": "Aerodactyl es un Pokémon de la 1ª generación. Tipo(s): Roca, Volador.",
+    "attack": "Ataque base 105 (Esp. 60). Velocidad 130.",
+    "defense": "Defensa base 65 (Esp. 75). Resistencia 80 PS.",
+    "hp": 80,
+    "stats": {
+      "attack": 105,
+      "defense": 65,
+      "spAttack": 60,
+      "spDefense": 75,
+      "speed": 130
+    },
+    "generation": 1
+  },
+  {
+    "id": 143,
+    "name": "Snorlax",
+    "types": [1],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/143.png",
+    "description": "Snorlax es un Pokémon de la 1ª generación. Tipo(s): Normal.",
+    "attack": "Ataque base 110 (Esp. 65). Velocidad 30.",
+    "defense": "Defensa base 65 (Esp. 110). Resistencia 160 PS.",
+    "hp": 160,
+    "stats": {
+      "attack": 110,
+      "defense": 65,
+      "spAttack": 65,
+      "spDefense": 110,
+      "speed": 30
+    },
+    "generation": 1
+  },
+  {
+    "id": 144,
+    "name": "Articuno",
+    "types": [6, 10],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png",
+    "description": "Articuno es un Pokémon de la 1ª generación. Tipo(s): Hielo, Volador.",
+    "attack": "Ataque base 85 (Esp. 95). Velocidad 85.",
+    "defense": "Defensa base 100 (Esp. 125). Resistencia 90 PS.",
+    "hp": 90,
+    "stats": {
+      "attack": 85,
+      "defense": 100,
+      "spAttack": 95,
+      "spDefense": 125,
+      "speed": 85
+    },
+    "generation": 1
+  },
+  {
+    "id": 145,
+    "name": "Zapdos",
+    "types": [4, 10],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png",
+    "description": "Zapdos es un Pokémon de la 1ª generación. Tipo(s): Eléctrico, Volador.",
+    "attack": "Ataque base 90 (Esp. 125). Velocidad 100.",
+    "defense": "Defensa base 85 (Esp. 90). Resistencia 90 PS.",
+    "hp": 90,
+    "stats": {
+      "attack": 90,
+      "defense": 85,
+      "spAttack": 125,
+      "spDefense": 90,
+      "speed": 100
+    },
+    "generation": 1
+  },
+  {
+    "id": 146,
+    "name": "Moltres",
+    "types": [2, 10],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png",
+    "description": "Moltres es un Pokémon de la 1ª generación. Tipo(s): Fuego, Volador.",
+    "attack": "Ataque base 100 (Esp. 125). Velocidad 90.",
+    "defense": "Defensa base 90 (Esp. 85). Resistencia 90 PS.",
+    "hp": 90,
+    "stats": {
+      "attack": 100,
+      "defense": 90,
+      "spAttack": 125,
+      "spDefense": 85,
+      "speed": 90
+    },
+    "generation": 1
+  },
+  {
+    "id": 147,
+    "name": "Dratini",
+    "types": [15],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/147.png",
+    "description": "Dratini es un Pokémon de la 1ª generación. Tipo(s): Dragón.",
+    "attack": "Ataque base 64 (Esp. 50). Velocidad 50.",
+    "defense": "Defensa base 45 (Esp. 50). Resistencia 41 PS.",
+    "hp": 41,
+    "stats": {
+      "attack": 64,
+      "defense": 45,
+      "spAttack": 50,
+      "spDefense": 50,
+      "speed": 50
+    },
+    "generation": 1
+  },
+  {
+    "id": 148,
+    "name": "Dragonair",
+    "types": [15],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/148.png",
+    "description": "Dragonair es un Pokémon de la 1ª generación. Tipo(s): Dragón.",
+    "attack": "Ataque base 84 (Esp. 70). Velocidad 70.",
+    "defense": "Defensa base 65 (Esp. 70). Resistencia 61 PS.",
+    "hp": 61,
+    "stats": {
+      "attack": 84,
+      "defense": 65,
+      "spAttack": 70,
+      "spDefense": 70,
+      "speed": 70
+    },
+    "generation": 1
+  },
+  {
+    "id": 149,
+    "name": "Dragonite",
+    "types": [15, 10],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
+    "description": "Dragonite es un Pokémon de la 1ª generación. Tipo(s): Dragón, Volador.",
+    "attack": "Ataque base 134 (Esp. 100). Velocidad 80.",
+    "defense": "Defensa base 95 (Esp. 100). Resistencia 91 PS.",
+    "hp": 91,
+    "stats": {
+      "attack": 134,
+      "defense": 95,
+      "spAttack": 100,
+      "spDefense": 100,
+      "speed": 80
+    },
+    "generation": 1
+  },
+  {
+    "id": 150,
+    "name": "Mewtwo",
+    "types": [11],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png",
+    "description": "Mewtwo es un Pokémon de la 1ª generación. Tipo(s): Psíquico.",
+    "attack": "Ataque base 110 (Esp. 154). Velocidad 130.",
+    "defense": "Defensa base 90 (Esp. 90). Resistencia 106 PS.",
+    "hp": 106,
+    "stats": {
+      "attack": 110,
+      "defense": 90,
+      "spAttack": 154,
+      "spDefense": 90,
+      "speed": 130
+    },
+    "generation": 1
+  },
+  {
+    "id": 151,
+    "name": "Mew",
+    "types": [11],
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/151.png",
+    "description": "Mew es un Pokémon de la 1ª generación. Tipo(s): Psíquico.",
+    "attack": "Ataque base 100 (Esp. 100). Velocidad 100.",
+    "defense": "Defensa base 100 (Esp. 100). Resistencia 100 PS.",
+    "hp": 100,
+    "stats": {
+      "attack": 100,
+      "defense": 100,
+      "spAttack": 100,
+      "spDefense": 100,
+      "speed": 100
+    },
+    "generation": 1
+  }
+]

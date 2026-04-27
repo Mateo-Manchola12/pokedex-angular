@@ -1,24 +1,18 @@
-<div class="group grid grid-cols-[auto_1fr] items-center gap-4
-         bg-gray-50 rounded-2xl p-5
-         shadow-md hover:shadow-xl
-         cursor-pointer
-         transition-all duration-300 ease-out
-         hover:-translate-y-1">
+<div
+  class="group grid cursor-pointer grid-cols-[auto_1fr] items-center gap-4 rounded-2xl bg-gray-50 p-5 shadow-md transition-all duration-300 ease-out hover:-translate-y-1 hover:shadow-xl"
+>
+  <div
+    class="flex h-16 w-16 items-center justify-center rounded-xl bg-gray-50 transition-transform duration-300 group-hover:scale-110"
+  >
+    <img class="h-12 w-12 object-contain" [src]="pokemon()?.imageUrl" [alt]="pokemon()?.name + ' icon'" />
+  </div>
 
-    <div class="flex items-center justify-center
-           w-16 h-16 rounded-xl
-           bg-gray-50
-           group-hover:scale-110
-           transition-transform duration-300">
-        <img class="w-12 h-12 object-contain" [src]="pokemon()?.imageUrl" [alt]="pokemon()?.name + ' icon'" />
-    </div>
-
-    <div class="flex flex-col gap-2">
-        <h2 class="text-xl font-semibold text-gray-800 tracking-wide">
-            {{ pokemon()?.name }}
-        </h2>
-        <p class="text-sm text-gray-500 tracking-wide">
-            {{ pokemon()?.description }}
-        </p>
-    </div>
+  <div class="flex flex-col gap-2">
+    <h2 class="text-xl font-semibold tracking-wide text-gray-800">
+      {{ pokemon()?.name }}
+    </h2>
+    <p class="text-sm tracking-wide text-gray-500">
+      {{ pokemon()?.description }}
+    </p>
+  </div>
 </div>

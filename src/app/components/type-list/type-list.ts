@@ -1,6 +1,6 @@
-import { Component, input, output } from '@angular/core';
-import { PokemonType } from '../../types/pokemon-type';
-import { TypeCard } from '../type-card/type-card';
+import { Component, input, output } from '@angular/core'
+import type { PokemonType } from '../../types/pokemon-type'
+import { TypeCard } from '../type-card/type-card'
 
 /**
  * Component to display a list of Pokémon type cards and handle selection.
@@ -17,12 +17,12 @@ export class TypeList {
   /**
    * The list of Pokémon types to display.
    */
-  types = input<PokemonType[]>();
+  types = input<PokemonType[]>()
 
   /**
    * Event emitter for the selected Pokémon type.
    */
-  selected = output<PokemonType>();
+  selected = output<PokemonType>()
 
   /**
    * Handles the selection of a Pokémon type and emits the selected event.
@@ -30,6 +30,6 @@ export class TypeList {
    * @param selected - The selected Pokémon type object.
    */
   onSelectedType(selected: PokemonType) {
-    this.selected.emit(selected);
+    this.selected.emit(selected)
   }
 }

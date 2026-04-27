@@ -1,5 +1,5 @@
-import { Component, input } from '@angular/core';
-import { Pokemon } from '../../types/pokemon';
+import { Component, input } from '@angular/core'
+import type { Pokemon } from '../../types/pokemon'
 
 /**
  * Component to display a single Pokémon card.
@@ -16,5 +16,5 @@ export class PokemonCard {
   /**
    * The Pokémon object to display in the card.
    */
-  pokemon = input<Pokemon>();
+  pokemon = input<Pokemon>()
 }
