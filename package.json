@@ -36,8 +36,6 @@
     "@angular/cli": "^21.2.7",
     "@angular/compiler-cli": "^21.2.7",
     "@angular/material": "^21.2.7",
-    "@capacitor/angular": "^2.0.3",
-    "@capacitor/cli": "latest",
     "@eslint/js": "^10.0.1",
     "@tailwindcss/postcss": "^4.1.12",
     "angular-eslint": "^21.3.1",
