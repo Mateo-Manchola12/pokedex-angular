@@ -19,5 +19,5 @@
     "source.organizeImports": "always"
   },
   "eslint.validate": ["typescript", "javascript", "html"],
-  "cSpell.words": ["pokemon", "pokemons"]
+  "cSpell.words": ["Pokédex", "pokemon", "pokemons"]
 }
