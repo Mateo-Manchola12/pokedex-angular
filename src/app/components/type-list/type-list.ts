@@ -17,7 +17,7 @@ export class TypeList {
   /**
    * The list of Pokémon types to display.
    */
-  types = input<PokemonType[]>()
+  types = input.required<PokemonType[]>()
 
   /**
    * Event emitter for the selected Pokémon type.

@@ -1,5 +1,5 @@
 import type { OnInit } from '@angular/core'
-import { Component, inject } from '@angular/core'
+import { Component, computed, inject, signal } from '@angular/core'
 import { MatSnackBar } from '@angular/material/snack-bar'
 import { PokemonList } from './components/pokemon-list/pokemon-list'
 import { TypeList } from './components/type-list/type-list'
@@ -28,7 +28,7 @@ import type { PokemonType } from './types/pokemon-type'
       />
       <div class="grid-rows-auto mt-4 grid gap-12 lg:max-h-[calc(100dvh-12rem)] lg:grid-cols-3 lg:grid-rows-1">
         <app-type-list [types]="types()" (selected)="onSelectedType($event)"></app-type-list>
-        <app-pokemon-list [pokemonList]="pokemons()" (selected)="onSelectedPokemon($event)"></app-pokemon-list>
+        <app-pokemon-list [pokemonList]="filteredPokemons()" (selected)="onSelectedPokemon($event)"></app-pokemon-list>
         <!-- <app-pokemon-detail [pokemon]="onselectedPokemon()"></app-pokemon-detail> -->
       </div>
     </main>
@@ -42,6 +42,17 @@ export class App implements OnInit {
   pokemons = this.pokemonsList.pokemonsList
   types = this.typesList.typesList
 
+  selectedType = signal<PokemonType | null>(null)
+
+  filteredPokemons = computed(() => {
+    const selectedType = this.selectedType()
+    const pokemons = this.pokemons()
+
+    if (!selectedType) return []
+
+    return pokemons.filter((pokemon) => pokemon.types.some((type) => type.id === selectedType.id))
+  })
+
   ngOnInit() {
     void this.typesList.load().then((res) => {
       if (!res.ok) this.snackbar.open(res.error, '', { duration: 3000 })
@@ -52,8 +63,8 @@ export class App implements OnInit {
     })
   }
 
-  onSelectedType(_$event: PokemonType) {
-    throw new Error('Method not implemented. Tipos')
+  onSelectedType($event: PokemonType) {
+    this.selectedType.set($event)
   }
 
   onSelectedPokemon(_$event: Pokemon) {
