@@ -26,14 +26,14 @@
 
         <!-- Tipo -->
         <div class="mb-2 flex justify-center gap-2">
-          <!--    @for (type of pokemonValue.types; track $index) {
+          @for (type of pokemonValue.types; track $index) {
             <span
               class="rounded-full border border-gray-300 bg-white/50 px-3 py-1 text-xs font-semibold uppercase backdrop-blur"
-              [style.background]="(type | pokemonTypePipe)().color"
+              [style.background]="type.color"
             >
-              {{ (type | pokemonTypePipe)().name }}
+              {{ type.name }}
             </span>
-          } -->
+          }
         </div>
 
         <!-- Stats -->
