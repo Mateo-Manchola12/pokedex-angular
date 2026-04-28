@@ -1,6 +1,6 @@
 import type { PipeTransform, Signal } from '@angular/core'
-import { Pipe, inject } from '@angular/core'
-import { TypesService } from '../services/types-service'
+import { Pipe, inject, signal } from '@angular/core'
+import { TypesService } from '../services/types.service'
 import type { PokemonType } from '../types/pokemon-type'
 
 /**
@@ -26,6 +26,7 @@ export class PokemonTypePipe implements PipeTransform {
    * @returns A signal containing the PokémonType or undefined.
    */
   transform(value: number): Signal<PokemonType | undefined> {
-    return this.typeService.getById(value)
+    //return this.typeService.getById(value)
+    return signal(undefined).asReadonly()
   }
 }

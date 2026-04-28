@@ -1,7 +1,7 @@
 import { Component, inject, input, signal } from '@angular/core'
 import { PokemonLevelPipe } from '../../pipes/pokemon-level-pipe'
 import { PokemonTypePipe } from '../../pipes/pokemon-type-pipe'
-import { TypesService } from '../../services/types-service'
+import { TypesService } from '../../services/types.service'
 import type { Pokemon } from '../../types/pokemon'
 import type { PokemonType } from '../../types/pokemon-type'
 
