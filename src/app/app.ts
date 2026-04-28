@@ -1,6 +1,7 @@
 import type { OnInit } from '@angular/core'
 import { Component, computed, inject, signal } from '@angular/core'
 import { MatSnackBar } from '@angular/material/snack-bar'
+import { PokemonDetail } from './components/pokemon-detail/pokemon-detail'
 import { PokemonList } from './components/pokemon-list/pokemon-list'
 import { TypeList } from './components/type-list/type-list'
 import { PokemonService } from './services/pokemon.service'
@@ -15,7 +16,7 @@ import type { PokemonType } from './types/pokemon-type'
  */
 @Component({
   selector: 'app-root',
-  imports: [TypeList, PokemonList],
+  imports: [TypeList, PokemonList, PokemonDetail],
   template: `
     <header class="flex h-20 items-center justify-center bg-linear-90 from-[#2e418e] to-[#da3b41] text-white">
       <h1 class="text-2xl font-bold">Pokédex</h1>
@@ -29,7 +30,7 @@ import type { PokemonType } from './types/pokemon-type'
       <div class="grid-rows-auto mt-4 grid gap-12 lg:max-h-[calc(100dvh-12rem)] lg:grid-cols-3 lg:grid-rows-1">
         <app-type-list [types]="types()" (selected)="onSelectedType($event)"></app-type-list>
         <app-pokemon-list [pokemonList]="filteredPokemons()" (selected)="onSelectedPokemon($event)"></app-pokemon-list>
-        <!-- <app-pokemon-detail [pokemon]="onselectedPokemon()"></app-pokemon-detail> -->
+        <app-pokemon-detail [pokemon]="selectedPokemon()"></app-pokemon-detail>
       </div>
     </main>
   `,
@@ -43,6 +44,7 @@ export class App implements OnInit {
   types = this.typesList.typesList
 
   selectedType = signal<PokemonType | null>(null)
+  selectedPokemon = signal<Pokemon | null>(null)
 
   filteredPokemons = computed(() => {
     const selectedType = this.selectedType()
@@ -67,8 +69,8 @@ export class App implements OnInit {
     this.selectedType.set($event)
   }
 
-  onSelectedPokemon(_$event: Pokemon) {
-    throw new Error('Method not implemented. Pokemon no seleccionao')
+  onSelectedPokemon($event: Pokemon) {
+    this.selectedPokemon.set($event)
   }
 
   filteredPokemonList() {

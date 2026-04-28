@@ -1,6 +1,5 @@
 import { Component, inject, input, signal } from '@angular/core'
 import { PokemonLevelPipe } from '../../pipes/pokemon-level-pipe'
-import { PokemonTypePipe } from '../../pipes/pokemon-type-pipe'
 import { TypesService } from '../../services/types.service'
 import type { Pokemon } from '../../types/pokemon'
 import type { PokemonType } from '../../types/pokemon-type'
@@ -13,14 +12,14 @@ import type { PokemonType } from '../../types/pokemon-type'
  */
 @Component({
   selector: 'app-pokemon-detail',
-  imports: [PokemonLevelPipe, PokemonTypePipe],
+  imports: [PokemonLevelPipe],
   templateUrl: './pokemon-detail.html',
 })
 export class PokemonDetail {
   /**
    * The Pokémon object to display in detail.
    */
-  pokemon = input<Pokemon>()
+  pokemon = input.required<Pokemon | null>()
 
   /**
    * Signal containing the list of Pokémon types for the current Pokémon.
