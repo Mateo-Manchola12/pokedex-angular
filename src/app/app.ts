@@ -1,14 +1,5 @@
-import type { OnInit } from '@angular/core'
-import { Component, computed, effect, inject, signal } from '@angular/core'
-import { FormsModule } from '@angular/forms'
-import { MatSnackBar } from '@angular/material/snack-bar'
-import { PokemonDetail } from './components/pokemon-detail/pokemon-detail'
-import { PokemonList } from './components/pokemon-list/pokemon-list'
-import { TypeList } from './components/type-list/type-list'
-import { PokemonService } from './services/pokemon.service'
-import { TypesService } from './services/types.service'
-import type { Pokemon } from './types/pokemon'
-import type { PokemonType } from './types/pokemon-type'
+import { Component } from '@angular/core'
+import { RouterOutlet } from '@angular/router'
 /**
  * Root component for the Pokédex Angular application.
  *
@@ -17,124 +8,14 @@ import type { PokemonType } from './types/pokemon-type'
  */
 @Component({
   selector: 'app-root',
-  imports: [TypeList, PokemonList, PokemonDetail, FormsModule],
   template: `
     <header class="flex h-20 items-center justify-center bg-linear-90 from-[#2e418e] to-[#da3b41] text-white">
       <h1 class="text-2xl font-bold">Pokédex</h1>
     </header>
     <main class="min-h-[calc(100dvh-5rem)] px-8 py-4">
-      <input
-        type="search"
-        class="row-start-1 h-11 w-full rounded-xl border border-gray-300 px-4 py-2 text-gray-700 placeholder-gray-400 shadow-sm transition-all duration-200 hover:bg-red-400/10 focus:border-red-300 focus:bg-red-500/10 focus:ring-2 focus:ring-red-400 focus:outline-none md:col-span-3"
-        placeholder="Buscar..."
-        [(ngModel)]="searchedText"
-      />
-      <div class="grid-rows-auto mt-4 grid gap-12 lg:max-h-[calc(100dvh-12rem)] lg:grid-cols-3 lg:grid-rows-1">
-        @if (typeLoading()) {
-          <span
-            class="block size-12 animate-spin self-center justify-self-center rounded-full border-2 border-red-600 border-b-red-200"
-          ></span>
-        } @else {
-          <app-type-list [types]="filteredTypes()" (selected)="onSelectedType($event)"></app-type-list>
-        }
-        @if (pokemonLoading()) {
-          <span
-            class="block size-12 animate-spin self-center justify-self-center rounded-full border-2 border-red-600 border-b-red-200"
-          ></span>
-        } @else {
-          <app-pokemon-list
-            [pokemonList]="filteredPokemons()"
-            (selected)="onSelectedPokemon($event)"
-          ></app-pokemon-list>
-        }
-        <app-pokemon-detail [pokemon]="selectedPokemon()"></app-pokemon-detail>
-      </div>
+      <router-outlet></router-outlet>
     </main>
   `,
+  imports: [RouterOutlet],
 })
-export class App implements OnInit {
-  private typesList = inject(TypesService)
-  private snackbar = inject(MatSnackBar)
-  private pokemonsList = inject(PokemonService)
-
-  pokemons = this.pokemonsList.pokemonsList
-  types = this.typesList.typesList
-
-  pokemonLoading = this.pokemonsList.isLoading
-  typeLoading = this.typesList.isLoading
-
-  selectedType = signal<PokemonType | null>(null)
-  selectedPokemon = signal<Pokemon | null>(null)
-  searchedText = signal('')
-
-  filteredTypes = computed(() => {
-    const searchedText = this.searchedText().toLowerCase()
-    const types = this.types()
-
-    if (!searchedText) return types
-
-    return types.filter((type) => type.name.toLowerCase().includes(searchedText))
-  })
-
-  filteredPokemons = computed(() => {
-    const selectedType = this.selectedType()
-    const pokemons = this.pokemons()
-
-    if (selectedType) {
-      return pokemons.filter((pokemon) => pokemon.types.some((type) => type.id === selectedType.id))
-    }
-
-    const searchedText = this.searchedText().toLowerCase()
-
-    if (!searchedText) return pokemons
-
-    return pokemons.filter((pokemon) => pokemon.name.toLowerCase().includes(searchedText))
-  })
-
-  constructor() {
-    effect(() => {
-      if (this.searchedText()) this.selectedType.set(null)
-    })
-
-    effect(() => {
-      const selectedType = this.selectedType()
-
-      if (selectedType) localStorage.setItem('selectedType', JSON.stringify(selectedType))
-    })
-
-    effect(() => {
-      const selectedPokemon = this.selectedPokemon()
-
-      if (selectedPokemon) localStorage.setItem('selectedPokemon', JSON.stringify(selectedPokemon))
-    })
-  }
-
-  ngOnInit() {
-    void this.typesList.load().then((res) => {
-      if (!res.ok) this.snackbar.open(res.error, '', { duration: 3000 })
-    })
-
-    void this.pokemonsList.load().then((res) => {
-      if (!res.ok) this.snackbar.open(res.error, '', { duration: 3000 })
-    })
-
-    const pokemonLS = localStorage.getItem('selectedPokemon')
-
-    if (pokemonLS) {
-      const pokemon = JSON.parse(pokemonLS) as Pokemon
-      this.selectedPokemon.set(pokemon)
-    }
-
-    const typeLS = localStorage.getItem('selectedType')
-
-    if (typeLS) this.selectedType.set(JSON.parse(typeLS) as PokemonType)
-  }
-
-  onSelectedType($event: PokemonType) {
-    this.selectedType.set($event)
-  }
-
-  onSelectedPokemon($event: Pokemon) {
-    this.selectedPokemon.set($event)
-  }
-}
+export class App {}
