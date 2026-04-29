@@ -77,6 +77,18 @@ export class App implements OnInit {
     effect(() => {
       if (this.searchedText()) this.selectedType.set(null)
     })
+
+    effect(() => {
+      const selectedType = this.selectedType()
+
+      if (selectedType) localStorage.setItem('selectedType', JSON.stringify(selectedType))
+    })
+
+    effect(() => {
+      const selectedPokemon = this.selectedPokemon()
+
+      if (selectedPokemon) localStorage.setItem('selectedPokemon', JSON.stringify(selectedPokemon))
+    })
   }
 
   ngOnInit() {
@@ -87,6 +99,17 @@ export class App implements OnInit {
     void this.pokemonsList.load().then((res) => {
       if (!res.ok) this.snackbar.open(res.error, '', { duration: 3000 })
     })
+
+    const pokemonLS = localStorage.getItem('selectedPokemon')
+
+    if (pokemonLS) {
+      const pokemon = JSON.parse(pokemonLS) as Pokemon
+      this.selectedPokemon.set(pokemon)
+    }
+
+    const typeLS = localStorage.getItem('selectedType')
+
+    if (typeLS) this.selectedType.set(JSON.parse(typeLS) as PokemonType)
   }
 
   onSelectedType($event: PokemonType) {
