@@ -60,6 +60,7 @@ export class TypesService {
     this._error$.set(null)
 
     try {
+      await new Promise((resolve) => setTimeout(resolve, 3000))
       const res = await lastValueFrom(this.http.get<GetTypesResponse>(this.APP_ROUTES.GET_ALL))
 
       if (!res.ok) throw new Error('Ha ocurrido un error al cargar los datos')

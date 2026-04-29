@@ -44,6 +44,7 @@ export class PokemonService {
     this._error$.set(null)
 
     try {
+      await new Promise((resolve) => setTimeout(resolve, 3000))
       const res = await lastValueFrom(this.http.get<GetPokemonsResponse>(this.APP_ROUTES.GET_ALL))
 
       if (!res.ok) throw new Error('Error cargando pokemones')

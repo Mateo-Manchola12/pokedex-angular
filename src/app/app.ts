@@ -30,8 +30,23 @@ import type { PokemonType } from './types/pokemon-type'
         [(ngModel)]="searchedText"
       />
       <div class="grid-rows-auto mt-4 grid gap-12 lg:max-h-[calc(100dvh-12rem)] lg:grid-cols-3 lg:grid-rows-1">
-        <app-type-list [types]="filteredTypes()" (selected)="onSelectedType($event)"></app-type-list>
-        <app-pokemon-list [pokemonList]="filteredPokemons()" (selected)="onSelectedPokemon($event)"></app-pokemon-list>
+        @if (typeLoading()) {
+          <span
+            class="block size-12 animate-spin self-center justify-self-center rounded-full border-2 border-red-600 border-b-red-200"
+          ></span>
+        } @else {
+          <app-type-list [types]="filteredTypes()" (selected)="onSelectedType($event)"></app-type-list>
+        }
+        @if (pokemonLoading()) {
+          <span
+            class="block size-12 animate-spin self-center justify-self-center rounded-full border-2 border-red-600 border-b-red-200"
+          ></span>
+        } @else {
+          <app-pokemon-list
+            [pokemonList]="filteredPokemons()"
+            (selected)="onSelectedPokemon($event)"
+          ></app-pokemon-list>
+        }
         <app-pokemon-detail [pokemon]="selectedPokemon()"></app-pokemon-detail>
       </div>
     </main>
@@ -44,6 +59,9 @@ export class App implements OnInit {
 
   pokemons = this.pokemonsList.pokemonsList
   types = this.typesList.typesList
+
+  pokemonLoading = this.pokemonsList.isLoading
+  typeLoading = this.typesList.isLoading
 
   selectedType = signal<PokemonType | null>(null)
   selectedPokemon = signal<Pokemon | null>(null)
